@@ -1,0 +1,129 @@
+---
+import Base from './Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import Byline from '../components/Byline.astro';
+import AnswerBox from '../components/AnswerBox.astro';
+import Takeaways from '../components/Takeaways.astro';
+import UrgentBox from '../components/UrgentBox.astro';
+import Disclosure from '../components/Disclosure.astro';
+import NextStep from '../components/NextStep.astro';
+import Faq from '../components/Faq.astro';
+import Sources from '../components/Sources.astro';
+import Toc from '../components/Toc.astro';
+import SectionIndex from '../components/SectionIndex.astro';
+import WindowPeriodTool from '../components/tools/WindowPeriodTool.astro';
+import SymptomChecker from '../components/tools/SymptomChecker.astro';
+import { SITE, editorialByline } from '../config/site';
+import { conditionBySlug } from '../data/conditions';
+import { urlFor, sectionOf, absolute, isoDate, SECTION_NAMES, type Article } from '../lib/paths';
+
+interface Props {
+  entry: Article;
+  headings: { depth: number; slug: string; text: string }[];
+  relatedEntries: Article[];
+  hubEntries: Article[];
+  childEntries?: Article[];
+}
+const { entry, headings, relatedEntries, hubEntries, childEntries = [] } = Astro.props;
+const d = entry.data;
+const path = urlFor(entry.id);
+const section = sectionOf(entry.id);
+const cond = conditionBySlug[section];
+const sectionName = cond ? cond.name : SECTION_NAMES[section] ?? section;
+const isSectionIndex = path === `/${section}/`;
+
+const crumbs = [{ name: 'Home', href: '/' }];
+if (cond) crumbs.push({ name: 'Conditions', href: '/conditions/' });
+if (!isSectionIndex) crumbs.push({ name: sectionName, href: `/${section}/` });
+crumbs.push({ name: d.title.split(/[:?]/)[0].trim() });
+
+const showOffer = d.affiliate !== 'none';
+const showUrgent = d.riskLevel === 'high' || d.urgent.length > 0;
+
+const plainAnswer = d.answer?.replace(/<[^>]+>/g, '');
+const schema: object[] = [
+  {
+    '@type': ['MedicalWebPage', 'Article'],
+    '@id': `${absolute(path)}#page`,
+    url: absolute(path),
+    headline: d.title,
+    name: d.seoTitle,
+    description: d.description,
+    inLanguage: SITE.language,
+    datePublished: isoDate(d.published),
+    dateModified: isoDate(d.updated),
+    lastReviewed: isoDate(d.updated),
+    author: { '@type': 'Organization', name: editorialByline, url: absolute('/about/') },
+    publisher: { '@id': `${SITE.url}/#org` },
+    isPartOf: { '@id': `${SITE.url}/#website` },
+    ...(cond ? { about: { '@type': 'MedicalCondition', name: cond.name } } : {}),
+    ...(plainAnswer ? { abstract: plainAnswer } : {}),
+    citation: d.sources.map((s) => ({ '@type': 'CreativeWork', name: s.title, publisher: s.publisher, url: s.url })),
+  },
+  {
+    '@type': 'BreadcrumbList',
+    itemListElement: crumbs.map((c, i) => ({
+      '@type': 'ListItem', position: i + 1, name: c.name, item: c.href ? absolute(c.href) : absolute(path),
+    })),
+  },
+];
+if (d.faq.length) {
+  schema.push({
+    '@type': 'FAQPage',
+    mainEntity: d.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a.replace(/<[^>]+>/g, '') } })),
+  });
+}
+---
+<Base title={`${d.seoTitle} | ${SITE.name}`} description={d.description} path={path} schema={schema} ogType="article">
+  <div class="wrap">
+    <Breadcrumbs items={crumbs} />
+    <div class="layout-2">
+      <article class="main">
+        <header class="page-head">
+          {cond && <span class={`badge ${cond.statusTone}`}>{cond.name} · {cond.status}</span>}
+          <h1>{d.title}</h1>
+          <Byline updated={d.updated} published={d.published} />
+        </header>
+        {showOffer && <div style="margin-top:16px"><Disclosure /></div>}
+        {d.answer && <AnswerBox text={d.answer} />}
+        <Takeaways items={d.takeaways} />
+        {showUrgent && <UrgentBox items={d.urgent} />}
+        {d.tool === 'window-period' && <WindowPeriodTool />}
+        {d.tool === 'symptom-checker' && <SymptomChecker />}
+        <div class="prose" style="margin-top: 32px;">
+          <slot />
+        </div>
+        <SectionIndex entries={childEntries} heading={cond ? `Every ${cond.name.toLowerCase()} guide` : `All ${sectionName.toLowerCase()} pages`} />
+        <NextStep condition={cond?.name} offer={d.offer} showOffer={showOffer} />
+        <Faq items={d.faq} />
+        <Sources items={d.sources} />
+        {relatedEntries.length > 0 && (
+          <section style="margin-top: 40px;" aria-labelledby="rel-h">
+            <h2 id="rel-h" style="font-size: 22px; margin: 0 0 14px;">Read next</h2>
+            <div class="cards">
+              {relatedEntries.map((r) => (
+                <a class="card" href={urlFor(r.id)}>
+                  <span class="t">{r.data.title}</span>
+                  <span class="d">{r.data.description}</span>
+                </a>
+              ))}
+            </div>
+          </section>
+        )}
+      </article>
+      <aside class="side">
+        <Toc headings={headings} />
+        {hubEntries.length > 0 && (
+          <nav class="panel" aria-label={`More about ${sectionName}`}>
+            <span class="h">{cond ? `${cond.name} guides` : sectionName}</span>
+            {hubEntries.map((h) => <a href={urlFor(h.id)} aria-current={h.id === entry.id ? 'page' : undefined}>{h.data.title.split(/[:?]/)[0]}</a>)}
+          </nav>
+        )}
+        <div class="panel" style="background: var(--warn-bg); border-color: var(--warn-line); color: var(--warn-ink);">
+          <span class="h" style="color: var(--warn-ink);">Not medical advice</span>
+          <span>This page is general information. For a diagnosis or treatment, see a licensed clinician. Emergency: call 911.</span>
+        </div>
+      </aside>
+    </div>
+  </div>
+</Base>

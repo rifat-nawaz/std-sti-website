@@ -1,0 +1,40 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { SITE } from '../config/site';
+import { CONDITIONS } from '../data/conditions';
+const groups = [
+  { key: 'core', title: 'Common STDs', intro: 'The seven infections most US sexual health clinics test and treat.' },
+  { key: 'more', title: 'Other sexually transmitted infections', intro: 'Less discussed, but included in many full panels or behind symptoms that do not go away.' },
+  { key: 'lookalike', title: 'Look-alikes that are not STDs', intro: 'Common infections that cause similar symptoms. Worth ruling out before you worry.' },
+] as const;
+const schema = [{
+  '@type': 'CollectionPage', name: 'STDs and STIs A to Z', url: `${SITE.url}/conditions/`,
+  hasPart: CONDITIONS.map((c) => ({ '@type': 'MedicalWebPage', name: c.name, url: `${SITE.url}/${c.slug}/` })),
+}];
+---
+<Base title={`STDs A to Z: Every Condition We Cover | ${SITE.name}`} description="All the sexually transmitted infections we cover, from chlamydia to hepatitis C, plus look-alikes like BV and yeast infections that are not STDs." schema={schema}>
+  <div class="wrap">
+    <Breadcrumbs items={[{ name: 'Home', href: '/' }, { name: 'Conditions' }]} />
+    <header class="page-head" style="max-width: 760px;">
+      <h1>STDs and STIs A to Z</h1>
+      <p class="lede">Choose a condition for symptoms, testing, treatment and prevention. Not sure which one? Try the <a href="/guides/symptom-checker/">symptom checker</a>.</p>
+    </header>
+    {groups.map((g) => (
+      <section style="margin-top: 44px;">
+        <h2 style="font-size: 28px; margin: 0 0 6px;">{g.title}</h2>
+        <p style="margin: 0 0 18px; color: var(--soft);">{g.intro}</p>
+        <div class="cards cond-grid">
+          {CONDITIONS.filter((c) => c.group === g.key).map((c) => (
+            <a class="card" href={`/${c.slug}/`}>
+              <span class={`badge ${c.statusTone}`}>{c.status}</span>
+              <span class="t">{c.menuName}</span>
+              <span class="d">{c.summary}</span>
+              <span class="go">Read the guide →</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    ))}
+  </div>
+</Base>

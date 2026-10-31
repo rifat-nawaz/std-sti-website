@@ -1,0 +1,12 @@
+---
+import { editorialByline } from '../config/site';
+import { formatDate, isoDate } from '../lib/paths';
+interface Props { updated: Date; published: Date }
+const { updated, published } = Astro.props;
+---
+<div class="byline">
+  <span>By <a href="/about/"><strong>{editorialByline}</strong></a></span>
+  <span>Fact-checked against <a href="/editorial-policy/">CDC, WHO and USPSTF guidance</a></span>
+  <span>Updated <time datetime={isoDate(updated)}>{formatDate(updated)}</time></span>
+  {isoDate(updated) !== isoDate(published) && <span class="sr-only">First published <time datetime={isoDate(published)}>{formatDate(published)}</time></span>}
+</div>

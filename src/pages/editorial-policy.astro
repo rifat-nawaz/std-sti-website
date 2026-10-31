@@ -1,0 +1,53 @@
+---
+import PolicyLayout from '../layouts/PolicyLayout.astro';
+import { SITE } from '../config/site';
+const team = `${SITE.name} ${SITE.editorialTeam}`;
+---
+<PolicyLayout title="Editorial policy" seoTitle="Editorial Policy: How We Research and Fact-Check" description={`How the ${team} researches, fact-checks, updates and corrects every page, and the sources we rely on.`} updated={SITE.policiesUpdated}
+  summary={[
+    'Every page is built from primary medical sources and cites them.',
+    'A separate fact-check pass verifies every number, timing and treatment claim.',
+    'We say plainly when you need a clinician, and we never diagnose.',
+    'Money never decides content. Partner pages always show free options too.',
+  ]}>
+  <h2 id="who">Who writes and checks our pages</h2>
+  <p>All pages are researched, written, fact-checked, edited and published by the {team}. We publish under the team name, and the team takes responsibility for every page.</p>
+  <p>The {SITE.editorialTeam} is not a medical provider. We don't describe a page as checked by a medical professional unless a named, licensed clinician has reviewed that specific page. If that happens, the page will show the reviewer's name, credentials and the review date.</p>
+
+  <h2 id="sources">Sources we use</h2>
+  <p>We rank sources in this order and cite the strongest available:</p>
+  <ol>
+    <li>Clinical guidelines: CDC Sexually Transmitted Infections Treatment Guidelines, CDC HIV and viral hepatitis guidance, USPSTF recommendations, WHO guidelines, and US Department of Health and Human Services HIV guidelines.</li>
+    <li>Regulators: FDA device and drug records, including authorizations for at-home and over-the-counter tests.</li>
+    <li>Surveillance data: CDC STI Surveillance reports and CDC WONDER/AtlasPlus.</li>
+    <li>Peer-reviewed research in indexed journals, preferring systematic reviews.</li>
+    <li>Reputable patient resources such as NIH MedlinePlus and the UK NHS, used for plain-language explanations, not for primary claims.</li>
+  </ol>
+  <p>We do not cite forums, social media, press releases or company marketing as evidence for a medical claim. Company websites are cited only for facts about that company's own product, such as price or which infections a kit covers.</p>
+
+  <h2 id="process">Research, writing and fact-checking</h2>
+  <ul>
+    <li><strong>One intent per page.</strong> Each page answers one main question. Related questions are answered on the same page so we don't publish near-duplicates.</li>
+    <li><strong>Answer first.</strong> The main answer appears in the first lines of the page, in plain language at about an 8th-grade reading level.</li>
+    <li><strong>Fact-check.</strong> Before publishing, every statistic, time window, dose, test accuracy figure and recommendation is checked against the cited source. Claims that can't be traced are removed.</li>
+    <li><strong>Safety.</strong> Pages about symptoms, exposures or treatment include when to seek care now, including 911, PEP within 72 hours and sexual assault resources.</li>
+    <li><strong>Neutral language.</strong> We avoid shame, blame and fear. We describe risk accurately without exaggerating it.</li>
+  </ul>
+
+  <h2 id="updates">How we keep pages current</h2>
+  <p>We review every page at least once a year, and sooner when a key source changes, for example a new CDC treatment guideline, a USPSTF update or an FDA authorization. The "Updated" date at the top of a page is the date of its last full check; we don't change it for typo fixes.</p>
+
+  <h2 id="corrections">Corrections</h2>
+  <p>If we get something wrong, we fix it quickly and openly. Medical or safety errors are corrected as soon as they are confirmed. We note substantive corrections at the end of the page with the date and what changed.</p>
+  <p>To report an error, use our <a href="/contact/">contact page</a> and include the page link.</p>
+
+  <h2 id="products">Products and test kits</h2>
+  <p>When we compare at-home tests, we use information that anyone can check: the infections a kit covers, sample type, how the lab is certified (for example CLIA certification), FDA status, price at the time of the update, turnaround time and whether a clinician follow-up is included.</p>
+  <p>We have not lab-tested kits ourselves, and we never claim to have done so. We do not publish star ratings based on our own use. If we ever test a product hands-on, the page will say exactly what we did.</p>
+
+  <h2 id="independence">Editorial independence</h2>
+  <p>Partners cannot review, edit or approve our content before it is published. A commission never changes a medical fact, a recommendation, or which test we say is right for a situation. Read <a href="/how-we-make-money/">how we make money</a>.</p>
+
+  <h2 id="ai">Use of software tools</h2>
+  <p>We use software, including AI writing and research tools, to help draft and organize pages. Every page is checked by the {SITE.editorialTeam} against its cited sources before it is published, and the team is responsible for the final text.</p>
+</PolicyLayout>

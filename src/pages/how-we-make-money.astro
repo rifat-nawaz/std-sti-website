@@ -1,0 +1,33 @@
+---
+import PolicyLayout from '../layouts/PolicyLayout.astro';
+import { SITE } from '../config/site';
+---
+<PolicyLayout title="How we make money" seoTitle="How We Make Money: Affiliate Disclosure" description={`${SITE.name} earns commissions from some at-home STD test providers. Here is how that works and how we keep it separate from medical content.`} updated={SITE.policiesUpdated}
+  summary={[
+    'Some links pay us a commission if you buy. You pay the same price.',
+    'Partner links are marked, and pages with them carry a disclosure.',
+    'Commissions never change our medical information or recommendations.',
+    'We always show free or low-cost testing next to paid kits.',
+  ]}>
+  <h2 id="affiliate">Affiliate links</h2>
+  <p>{SITE.name} is free to read and has no display ads. We earn money through affiliate links: when you follow a partner link and buy a test, the provider may pay us a commission through an affiliate network such as CJ Affiliate. The price you pay does not change.</p>
+  <p>Partner links on our pages go through an address that starts with <code>/go/</code>. That address sends you to the provider without telling them which page or topic you were reading.</p>
+
+  <h2 id="where">Where partner links appear</h2>
+  <ul>
+    <li>Test kit comparisons and roundups.</li>
+    <li>The "Your next step" box on some testing and symptom pages, always next to free testing options.</li>
+  </ul>
+  <p>We don't place partner links on pages about emergencies, sexual assault, PEP or crisis support.</p>
+
+  <h2 id="rules">Our rules</h2>
+  <ul>
+    <li>A commission never decides what a page says, which test we say fits a situation, or whether we recommend seeing a clinician instead.</li>
+    <li>We tell readers when a home test is not the right choice, for example with severe symptoms, during pregnancy or after a possible HIV exposure in the last 72 hours.</li>
+    <li>We describe products from information you can verify. We don't claim hands-on testing we haven't done.</li>
+    <li>Partners can't see or approve our content before publication.</li>
+  </ul>
+
+  <h2 id="ftc">FTC disclosure</h2>
+  <p>In line with the US Federal Trade Commission's Endorsement Guides, we disclose our financial relationships clearly and close to the links they affect. If you have a question about a specific relationship, <a href="/contact/">contact us</a>.</p>
+</PolicyLayout>

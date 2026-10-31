@@ -1,0 +1,52 @@
+---
+import Logo from './Logo.astro';
+import { CONDITIONS } from '../data/conditions';
+import { TESTING_MENU, GUIDES_MENU } from '../data/nav';
+const core = CONDITIONS.filter((c) => c.group === 'core');
+const more = CONDITIONS.filter((c) => c.group !== 'core');
+---
+<a class="skip" href="#main">Skip to content</a>
+<div class="privacy-bar">No ad trackers. Our tools run in your browser and never store your answers.</div>
+<header class="site-header">
+  <div class="wrap header-row">
+    <Logo />
+    <nav class="nav" aria-label="Main">
+      <details class="dd">
+        <summary>Conditions</summary>
+        <div class="menu">
+          {core.map((c) => <a href={`/${c.slug}/`}>{c.menuName}</a>)}
+          <span class="menu-label">More and look-alikes</span>
+          {more.map((c) => <a href={`/${c.slug}/`}>{c.menuName}</a>)}
+          <a href="/conditions/"><strong>View all conditions</strong></a>
+        </div>
+      </details>
+      <details class="dd">
+        <summary>At-Home Testing</summary>
+        <div class="menu">
+          {TESTING_MENU.map((m) => <a href={m.href}>{m.label}{m.desc && <span class="menu-desc">{m.desc}</span>}</a>)}
+        </div>
+      </details>
+      <details class="dd">
+        <summary>Symptoms &amp; Guides</summary>
+        <div class="menu">
+          {GUIDES_MENU.map((m) => <a href={m.href}>{m.label}{m.desc && <span class="menu-desc">{m.desc}</span>}</a>)}
+        </div>
+      </details>
+      <a href="/about/">About &amp; Editorial</a>
+    </nav>
+    <a class="btn" href="/std-testing/best-at-home-std-tests/">Find the right test</a>
+  </div>
+</header>
+<script>
+  // Only one menu open at a time; close on outside click or Escape.
+  const menus = Array.from(document.querySelectorAll<HTMLDetailsElement>('details.dd'));
+  menus.forEach((d) => d.addEventListener('toggle', () => {
+    if (d.open) menus.forEach((o) => { if (o !== d) o.open = false; });
+  }));
+  document.addEventListener('click', (e) => {
+    if (!(e.target as Element).closest('details.dd')) menus.forEach((d) => (d.open = false));
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') menus.forEach((d) => { if (d.open) { d.open = false; d.querySelector('summary')?.focus(); } });
+  });
+</script>

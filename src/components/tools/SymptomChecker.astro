@@ -1,0 +1,84 @@
+---
+// Test-picker, not a diagnosis tool. It maps symptoms to the tests worth asking for
+// and flags symptoms that need in-person care. Runs entirely in the browser.
+const SYMPTOMS = [
+  { id: 'discharge', label: 'Unusual discharge from the penis or vagina', tests: ['chlamydia', 'gonorrhea', 'trichomoniasis', 'lookalike'] },
+  { id: 'burning', label: 'Burning or pain when peeing', tests: ['chlamydia', 'gonorrhea', 'trichomoniasis', 'mgen', 'uti'] },
+  { id: 'blisters', label: 'Painful blisters, sores or cracks on the genitals, anus or mouth', tests: ['herpes', 'syphilis'] },
+  { id: 'painless', label: 'A firm, painless sore', tests: ['syphilis', 'herpes'] },
+  { id: 'warts', label: 'Soft, flesh-colored bumps or warts', tests: ['hpv'] },
+  { id: 'rash', label: 'A rash, especially on the palms or soles', tests: ['syphilis', 'hiv'] },
+  { id: 'flu', label: 'Fever, sore throat, swollen glands or rash 2 to 6 weeks after sex', tests: ['hiv', 'syphilis'] },
+  { id: 'throat', label: 'Sore throat after oral sex', tests: ['gonorrhea', 'chlamydia', 'three-site'] },
+  { id: 'rectal', label: 'Rectal pain, bleeding or discharge', tests: ['chlamydia', 'gonorrhea', 'three-site', 'herpes', 'syphilis'] },
+  { id: 'pelvic', label: 'Lower belly or pelvic pain, or pain during sex', tests: ['chlamydia', 'gonorrhea', 'clinic'] },
+  { id: 'testicle', label: 'Pain or swelling in a testicle', tests: ['chlamydia', 'gonorrhea', 'clinic'] },
+  { id: 'itch', label: 'Itching with thick, white discharge', tests: ['lookalike', 'trichomoniasis'] },
+  { id: 'odor', label: 'Fishy smell from the vagina', tests: ['lookalike', 'trichomoniasis'] },
+  { id: 'jaundice', label: 'Yellow skin or eyes, or dark urine', tests: ['hepatitis', 'clinic'] },
+  { id: 'none', label: 'No symptoms; I want to check after sex or a new partner', tests: ['panel'] },
+];
+const RED_FLAGS = [
+  'Severe belly or pelvic pain, or pain with fever, chills or vomiting',
+  'Sudden, severe testicle pain',
+  'Pregnant with any of these symptoms',
+  'Possible HIV exposure in the last 72 hours (ask about PEP)',
+  'Sexual assault',
+];
+const RESULTS = {
+  chlamydia: { t: 'Chlamydia test (NAAT)', h: '/chlamydia/testing/' },
+  gonorrhea: { t: 'Gonorrhea test (NAAT)', h: '/gonorrhea/testing/' },
+  trichomoniasis: { t: 'Trichomoniasis test (NAAT)', h: '/trichomoniasis/testing/' },
+  mgen: { t: 'Mycoplasma genitalium test, if other results are negative and symptoms continue', h: '/mycoplasma-genitalium/' },
+  syphilis: { t: 'Syphilis blood test, plus a swab of any sore', h: '/syphilis/testing/' },
+  herpes: { t: 'Herpes swab of a fresh sore (best within 48 hours)', h: '/herpes/testing/' },
+  hiv: { t: 'HIV test (a lab test finds it sooner than a self-test)', h: '/hiv/testing/' },
+  hpv: { t: 'A clinician visit: warts are diagnosed by looking at them', h: '/hpv/' },
+  hepatitis: { t: 'Hepatitis B and C blood tests', h: '/hepatitis-c/' },
+  'three-site': { t: 'Throat and rectal swabs, not just urine', h: '/std-testing/three-site-testing/' },
+  lookalike: { t: 'Checks for BV and yeast, which are not STDs but cause similar symptoms', h: '/bacterial-vaginosis/' },
+  uti: { t: 'A urine test for a urinary tract infection', h: '/conditions/' },
+  clinic: { t: 'See a clinician in person within a day or two', h: '/std-testing/free-testing/' },
+  panel: { t: 'A full STD panel matched to the kind of sex you had', h: '/std-testing/full-std-panel/' },
+};
+---
+<section class="tool" aria-labelledby="sc-h" data-sc>
+  <h2 id="sc-h">Which test fits your symptoms?</h2>
+  <p style="margin:0; color: var(--soft);">This is not a diagnosis. Many STDs cause the same symptoms or none, so only a test can tell. Your answers stay in your browser.</p>
+  <fieldset>
+    <legend>First: do any of these apply?</legend>
+    {RED_FLAGS.map((r, i) => <label class="opt"><input type="checkbox" name="flag" value={String(i)} /> {r}</label>)}
+  </fieldset>
+  <fieldset>
+    <legend>What are you noticing? Choose all that apply.</legend>
+    {SYMPTOMS.map((s) => <label class="opt"><input type="checkbox" name="sym" value={s.id} /> {s.label}</label>)}
+  </fieldset>
+  <button type="button" class="btn" style="margin-top: 16px;" data-go>Show tests to ask for</button>
+  <div class="result" aria-live="polite" data-out></div>
+  <noscript><p class="note">This checker needs JavaScript. See <a href="/guides/std-symptoms-in-men/">symptoms in men</a> and <a href="/guides/std-symptoms-in-women/">symptoms in women</a> instead.</p></noscript>
+  <script type="application/json" data-cfg set:html={JSON.stringify({ SYMPTOMS, RESULTS })} />
+</section>
+<script>
+  document.querySelectorAll<HTMLElement>('[data-sc]').forEach((root) => {
+    const cfg = JSON.parse(root.querySelector('[data-cfg]')!.textContent || '{}');
+    const out = root.querySelector<HTMLElement>('[data-out]')!;
+    root.querySelector('[data-go]')!.addEventListener('click', () => {
+      const flags = root.querySelectorAll('input[name=flag]:checked').length;
+      const picked = Array.from(root.querySelectorAll<HTMLInputElement>('input[name=sym]:checked')).map((i) => i.value);
+      let html = '';
+      if (flags) {
+        html += '<div class="row" style="background:#fff4e5;border-color:#f2c27b;color:#4a2e00"><b>Get care today, in person.</b>Call 911 or go to an emergency room for severe pain, fever with pain, or a possible HIV exposure in the last 72 hours. After sexual assault, call RAINN at 800-656-4673. An at-home kit is not the right first step.</div>';
+      }
+      if (!picked.length) {
+        html += flags ? '' : '<div class="row">Choose at least one option above.</div>';
+        out.innerHTML = html; return;
+      }
+      const keys: string[] = [];
+      for (const s of cfg.SYMPTOMS) if (picked.includes(s.id)) for (const t of s.tests) if (!keys.includes(t)) keys.push(t);
+      html += '<div class="row"><b>Tests to ask for</b>Based on what you chose. A clinician may add others.</div>';
+      for (const k of keys) { const r = cfg.RESULTS[k]; html += `<div class="row"><a href="${r.h}">${r.t}</a></div>`; }
+      html += '<div class="row">Symptoms but a negative test? Go back to a clinician. Some infections need a different test, and symptoms can have other causes.</div>';
+      out.innerHTML = html;
+    });
+  });
+</script>

@@ -1,0 +1,31 @@
+---
+// The "what to do next" block at the end of an article. Always offers a free or
+// clinic route next to the paid kit, so the page stays useful without buying.
+import OfferLink from './OfferLink.astro';
+import type { OfferId } from '../config/site';
+interface Props { condition?: string; offer?: OfferId; showOffer: boolean }
+const { condition, offer, showOffer } = Astro.props;
+const conditionName = condition ? condition : 'STDs';
+---
+<section class="next" aria-labelledby="next-h">
+  <h2 id="next-h">Your next step</h2>
+  <div class="cards">
+    {showOffer && (
+      <div class="card solid">
+        <span class="t">Test at home</span>
+        <span class="d">Order a lab-processed kit online, collect a sample in private and get results in a few days.</span>
+        <span style="margin-top:auto"><OfferLink offer={offer} variant="btn-outline" label="See at-home test options" /></span>
+      </div>
+    )}
+    <a class="card" href="/std-testing/free-testing/">
+      <span class="t">Test for free or low cost</span>
+      <span class="d">Health departments, Planned Parenthood and community clinics test for {conditionName} at low or no cost.</span>
+      <span class="go">Find free testing →</span>
+    </a>
+    <a class="card" href="/std-testing/window-period/">
+      <span class="t">Check your timing</span>
+      <span class="d">Testing too soon can miss an infection. See when each test becomes reliable.</span>
+      <span class="go">Window period calculator →</span>
+    </a>
+  </div>
+</section>

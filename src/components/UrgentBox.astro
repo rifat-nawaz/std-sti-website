@@ -1,0 +1,19 @@
+---
+// Shown on pages where some readers may need care now. Items list the
+// condition-specific warning signs; the 911 / 988 lines always show.
+interface Props { items?: string[]; compact?: boolean }
+const { items = [], compact = false } = Astro.props;
+---
+<aside class="urgent" role="note" aria-label="When to get care now">
+  <strong>Call 911 or go to the emergency room if you have:</strong>
+  {items.length > 0 ? (
+    <ul>{items.map((t) => <li set:html={t} />)}</ul>
+  ) : (
+    <ul>
+      <li>Severe belly or pelvic pain, or pain with fever and vomiting</li>
+      <li>Sudden, severe pain or swelling in a testicle</li>
+      <li>Confusion, a stiff neck, sudden vision or hearing changes</li>
+    </ul>
+  )}
+  {!compact && <p>Had a possible HIV exposure in the last 72 hours? Ask an emergency room or urgent care about <a href="/hiv/pep/">PEP</a> today: it works best when started as soon as possible. If you were sexually assaulted, call the RAINN hotline at 800-656-4673. If you are thinking about harming yourself, call or text 988.</p>}
+</aside>

@@ -1,0 +1,29 @@
+---
+import { getCollection, render } from 'astro:content';
+import ArticleLayout from '../layouts/ArticleLayout.astro';
+import { urlFor, sectionOf } from '../lib/paths';
+
+export async function getStaticPaths() {
+  const all = (await getCollection('articles')).filter((e) => !e.data.draft);
+  const byId = new Map(all.map((e) => [e.id, e]));
+  return all.map((entry) => {
+    const path = urlFor(entry.id).replace(/^\/|\/$/g, '');
+    const section = sectionOf(entry.id);
+    const related = entry.data.related.map((id) => byId.get(id)).filter((e) => e !== undefined);
+    // Side panel: the section's index and hubs, in a stable order.
+    const hubs = all
+      .filter((e) => sectionOf(e.id) === section && ['pillar', 'hub'].includes(e.data.pageType))
+      .sort((a, b) => a.data.ref.localeCompare(b.data.ref));
+    const isIndex = /(^|\/)index$/.test(entry.id);
+    const children = isIndex
+      ? all.filter((e) => e.id !== entry.id && sectionOf(e.id) === section).sort((a, b) => a.data.ref.localeCompare(b.data.ref))
+      : [];
+    return { params: { path }, props: { entry, related, hubs, children } };
+  });
+}
+const { entry, related, hubs, children } = Astro.props;
+const { Content, headings } = await render(entry);
+---
+<ArticleLayout entry={entry} headings={headings} relatedEntries={related} hubEntries={hubs} childEntries={children}>
+  <Content />
+</ArticleLayout>

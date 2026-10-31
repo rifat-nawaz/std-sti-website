@@ -1,0 +1,48 @@
+---
+import { WINDOW_PERIODS, NOT_IN_CALCULATOR } from '../../data/windowPeriods';
+---
+<section class="tool" aria-labelledby="wp-h" data-wp>
+  <h2 id="wp-h">Window period calculator</h2>
+  <p style="margin:0; color: var(--soft);">Enter the date of the possible exposure. Everything runs in your browser; nothing is saved or sent.</p>
+  <label for="wp-date">Date of possible exposure</label>
+  <input id="wp-date" type="date" required />
+  <div class="result" aria-live="polite" data-out></div>
+  <noscript><p class="note">The calculator needs JavaScript. The chart below gives the same timings in days.</p></noscript>
+  <p class="note">Not shown: {NOT_IN_CALCULATOR.map((n, i) => <>{i > 0 && '; '}<a href={n.link}>{n.name}</a> ({n.reason.split('.')[0].toLowerCase()})</>)}.</p>
+  <script type="application/json" data-rows set:html={JSON.stringify(WINDOW_PERIODS)} />
+</section>
+<script>
+  type Row = { name: string; test: string; earliest: number; reliable: number; link: string; note?: string };
+  document.querySelectorAll<HTMLElement>('[data-wp]').forEach((root) => {
+    const rows: Row[] = JSON.parse(root.querySelector('[data-rows]')!.textContent || '[]');
+    const input = root.querySelector<HTMLInputElement>('#wp-date')!;
+    const out = root.querySelector<HTMLElement>('[data-out]')!;
+    const today = new Date(); today.setHours(0, 0, 0, 0);
+    input.max = today.toISOString().slice(0, 10);
+    const fmt = (d: Date) => d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+    const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]!));
+    input.addEventListener('change', () => {
+      if (!input.value) { out.innerHTML = ''; return; }
+      const [y, m, d] = input.value.split('-').map(Number);
+      const exp = new Date(y, m - 1, d);
+      const days = Math.round((today.getTime() - exp.getTime()) / 86400000);
+      if (days < 0) { out.innerHTML = '<div class="row">Choose a date that is today or earlier.</div>'; return; }
+      let html = '';
+      if (days <= 3) {
+        html += '<div class="row" style="background:#fff4e5;border-color:#f2c27b;color:#4a2e00"><b>Possible HIV exposure in the last 72 hours?</b>Go to an emergency room or urgent care today and ask about PEP. It must start within 72 hours, and sooner works better. <a href="/hiv/pep/">About PEP</a></div>';
+      }
+      html += `<div class="row"><b>${days} day${days === 1 ? '' : 's'} since exposure</b>Dates below are for each test type.</div>`;
+      for (const r of rows) {
+        const early = new Date(exp); early.setDate(early.getDate() + r.earliest);
+        const rel = new Date(exp); rel.setDate(rel.getDate() + r.reliable);
+        const status = days >= r.reliable
+          ? '<span class="ok">A test now gives a reliable result.</span>'
+          : days >= r.earliest
+            ? `<span class="wait">You can test now, but a negative result should be repeated on or after ${fmt(rel)}.</span>`
+            : `<span class="wait">Too early. Earliest useful test: ${fmt(early)}.</span>`;
+        html += `<div class="row"><b><a href="${r.link}">${esc(r.name)}</a>: ${esc(r.test)}</b>${status}${r.note ? `<br><small>${esc(r.note)}</small>` : ''}</div>`;
+      }
+      out.innerHTML = html;
+    });
+  });
+</script>

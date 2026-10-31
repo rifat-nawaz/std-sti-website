@@ -1,0 +1,8 @@
+---
+import { OFFERS, PRIMARY_OFFER, type OfferId } from '../config/site';
+interface Props { offer?: OfferId; label?: string; variant?: 'btn' | 'btn-outline' | 'link' }
+const { offer = PRIMARY_OFFER, label, variant = 'btn' } = Astro.props;
+const o = OFFERS[offer];
+const text = label ?? (o.brand ? `Check ${o.brand} prices` : 'See at-home test options');
+---
+<a href={`/go/${offer}/`} class={variant === 'link' ? undefined : `btn ${variant === 'btn-outline' ? 'btn-outline' : ''}`.trim()} rel="sponsored nofollow noopener" target="_blank">{text}<span class="sr-only"> (partner link, opens in a new tab)</span></a>

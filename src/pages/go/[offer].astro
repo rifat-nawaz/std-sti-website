@@ -1,0 +1,23 @@
+---
+// Affiliate redirect. Neutral code in the URL; no referrer is sent, so the provider
+// can't see which page the reader came from. Never indexed.
+import { OFFERS, type OfferId } from '../../config/site';
+export function getStaticPaths() {
+  return (Object.keys(OFFERS) as OfferId[]).map((offer) => ({ params: { offer }, props: { url: OFFERS[offer].url } }));
+}
+const { url } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="referrer" content="no-referrer" />
+  <meta http-equiv="refresh" content={`0;url=${url}`} />
+  <title>Redirecting to partner site</title>
+  <script is:inline define:vars={{ url }}>location.replace(url);</script>
+</head>
+<body style="font-family: system-ui, sans-serif; padding: 40px;">
+  <p>Taking you to our partner's site. <a href={url} rel="sponsored nofollow noreferrer">Continue</a> if nothing happens.</p>
+</body>
+</html>

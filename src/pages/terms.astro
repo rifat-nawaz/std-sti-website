@@ -1,0 +1,36 @@
+---
+import PolicyLayout from '../layouts/PolicyLayout.astro';
+import { SITE } from '../config/site';
+const c = SITE.company;
+---
+<PolicyLayout title="Terms of use" description={`The terms that apply when you use ${SITE.name}, including our medical disclaimer, partner links and limits of liability.`} updated={SITE.policiesUpdated}>
+  <h2 id="agree">1. Agreement</h2>
+  <p>By using {SITE.name} (the "site"), operated by {c.legalName}, you agree to these terms. If you don't agree, please don't use the site.</p>
+
+  <h2 id="not-advice">2. Not medical advice</h2>
+  <p>The site provides general health information only. It is not a substitute for professional medical advice, diagnosis or treatment. Read our full <a href="/medical-disclaimer/">medical disclaimer</a>. In an emergency, call 911.</p>
+
+  <h2 id="use">3. Using the site</h2>
+  <p>You may read, print and share links to our pages for personal, non-commercial use. You may not copy substantial parts of the site, scrape it in bulk, republish it, use it to train commercial models, or use it in a way that harms the site or other users.</p>
+
+  <h2 id="ip">4. Our content</h2>
+  <p>The text, tables, illustrations and tools on the site are owned by {c.legalName} or used under license, and are protected by copyright. Third-party names and trademarks belong to their owners and are used only to identify their products.</p>
+
+  <h2 id="third">5. Third-party sites and partner links</h2>
+  <p>The site links to other websites, including test providers that may pay us a commission. We don't control those sites and aren't responsible for their content, products, prices or privacy practices. Any purchase is between you and the provider. See <a href="/how-we-make-money/">how we make money</a>.</p>
+
+  <h2 id="accuracy">6. Accuracy and availability</h2>
+  <p>We work to keep content accurate and current, but we don't guarantee that it is complete, error-free or right for your situation. Prices and product details can change after we publish. We may change or remove content at any time.</p>
+
+  <h2 id="liability">7. Limitation of liability</h2>
+  <p>To the fullest extent allowed by law, the site is provided "as is" without warranties of any kind, and {c.legalName} is not liable for any indirect, incidental or consequential damages arising from your use of the site or reliance on its content. Some states don't allow certain limitations, so some of these may not apply to you.</p>
+
+  <h2 id="law">8. Governing law</h2>
+  <p>These terms are governed by the laws of the state in which {c.legalName} is organized, without regard to conflict-of-law rules, except where your state's consumer protection laws say otherwise.</p>
+
+  <h2 id="changes">9. Changes</h2>
+  <p>We may update these terms. The date at the top shows the latest version. Continuing to use the site means you accept the updated terms.</p>
+
+  <h2 id="contact-us">10. Contact</h2>
+  <p>{c.legalName}, {c.address}. Email: {c.email}.</p>
+</PolicyLayout>

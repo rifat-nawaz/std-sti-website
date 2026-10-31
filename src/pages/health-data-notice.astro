@@ -1,0 +1,31 @@
+---
+import PolicyLayout from '../layouts/PolicyLayout.astro';
+import { SITE } from '../config/site';
+const c = SITE.company;
+---
+<PolicyLayout title="Consumer health data notice" description={`How ${SITE.name} handles consumer health data under Washington's My Health My Data Act and similar state laws.`} updated={SITE.policiesUpdated}
+  summary={[
+    'We try not to collect consumer health data at all.',
+    'Symptom checker and calculator answers never leave your browser.',
+    'We never sell health data or use it for advertising.',
+  ]}>
+  <p>This notice explains how we handle "consumer health data" as defined by Washington's My Health My Data Act and similar laws in Nevada, Connecticut and other states. It supplements our <a href="/privacy/">privacy policy</a>.</p>
+
+  <h2 id="categories">Health data we may collect</h2>
+  <p>We don't ask for health information. The only way it can reach us is if you choose to include it in a message to us, for example describing symptoms or a diagnosis. We also receive standard request data from our host when you visit a page, which on a sexual health site could in theory suggest an interest in a health topic.</p>
+
+  <h2 id="sources">Where it comes from</h2>
+  <p>Directly from you, when you contact us, and automatically from your browser when you load a page.</p>
+
+  <h2 id="purposes">Why we collect it</h2>
+  <p>To answer your message and to deliver and secure the site. We don't use consumer health data for any other purpose.</p>
+
+  <h2 id="sharing">Who we share it with</h2>
+  <p>Only our service providers (web hosting and email) acting on our instructions, and authorities when the law requires. We don't sell consumer health data. We don't share it with partners, advertisers or affiliate networks.</p>
+
+  <h2 id="geofence">Geofencing</h2>
+  <p>We don't use geofencing around health care facilities or anywhere else.</p>
+
+  <h2 id="rights">Your rights</h2>
+  <p>You can ask to confirm whether we hold your consumer health data, get a copy, have it deleted, and withdraw consent. Email {c.privacyEmail} with the subject "Health data request". We respond within 45 days. If we decline a request, you can appeal by replying to our decision; if the appeal is denied, you may contact your state attorney general.</p>
+</PolicyLayout>

@@ -1,0 +1,66 @@
+---
+import PolicyLayout from '../layouts/PolicyLayout.astro';
+import { SITE } from '../config/site';
+const c = SITE.company;
+---
+<PolicyLayout title="Privacy policy" description={`How ${SITE.name} handles personal information: no ad trackers, tools that run in your browser, and your rights under US state privacy laws.`} updated={SITE.policiesUpdated}
+  summary={[
+    'We don\'t use advertising pixels and we don\'t sell or share your personal information.',
+    'Our symptom checker and calculator run in your browser. Your answers are never sent to us.',
+    'Partner links don\'t pass the page you were reading to the provider.',
+    'You can ask us to access or delete anything you\'ve sent us.',
+  ]}>
+  <h2 id="who">Who we are</h2>
+  <p>This policy covers the website {SITE.url.replace(/^https?:\/\//, '')} (the "site"), operated by {c.legalName} ("we", "us"). Contact details are at the end of this policy.</p>
+
+  <h2 id="collect">What we collect</h2>
+  <p><strong>Information you send us.</strong> If you email us or use our contact form, we receive your email address, any name you give and your message. Please don't include personal health details; we don't need them to help you.</p>
+  <p><strong>Technical information.</strong> Like every website, our hosting provider automatically receives standard request data when pages load: IP address, browser type, the page requested and the time. This is used to deliver the site, prevent abuse and fix errors. We do not use it to identify you or build a profile.</p>
+  <p><strong>What we don't collect.</strong> We don't use advertising cookies, social media pixels, session recording or cross-site tracking. Answers you enter in the symptom checker or window period calculator stay in your browser and are never sent to us or anyone else.</p>
+
+  <h2 id="cookies">Cookies</h2>
+  <p>The site itself does not set tracking cookies. If we add privacy-friendly, cookie-free statistics in the future (counting page views without identifying visitors), we will update this policy first.</p>
+  <p>When you click a partner link, you leave our site. The affiliate network and the provider may set their own cookies to record that a purchase came from our link. Their privacy policies apply on their sites.</p>
+
+  <h2 id="use">How we use information</h2>
+  <ul>
+    <li>To reply to your message and fix errors you report.</li>
+    <li>To keep the site secure and working.</li>
+    <li>To meet legal obligations.</li>
+  </ul>
+  <p>We don't use personal information for advertising, and we don't make automated decisions about you.</p>
+
+  <h2 id="share">Who we share it with</h2>
+  <p>We share information only with service providers that help us run the site (such as web hosting and email), under contracts that limit their use of it, and when the law requires. We don't sell personal information, and we don't share it for cross-context behavioral advertising.</p>
+  <p>Our partner links are routed so the provider doesn't receive the address of the page you were reading.</p>
+
+  <h2 id="health">Consumer health data</h2>
+  <p>Some US states, such as Washington, Nevada and Connecticut, have specific rules for consumer health data. Read our <a href="/health-data-notice/">consumer health data notice</a> for how these apply to us.</p>
+
+  <h2 id="rights">Your rights by state</h2>
+  <p>Depending on where you live, including California, Colorado, Connecticut, Virginia, Utah, Texas, Oregon, Washington and other states with consumer privacy laws, you may have the right to:</p>
+  <ul>
+    <li>Know what personal information we hold about you and get a copy.</li>
+    <li>Correct inaccurate information.</li>
+    <li>Delete your information.</li>
+    <li>Opt out of the sale of personal information, targeted advertising and profiling. We don't do any of these.</li>
+    <li>Appeal our decision on your request.</li>
+  </ul>
+  <p>To make a request, email {c.privacyEmail} with the subject "Privacy request". We will respond within 45 days, as most state laws require, and will not treat you differently for using your rights. We may ask for information to confirm your identity, such as the email address you used to contact us. An authorized agent may make a request for you with your signed permission.</p>
+  <p>We honor Global Privacy Control signals as an opt-out request, although we don't sell or share data in the first place.</p>
+
+  <h2 id="keep">How long we keep it</h2>
+  <p>We delete messages and their email addresses 12 months after our last reply, unless we need them longer to fix a reported error or to meet a legal obligation. Hosting request logs are kept for no more than 30 days.</p>
+
+  <h2 id="security">Security</h2>
+  <p>The site is served only over HTTPS. Access to messages is limited to the {SITE.editorialTeam}. No method of transmission or storage is perfectly secure, so please don't send sensitive health details.</p>
+
+  <h2 id="children">Children</h2>
+  <p>The site is written for adults. We don't knowingly collect personal information from children under 13. If you believe a child has sent us information, contact us and we will delete it.</p>
+
+  <h2 id="changes">Changes to this policy</h2>
+  <p>We will post any changes here and update the date at the top. Significant changes will be noted on the home page for 30 days.</p>
+
+  <h2 id="contact-us">How to contact us</h2>
+  <p>{c.legalName}, {c.address}. Email: {c.privacyEmail}. You can also use our <a href="/contact/">contact page</a>.</p>
+</PolicyLayout>

@@ -1,0 +1,89 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE } from '../config/site';
+import { CONDITIONS } from '../data/conditions';
+const core = CONDITIONS.filter((c) => c.group === 'core');
+const more = CONDITIONS.filter((c) => c.group !== 'core');
+---
+<Base title={`${SITE.name}: STD Symptoms, Testing and Treatment, Explained`} description={SITE.description}>
+  <section class="hero section tint" style="padding-top: 56px;">
+    <div class="wrap">
+      <p class="eyebrow">Judgment-free sexual health information</p>
+      <h1>Worried about an STD? Get a clear answer, then the right test.</h1>
+      <p class="lede">Plain-language guides to symptoms, testing and treatment, checked against CDC, WHO and USPSTF guidance and updated when that guidance changes.</p>
+      <div class="hero-actions">
+        <a class="btn" href="/guides/symptom-checker/">Check your symptoms</a>
+        <a class="btn btn-outline" href="/std-testing/window-period/">When should I test?</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <div class="urgent" style="margin-top: 32px;" role="note">
+      <strong>Need care right now?</strong>
+      Call 911 for severe pain, high fever or a medical emergency. Possible HIV exposure in the last 72 hours: go to an emergency room or urgent care and ask about <a href="/hiv/pep/">PEP</a> today. After sexual assault, call RAINN at 800-656-4673. In crisis, call or text 988.
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="wrap">
+      <h2 class="big">Find your condition</h2>
+      <p class="lede" style="margin-bottom: 24px;">Start with what you know, or what you're worried about.</p>
+      <div class="cards cond-grid">
+        {core.map((c) => (
+          <a class="card" href={`/${c.slug}/`}>
+            <span class={`badge ${c.statusTone}`}>{c.status}</span>
+            <span class="t">{c.menuName}</span>
+            <span class="d">{c.summary}</span>
+            <span class="go">Read the guide →</span>
+          </a>
+        ))}
+      </div>
+      <h3 style="font-size: 20px; margin: 36px 0 14px;">More infections and look-alikes</h3>
+      <div class="cards cond-grid">
+        {more.map((c) => (
+          <a class="card" href={`/${c.slug}/`}>
+            <span class={`badge ${c.statusTone}`}>{c.status}</span>
+            <span class="t">{c.name}</span>
+            <span class="d">{c.summary}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section tint">
+    <div class="wrap">
+      <h2 class="big">Testing, made simple</h2>
+      <div class="cards" style="margin-top: 20px;">
+        <a class="card" href="/std-testing/window-period/"><span class="t">Window period calculator</span><span class="d">Enter the date. See when each test can give a reliable result.</span><span class="go">Open calculator →</span></a>
+        <a class="card" href="/guides/symptom-checker/"><span class="t">Symptom checker</span><span class="d">Match your symptoms to the tests worth asking for. Not a diagnosis.</span><span class="go">Start →</span></a>
+        <a class="card" href="/std-testing/best-at-home-std-tests/"><span class="t">At-home test kits compared</span><span class="d">What each type of kit covers, how samples are collected and what results mean.</span><span class="go">Compare kits →</span></a>
+        <a class="card" href="/std-testing/free-testing/"><span class="t">Free and low-cost testing</span><span class="d">Health departments and clinics that test for little or nothing.</span><span class="go">Find testing →</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap layout-2">
+      <div class="main">
+        <h2 class="big">How we work</h2>
+        <div class="prose">
+          <p>Every page is written, fact-checked and updated by the {SITE.name} {SITE.editorialTeam}. We check each medical claim against primary sources: the CDC STI Treatment Guidelines, USPSTF screening recommendations, WHO guidance and peer-reviewed research.</p>
+          <p>We earn money when some readers buy a test through our links. That never changes what a page says. Every page that leads to a kit also shows a free or low-cost option.</p>
+          <p><a href="/editorial-policy/">Read our editorial policy</a> · <a href="/how-we-make-money/">How we make money</a></p>
+        </div>
+      </div>
+      <aside class="side">
+        <div class="panel">
+          <span class="h">Popular questions</span>
+          <a href="/guides/stds-without-symptoms/">Which STDs have no symptoms?</a>
+          <a href="/std-testing/when-to-test/">How soon after sex should I test?</a>
+          <a href="/std-testing/at-home-test-accuracy/">Are at-home STD tests accurate?</a>
+          <a href="/guides/curable-stds/">Which STDs are curable?</a>
+          <a href="/guides/telling-a-partner/">How do I tell a partner?</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+</Base>

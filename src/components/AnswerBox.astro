@@ -1,0 +1,8 @@
+---
+interface Props { text: string }
+const { text } = Astro.props;
+---
+<div class="answer">
+  <span class="label">Quick answer</span>
+  <p set:html={text} />
+</div>

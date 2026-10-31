@@ -1,0 +1,17 @@
+{
+  "name": "std-sti-website",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build && node scripts/check-site.mjs",
+    "preview": "astro preview",
+    "check:content": "node scripts/check-site.mjs",
+    "check:launch": "astro build && node scripts/check-site.mjs --strict"
+  },
+  "dependencies": {
+    "astro": "6.4.8",
+    "@astrojs/sitemap": "3.7.4"
+  }
+}

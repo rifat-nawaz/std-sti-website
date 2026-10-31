@@ -1,0 +1,71 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { SITE } from '../config/site';
+const c = SITE.company;
+const hasForm = SITE.contactFormEndpoint.length > 0;
+const schema = [{ '@type': 'ContactPage', name: `Contact ${SITE.name}`, url: `${SITE.url}/contact/` }];
+---
+<Base title={`Contact Us | ${SITE.name}`} description={`Report an error, ask about our content or contact the ${SITE.name} ${SITE.editorialTeam}. We can't give personal medical advice.`} schema={schema}>
+  <div class="wrap">
+    <Breadcrumbs items={[{ name: 'Home', href: '/' }, { name: 'Contact' }]} />
+    <header class="page-head" style="max-width: 700px;">
+      <h1>Contact us</h1>
+      <p class="lede">Spotted a mistake, have a question about a page or want to work with us? We read every message.</p>
+    </header>
+    <div class="urgent" role="note">
+      <strong>We can't give personal medical advice.</strong>
+      For symptoms or a possible exposure, see a clinician or find <a href="/std-testing/free-testing/">free testing near you</a>. In an emergency, call 911. If you're thinking about harming yourself, call or text 988.
+    </div>
+    <div class="layout-2" style="margin-top: 36px;">
+      <div class="main">
+        {hasForm ? (
+          <form class="form-grid" method="post" action={SITE.contactFormEndpoint}>
+            <div>
+              <label for="topic">What's this about?</label>
+              <select id="topic" name="topic">
+                <option>Report a medical or factual error</option>
+                <option>Question about our content</option>
+                <option>Accessibility problem</option>
+                <option>Privacy or data deletion request</option>
+                <option>Partnerships and press</option>
+                <option>Something else</option>
+              </select>
+            </div>
+            <div><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required /></div>
+            <div><label for="page">Page link (if reporting an error)</label><input id="page" name="page" type="url" /></div>
+            <div>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" required></textarea>
+              <p style="margin: 6px 0 0; font-size: 14px; color: var(--muted);">Please don't include personal health details. We don't need them to help you.</p>
+            </div>
+            <div class="hp" aria-hidden="true"><label for="website">Leave this empty</label><input id="website" name="website" tabindex="-1" autocomplete="off" /></div>
+            <button class="btn" type="submit" style="align-self: flex-start;">Send message</button>
+            <p style="margin: 0; font-size: 14px; color: var(--muted);">We reply within {SITE.replyDays} business days and delete messages 12 months after our last reply. <a href="/privacy/">Privacy policy</a></p>
+          </form>
+        ) : (
+          <div class="prose">
+            <h2 id="email" style="margin-top: 0;">Email us</h2>
+            <p>Write to <a href={`mailto:${c.email}`}>{c.email}</a>. Put the topic in the subject line, for example "Error report" or "Privacy request", and include the page link if you're reporting an error.</p>
+            <p>Please don't include personal health details. We don't need them to help you. We reply within {SITE.replyDays} business days and delete messages 12 months after our last reply. See our <a href="/privacy/">privacy policy</a>.</p>
+          </div>
+        )}
+      </div>
+      <aside class="side">
+        <div class="panel" style="background: var(--brand-tint); border: 0;">
+          <span class="h">Found an error?</span>
+          <span>The {SITE.editorialTeam} checks every report against the page's sources and logs each fix.</span>
+          <a href="/editorial-policy/#corrections" style="font-weight: 600; color: var(--brand);">Our corrections policy →</a>
+        </div>
+        <div class="panel">
+          <span class="h">Mailing address</span>
+          <span>{c.legalName}<br />{c.address}</span>
+        </div>
+        <div class="panel">
+          <span class="h">Privacy requests</span>
+          <span>Email {c.privacyEmail}. We respond within 45 days.</span>
+        </div>
+      </aside>
+    </div>
+  </div>
+</Base>

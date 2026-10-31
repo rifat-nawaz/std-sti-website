@@ -1,0 +1,16 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE } from '../config/site';
+---
+<Base title={`Page not found | ${SITE.name}`} description="The page you were looking for isn't here. Try a condition guide, the symptom checker or the window period calculator." noindex>
+  <div class="wrap" style="padding: 64px 20px; max-width: 760px;">
+    <p class="eyebrow">Error 404</p>
+    <h1 style="font-size: 44px; margin: 10px 0 14px;">We couldn't find that page</h1>
+    <p class="lede">It may have moved. These are the pages people look for most:</p>
+    <div class="cards" style="margin-top: 24px;">
+      <a class="card" href="/conditions/"><span class="t">All conditions</span><span class="go">Browse →</span></a>
+      <a class="card" href="/guides/symptom-checker/"><span class="t">Symptom checker</span><span class="go">Start →</span></a>
+      <a class="card" href="/std-testing/window-period/"><span class="t">Window period calculator</span><span class="go">Open →</span></a>
+    </div>
+  </div>
+</Base>

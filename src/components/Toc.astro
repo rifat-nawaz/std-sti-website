@@ -1,0 +1,10 @@
+---
+interface Props { headings: { depth: number; slug: string; text: string }[] }
+const h2 = Astro.props.headings.filter((h) => h.depth === 2);
+---
+{h2.length > 2 && (
+  <nav class="panel" aria-label="On this page">
+    <span class="h">On this page</span>
+    {h2.map((h) => <a href={`#${h.slug}`}>{h.text}</a>)}
+  </nav>
+)}

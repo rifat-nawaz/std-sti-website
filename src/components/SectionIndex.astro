@@ -1,0 +1,24 @@
+---
+import { urlFor, type Article } from '../lib/paths';
+interface Props { entries: Article[]; heading: string }
+const { entries, heading } = Astro.props;
+const groups = new Map<string, Article[]>();
+for (const e of entries) {
+  const g = groups.get(e.data.cluster) ?? [];
+  g.push(e);
+  groups.set(e.data.cluster, g);
+}
+---
+{entries.length > 0 && (
+  <section style="margin-top: 48px;" aria-labelledby="all-h">
+    <h2 id="all-h" style="font-size: 28px; margin: 0 0 8px;">{heading}</h2>
+    {[...groups].map(([cluster, list]) => (
+      <div style="margin-top: 24px;">
+        <h3 style="font-size: 18px; margin: 0 0 10px;">{cluster}</h3>
+        <ul style="margin: 0; padding-left: 20px; line-height: 1.7; font-size: 17px;">
+          {list.map((e) => <li><a href={urlFor(e.id)}>{e.data.title}</a></li>)}
+        </ul>
+      </div>
+    ))}
+  </section>
+)}

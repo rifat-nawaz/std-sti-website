@@ -1,0 +1,13 @@
+---
+interface Props { items: { publisher: string; title: string; year: string | number; url: string }[] }
+const { items } = Astro.props;
+---
+<section class="sources" aria-labelledby="src-h">
+  <h2 id="src-h">Sources</h2>
+  <ol>
+    {items.map((s) => (
+      <li>{s.publisher}. <a href={s.url} rel="noopener" target="_blank">{s.title}</a>. {s.year}.</li>
+    ))}
+  </ol>
+  <p style="margin: 12px 0 0;">We check every medical claim against the sources above. See our <a href="/editorial-policy/">editorial policy</a>. Spotted an error? <a href="/contact/">Tell us</a>.</p>
+</section>

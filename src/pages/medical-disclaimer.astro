@@ -1,0 +1,25 @@
+---
+import PolicyLayout from '../layouts/PolicyLayout.astro';
+import { SITE } from '../config/site';
+---
+<PolicyLayout title="Medical disclaimer" description={`${SITE.name} provides general health information, not medical advice, diagnosis or treatment. Read what that means and when to seek care.`} updated={SITE.policiesUpdated}>
+  <div class="urgent" role="note" style="margin-top: 0;">
+    <strong>In an emergency, call 911.</strong>
+    Possible HIV exposure in the last 72 hours: go to an emergency room or urgent care and ask about PEP. After sexual assault: RAINN, 800-656-4673. In crisis: call or text 988.
+  </div>
+  <h2 id="info">General information only</h2>
+  <p>The content on {SITE.name}, including text, tables, the symptom checker and the window period calculator, is general health information. It is not medical advice and does not replace a diagnosis, treatment or advice from a licensed clinician who knows your situation.</p>
+  <p>No doctor-patient or other clinical relationship is created by reading this site, using its tools or contacting us.</p>
+
+  <h2 id="tools">About our tools</h2>
+  <p>The symptom checker suggests which tests are worth discussing. It cannot tell you whether you have an infection. The window period calculator shows typical timings from public health guidance; individual timing varies, and a clinician may advise testing again.</p>
+
+  <h2 id="tests">About home tests</h2>
+  <p>At-home tests can miss infections, especially if taken too early or if the sample is collected incorrectly. A positive result usually needs confirmation and treatment from a clinician. Follow the instructions included with any kit.</p>
+
+  <h2 id="accuracy">Accuracy</h2>
+  <p>We check our pages against current guidance, but medical knowledge changes and errors can happen. We make no warranty that the content is complete or current for your situation. See our <a href="/editorial-policy/">editorial policy</a> and our <a href="/terms/">terms of use</a>.</p>
+
+  <h2 id="decisions">Your decisions</h2>
+  <p>Never ignore professional medical advice or delay seeking it because of something you read here. Talk to a clinician before starting, stopping or changing any treatment.</p>
+</PolicyLayout>

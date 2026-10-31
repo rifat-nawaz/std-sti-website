@@ -1,0 +1,21 @@
+---
+import PolicyLayout from '../layouts/PolicyLayout.astro';
+import { SITE } from '../config/site';
+---
+<PolicyLayout title="Accessibility" seoTitle="Accessibility Statement" description={`${SITE.name} aims to meet WCAG 2.2 Level AA. Here is what we do and how to tell us about a barrier.`} updated={SITE.policiesUpdated}>
+  <p>We want everyone to be able to use {SITE.name}, including people who use screen readers, keyboard navigation, magnification or voice control.</p>
+  <h2 id="standard">Our standard</h2>
+  <p>We aim to meet the Web Content Accessibility Guidelines (WCAG) 2.2 at Level AA. In practice that means:</p>
+  <ul>
+    <li>Text and controls with strong color contrast, and text that can be resized to 200% without breaking the layout.</li>
+    <li>Every menu, form and tool works with a keyboard, with a visible focus outline.</li>
+    <li>Headings, landmarks and labels that screen readers can follow, plus a "skip to content" link.</li>
+    <li>Tables with proper headers, and charts with text equivalents.</li>
+    <li>Plain language, short paragraphs and an answer at the top of each page.</li>
+    <li>Tap targets of at least 44 by 44 pixels on mobile.</li>
+  </ul>
+  <h2 id="limits">Known limits</h2>
+  <p>The symptom checker and window period calculator need JavaScript. Each one links to a page with the same information in plain text.</p>
+  <h2 id="feedback">Tell us about a barrier</h2>
+  <p>If something on the site is hard to use, <a href="/contact/">contact us</a> with the page link and what happened. We aim to reply within {SITE.replyDays} business days and to fix barriers as quickly as we can.</p>
+</PolicyLayout>
