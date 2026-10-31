@@ -24,7 +24,7 @@ export const WINDOW_PERIODS: WindowRow[] = [
   { key: 'hiv-ab', name: 'HIV', test: 'Antibody test (incl. oral self-test)', earliest: 23, reliable: 90, link: '/hiv/testing/' },
   { key: 'herpes', name: 'Herpes (HSV-1, HSV-2)', test: 'IgG blood antibody test', earliest: 21, reliable: 112, link: '/herpes/testing/', note: 'If you have a sore now, a swab of the sore is the better test.' },
   { key: 'hepatitis-b', name: 'Hepatitis B', test: 'Surface antigen (HBsAg) blood test', earliest: 7, reliable: 63, link: '/hepatitis-b/' },
-  { key: 'hepatitis-c', name: 'Hepatitis C', test: 'Antibody blood test', earliest: 56, reliable: 84, link: '/hepatitis-c/', note: 'An HCV RNA test can find the virus 1 to 2 weeks after exposure.' },
+  { key: 'hepatitis-c', name: 'Hepatitis C', test: 'Antibody blood test', earliest: 28, reliable: 84, link: '/hepatitis-c/', note: 'An HCV RNA test can find the virus 1 to 2 weeks after exposure.' },
 ];
 
 export const NOT_IN_CALCULATOR = [

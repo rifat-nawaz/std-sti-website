@@ -56,8 +56,8 @@ for (const file of pages) {
   for (const m of html.matchAll(/href="(\/[^"#?]*)/g)) {
     const href = m[1];
     if (/\.(svg|png|xml|txt|ico|webmanifest)$/.test(href)) continue;
-    const target = join(DIST, href, href.endsWith('/') ? 'index.html' : '');
-    if (!existsSync(target) && !existsSync(join(DIST, href))) {
+    const target = href.endsWith('/') ? join(DIST, href, 'index.html') : join(DIST, href);
+    if (!existsSync(target) || statSync(target).isDirectory()) {
       missing.set(href, [...(missing.get(href) || []), rel]);
     }
   }
