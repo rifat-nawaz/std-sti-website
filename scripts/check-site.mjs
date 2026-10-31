@@ -8,6 +8,7 @@ const STRICT = process.argv.includes('--strict');
 const DIST = new URL('../dist/', import.meta.url).pathname;
 const errors = [];
 const blockers = [];
+const previewNoindex = [];
 
 function walk(dir) {
   return readdirSync(dir).flatMap((f) => {
@@ -48,6 +49,7 @@ for (const file of pages) {
   ]) {
     if (re.test(visible)) errors.push(`${rel}: ${why}`);
   }
+  if (/content="noindex, nofollow"/.test(html) && !rel.startsWith('/404')) previewNoindex.push(rel);
   if (/\[(Site Name|Company legal name|Street address|contact email|privacy email)[^\]]*\]/.test(visible)) {
     blockers.push(rel);
   }
@@ -76,10 +78,13 @@ if (linkMsgs.length) {
 if (blockers.length) {
   console.log(`\n${STRICT ? 'ERROR' : 'Launch blocker'}: site name or company details are still placeholders in src/config/site.ts (${blockers.length} pages)`);
 }
+if (previewNoindex.length) {
+  console.log(`\n${STRICT ? 'ERROR' : 'Preview build'}: search engines blocked on ${previewNoindex.length} pages. Build with SITE_ENV=production for launch.`);
+}
 if (errors.length) {
   console.log(`\nERRORS (${errors.length}):`);
   errors.forEach((e) => console.log('  - ' + e));
 }
-const fail = errors.length > 0 || (STRICT && (linkMsgs.length > 0 || blockers.length > 0));
+const fail = errors.length > 0 || (STRICT && (linkMsgs.length > 0 || blockers.length > 0 || previewNoindex.length > 0));
 console.log(fail ? '\nSite check FAILED\n' : '\nSite check passed\n');
 process.exit(fail ? 1 : 0);

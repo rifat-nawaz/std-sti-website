@@ -28,6 +28,10 @@ export const SITE = {
   advisors: [] as { name: string; credentials: string; role: string; license: string; verifiedOn: string }[],
 } as const;
 
+// Search engines are blocked unless the build runs with SITE_ENV=production,
+// so preview deployments never get indexed before launch.
+export const IS_PRODUCTION = process.env.SITE_ENV === 'production';
+
 export const editorialByline = `${SITE.name} ${SITE.editorialTeam}`;
 
 // Affiliate offers. Codes are neutral: they never name a condition or page.

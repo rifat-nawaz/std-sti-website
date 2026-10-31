@@ -9,7 +9,10 @@ Static site built with Astro 6. Content lives in `src/content/articles/` as Mark
 | `npm install` | Install dependencies (Node 22.12+) |
 | `npm run dev` | Local preview at http://localhost:4321 |
 | `npm run build` | Build to `dist/` and run the site checks |
-| `npm run check:launch` | Strict launch check: fails on any missing page or placeholder |
+| `npm run check:launch` | Strict launch check: fails on any missing page, placeholder or preview block |
+
+Preview builds tell search engines not to index the site. For the live launch, build with
+`SITE_ENV=production npm run build`.
 
 ## Change the brand
 
