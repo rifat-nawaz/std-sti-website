@@ -29,9 +29,9 @@ sources:
     year: 2021
     url: "https://www.cdc.gov/std/treatment-guidelines/candidiasis.htm"
   - publisher: "Centers for Disease Control and Prevention"
-    title: "Vaginal Candidiasis"
+    title: "Treatment of Candidiasis"
     year: 2024
-    url: "https://www.cdc.gov/fungal/hcp/vaginal-candidiasis/index.html"
+    url: "https://www.cdc.gov/candidiasis/treatment/index.html"
 related:
   - bacterial-vaginosis/index
   - trichomoniasis/index

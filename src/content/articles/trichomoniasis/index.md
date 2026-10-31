@@ -11,7 +11,7 @@ affiliate: light
 offer: k1
 answer: "Trichomoniasis (\"trich\") is a common STD caused by a tiny parasite. <strong>Most people have no symptoms.</strong> It's found with a urine or swab test, which isn't always part of a standard panel, and it's <strong>cured with antibiotics</strong>."
 takeaways:
-  - "An estimated 2.6 million people in the US have trich, making it the most common curable STD."
+  - "The CDC estimates more than 2 million trich infections in the US, making it one of the most common curable STDs."
   - "About 70% of people with trich have no symptoms."
   - "Many standard STD panels don't include trich, so ask for it."
   - "Treatment is metronidazole: 7 days for women, a single dose for men."
@@ -92,7 +92,7 @@ After treatment:
 
 1. **Avoid sex** until you and your partners finish treatment and symptoms are gone.
 2. **Partners must be treated**, even without symptoms.
-3. **Women should be retested within 3 months.** About 1 in 6 people get trich again within that time.
+3. **Women should be retested within 3 months.** About 1 in 5 people get trich again within that time.
 
 ## Prevention
 
