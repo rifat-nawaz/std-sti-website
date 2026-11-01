@@ -47,6 +47,8 @@ S = {
  'hivgov-stages': ('HIV.gov (US Department of Health and Human Services)', 'Acute and Chronic HIV and AIDS', 2025, 'https://www.hiv.gov/hiv-basics/overview/about-hiv-and-aids/acute-and-chronic-hiv'),
  'hivgov': ('HIV.gov (US Department of Health and Human Services)', 'What Are HIV and AIDS?', 2025, 'https://www.hiv.gov/hiv-basics/overview/about-hiv-and-aids/what-are-hiv-and-aids'),
  'cdc-hpv': ('Centers for Disease Control and Prevention', 'About HPV', 2024, 'https://www.cdc.gov/hpv/about/index.html'),
+ 'cdc-hpv-cancers': ('Centers for Disease Control and Prevention', 'Cancers Caused by HPV', 2025, 'https://www.cdc.gov/hpv/about/cancers-caused-by-hpv.html'),
+ 'cdc-hpv-cancer': ('Centers for Disease Control and Prevention', 'HPV and Cancer', 2025, 'https://www.cdc.gov/cancer/hpv/index.html'),
  'cdc-hpv-vax': ('Centers for Disease Control and Prevention', 'Human Papillomavirus Vaccination for Adults: Updated Recommendations of the ACIP (MMWR)', 2019, 'https://www.cdc.gov/mmwr/volumes/68/wr/mm6832a3.htm'),
  'cdc-sti': ('Centers for Disease Control and Prevention', 'Sexually Transmitted Infections Treatment Guidelines, 2021 (MMWR Recommendations and Reports)', 2021, 'https://www.cdc.gov/mmwr/volumes/70/rr/rr7004a1.htm'),
  'cdc-ept': ('Centers for Disease Control and Prevention', 'Expedited Partner Therapy', 2024, 'https://www.cdc.gov/sti/hcp/clinical-guidance/expedited-partner-therapy.html'),
