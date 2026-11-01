@@ -40,7 +40,7 @@ updated: 2026-11-01
 ## First-catch urine
 
 1. Don't pee for at least 1 hour before.
-2. Pee the **first** part of the stream (about the first 20 to 30 mL) into the cup.
+2. Pee the **first** part of the stream into the cup, as much as the kit asks for.
 3. Finish peeing into the toilet.
 4. Transfer urine to the tube up to the fill line.
 
