@@ -36,10 +36,6 @@ sources:
     title: "Getting Tested for HIV"
     year: 2024
     url: "https://www.cdc.gov/hiv/testing/index.html"
-  - publisher: "RAINN"
-    title: "Contact RAINN and the National Sexual Assault Hotline (800-656-4673)"
-    year: 2025
-    url: "https://rainn.org/contact"
 related:
   - hiv/index
   - std-testing/window-period
