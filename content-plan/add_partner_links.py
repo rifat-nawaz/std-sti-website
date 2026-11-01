@@ -17,7 +17,7 @@ for f in sorted(glob.glob('src/content/articles/**/*.md', recursive=True)):
     fm, body = s.split('\n---\n', 1)
     ref = re.search(r'^ref: (\S+)', fm, re.M).group(1)
     aff = re.search(r'^affiliate: (\S+)', fm, re.M)
-    if not aff or aff.group(1) == 'none' or ref in NO_OFFER or ref.startswith('HSV-') or '](/go/' in body:
+    if not aff or aff.group(1) == 'none' or ref in NO_OFFER or ref.startswith(('HSV-', 'HPV-')) or '](/go/' in body:
         continue
     # Already has a natural phrase in a paragraph or list? The build step links it.
     prose_lines = [l for l in body.split('\n') if l.strip() and not l.lstrip().startswith(('|', '#', '>'))]

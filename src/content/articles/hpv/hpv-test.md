@@ -7,8 +7,7 @@ cluster: "Testing"
 pageType: hub
 primaryQuery: "hpv test"
 riskLevel: standard
-affiliate: light
-offer: k1
+affiliate: none
 answer: "People with a cervix are checked for high-risk HPV through <strong>cervical screening</strong>. From age <strong>30 to 65</strong>, the USPSTF recommends an <strong>HPV test every 5 years</strong>, a <strong>Pap and HPV co-test every 5 years</strong>, or a <strong>Pap test every 3 years</strong>. Ages <strong>21 to 29</strong> get a Pap every 3 years."
 takeaways:
   - "An HPV test looks for the virus; a Pap looks for cell changes."

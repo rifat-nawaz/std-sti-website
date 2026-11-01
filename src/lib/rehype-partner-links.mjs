@@ -25,7 +25,7 @@ export default function rehypePartnerLinks() {
     });
     if (hasLink) return;
     // Herpes pages: the right test is usually a swab of a sore, so no automatic kit links.
-    if (!fm.affiliate || fm.affiliate === 'none' || NO_OFFER.has(fm.ref) || String(fm.ref).startsWith('HSV-')) return;
+    if (!fm.affiliate || fm.affiliate === 'none' || NO_OFFER.has(fm.ref) || /^(HSV|HPV)-/.test(String(fm.ref))) return;
     let done = false;
     walk(tree, (n, parent, anc) => {
       if (done || n.type !== 'text' || !parent) return;
