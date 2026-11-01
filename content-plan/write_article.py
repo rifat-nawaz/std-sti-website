@@ -103,6 +103,7 @@ def art(id, slug, desc, answer, takeaways, src, body, faq=(), related=(), risk='
     warn = []
     for r in related:
         if r not in have: warn.append(f'related not yet written: {r}')
+    if re.search(r'\]\(/[^)]*/index/', body + answer): errs.append('link ends in /index/')
     for m in re.findall(r'\]\((/[^)#]*)', body + answer):
         t = m.strip('/'); t = t if t else 'index'
         if t not in have and t + '/index' not in have and t not in ('knowledge-care', 'conditions', 'about', 'contact', 'editorial-policy', 'editorial-team', 'how-we-make-money', 'privacy', 'terms', 'medical-disclaimer', 'health-data-notice', 'accessibility'):
