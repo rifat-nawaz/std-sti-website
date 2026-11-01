@@ -25,9 +25,9 @@ faq:
     a: "Mail-in kits usually take 2 to 5 days after the lab receives your sample. Rapid HIV and syphilis self-tests give results in 15 to 20 minutes."
 sources:
   - publisher: "Centers for Disease Control and Prevention"
-    title: "Sexually Transmitted Infections Treatment Guidelines, 2021: Screening Recommendations"
+    title: "Sexually Transmitted Infections Treatment Guidelines, 2021 (MMWR Recommendations and Reports)"
     year: 2021
-    url: "https://www.cdc.gov/std/treatment-guidelines/screening-recommendations.htm"
+    url: "https://www.cdc.gov/mmwr/volumes/70/rr/rr7004a1.htm"
   - publisher: "US Food and Drug Administration"
     title: "FDA Grants Marketing Authorization of First Home Test for Chlamydia, Gonorrhea and Trichomoniasis"
     year: 2025

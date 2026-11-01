@@ -1,7 +1,7 @@
 ---
 ref: CHL-001
-title: "Chlamydia: Symptoms, Testing, Treatment and Prevention"
-seoTitle: "Chlamydia: Symptoms, Testing, Treatment and Prevention"
+title: "Chlamydia: Symptoms, Testing and Prevention"
+seoTitle: "Chlamydia: Symptoms, Testing and Prevention"
 description: "Chlamydia is the most commonly reported STD in the US and usually has no symptoms. Learn how it spreads, when to test, how it's cured and how to prevent it."
 cluster: Pillar
 pageType: pillar
@@ -9,12 +9,12 @@ primaryQuery: chlamydia
 riskLevel: medium
 affiliate: light
 offer: k1
-answer: "Chlamydia is a common bacterial STD that <strong>usually causes no symptoms</strong> but can damage fertility if it isn't treated. A simple urine or swab test finds it, and a week of antibiotics cures it."
+answer: "Chlamydia is a common bacterial STD that <strong>usually causes no symptoms</strong> but can damage fertility if it isn't treated. A simple urine or swab test finds it, and it is <strong>curable</strong> with treatment from a clinician."
 takeaways:
   - "About 1.65 million cases were reported in the US in 2023, more than half in people aged 15 to 24."
   - "Most people with chlamydia have no symptoms, so testing is the only way to know."
   - "A NAAT on urine or a swab is the standard test. It's reliable from about 2 weeks after sex."
-  - "First-choice treatment is doxycycline twice a day for 7 days. Partners need treatment too."
+  - "Chlamydia is curable. A clinician prescribes the treatment, and partners need treatment too."
   - "Get retested about 3 months after treatment, because reinfection is common."
 urgent:
   - "Severe pain in the lower belly or pelvis, especially with fever, nausea or vomiting"
@@ -110,26 +110,24 @@ Testing too soon can give a false negative. Most guidance suggests testing about
 
 You can test at a clinic, through a health department, or with a lab-processed home kit.
 
-## Treatment
+## Getting treated
 
-Chlamydia is **curable**. Under the CDC's 2021 guidelines, the first-choice treatment is:
+Chlamydia is **curable**. A clinician, such as your doctor, a sexual health clinic or a telehealth service, prescribes the treatment and explains how to take it.
 
-- **Doxycycline 100 mg by mouth twice a day for 7 days.**
+After a diagnosis:
 
-Alternatives include a single 1 g dose of azithromycin, or levofloxacin once a day for 7 days. During pregnancy, azithromycin is used instead of doxycycline.
+1. **Don't self-treat.** Leftover or online antibiotics can be the wrong medicine, and a failed treatment lets the infection keep spreading.
+2. **Follow your clinician's instructions** and finish everything they prescribe, even if you feel better.
+3. **Avoid sex** until you and your partners have finished treatment and your clinician says it's safe.
+4. **Tell recent partners** so they can be tested and treated. See [how to tell a partner](/guides/telling-a-partner/).
+5. **Get retested about 3 months later.** Reinfection is common, often from a partner who wasn't treated.
 
-After treatment:
-
-1. **Don't have sex for 7 days** after a single dose, or until you finish the 7-day course and any symptoms have gone.
-2. **Tell partners from the last 60 days** so they can be tested and treated. Many states let your clinician give you medicine to pass on to a partner (expedited partner therapy).
-3. **Get retested about 3 months later.** Reinfection is common.
-
-If you're pregnant, you'll also be retested about 4 weeks after treatment.
+Many states let clinicians provide treatment for your partner too, without a separate visit. Ask about it when you're diagnosed.
 
 ## Prevention
 
 - Use condoms or dental dams every time you have sex.
 - Get tested regularly, and ask new partners to test too.
 - Make sure partners are treated before you have sex again.
-- If you're a man who has sex with men or a transgender woman and had a bacterial STD in the last year, ask about **doxy-PEP**: a dose of doxycycline taken within 72 hours after sex.
+- If you're a man who has sex with men or a transgender woman and had a bacterial STD in the last year, ask a clinician whether **doxy-PEP**, an antibiotic taken after sex, is right for you.
 

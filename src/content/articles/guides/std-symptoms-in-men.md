@@ -29,10 +29,6 @@ sources:
     title: "Sexually Transmitted Infections Treatment Guidelines, 2021: Urethritis and Cervicitis"
     year: 2021
     url: "https://www.cdc.gov/std/treatment-guidelines/urethritis-and-cervicitis.htm"
-  - publisher: "Centers for Disease Control and Prevention"
-    title: "Sexually Transmitted Infections Treatment Guidelines, 2021: Epididymitis"
-    year: 2021
-    url: "https://www.cdc.gov/std/treatment-guidelines/epididymitis.htm"
   - publisher: "NIH MedlinePlus"
     title: "Sexually Transmitted Infections"
     year: 2024
@@ -70,7 +66,7 @@ updated: 2026-10-31
 
 ## What to do
 
-1. **Don't self-treat** with leftover antibiotics. The wrong drug or dose can fail and drive resistance.
+1. **Don't self-treat** with leftover or online medicine. The wrong medicine can fail and drive antibiotic resistance.
 2. **Get tested now if you have symptoms.** You don't need to wait for a window period.
 3. **Get the right swabs.** Tell the clinic about oral and anal sex.
 4. **Avoid sex** until you've been tested and, if needed, treated.

@@ -26,10 +26,6 @@ faq:
     a: "No. Discharge changes through the menstrual cycle, and BV and yeast infections are common non-STD causes. A test can tell the difference."
 sources:
   - publisher: "Centers for Disease Control and Prevention"
-    title: "Sexually Transmitted Infections Treatment Guidelines, 2021: Pelvic Inflammatory Disease"
-    year: 2021
-    url: "https://www.cdc.gov/std/treatment-guidelines/pid.htm"
-  - publisher: "Centers for Disease Control and Prevention"
     title: "Sexually Transmitted Infections Treatment Guidelines, 2021: Urethritis and Cervicitis"
     year: 2021
     url: "https://www.cdc.gov/std/treatment-guidelines/urethritis-and-cervicitis.htm"
@@ -62,7 +58,7 @@ updated: 2026-10-31
 
 When chlamydia or gonorrhea spread to the uterus and fallopian tubes, they cause PID. Signs include lower belly pain, pain during sex, fever and unusual bleeding.
 
-PID needs prompt antibiotic treatment. Repeated or untreated PID raises the risk of infertility, ectopic pregnancy and long-term pelvic pain.
+PID needs prompt treatment from a clinician. Repeated or untreated PID raises the risk of infertility, ectopic pregnancy and long-term pelvic pain.
 
 ## STDs and pregnancy
 

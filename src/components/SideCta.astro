@@ -1,0 +1,15 @@
+---
+import OfferLink from './OfferLink.astro';
+import type { OfferId } from '../config/site';
+interface Props { offer?: OfferId }
+---
+<div class="side-cta">
+  <span class="t">Get tested from home</span>
+  <ul>
+    <li>Order online, no clinic visit</li>
+    <li>Samples tested in a certified lab</li>
+    <li>Private results online</li>
+  </ul>
+  <OfferLink offer={Astro.props.offer} block />
+  <span class="cta-note">Partner link. <a class="free" href="/std-testing/free-testing/">Prefer free testing?</a></span>
+</div>

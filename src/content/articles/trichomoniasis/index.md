@@ -1,20 +1,20 @@
 ---
 ref: TRI-001
-title: "Trichomoniasis: Symptoms, Testing and Treatment"
-seoTitle: "Trichomoniasis (Trich): Symptoms, Testing and Treatment"
-description: "Trichomoniasis is a common, curable STD caused by a parasite and often missed by standard panels. Learn the symptoms, the right test and the treatment for each sex."
+title: "Trichomoniasis: Symptoms, Testing and Prevention"
+seoTitle: "Trichomoniasis (Trich): Symptoms, Testing and Prevention"
+description: "Trichomoniasis is a common, curable STD caused by a parasite and often missed by standard panels. Learn the symptoms, the right test and what to do next."
 cluster: Pillar
 pageType: pillar
 primaryQuery: trichomoniasis
 riskLevel: standard
 affiliate: light
 offer: k1
-answer: "Trichomoniasis (\"trich\") is a common STD caused by a tiny parasite. <strong>Most people have no symptoms.</strong> It's found with a urine or swab test, which isn't always part of a standard panel, and it's <strong>cured with antibiotics</strong>."
+answer: "Trichomoniasis (\"trich\") is a common STD caused by a tiny parasite. <strong>Most people have no symptoms.</strong> It's found with a urine or swab test, which isn't always part of a standard panel, and it is <strong>curable</strong> with treatment from a clinician."
 takeaways:
   - "The CDC estimates more than 2 million trich infections in the US, making it one of the most common curable STDs."
   - "About 70% of people with trich have no symptoms."
   - "Many standard STD panels don't include trich, so ask for it."
-  - "Treatment is metronidazole: 7 days for women, a single dose for men."
+  - "Trich is curable with treatment from a clinician. Partners need treatment too."
   - "Women should be retested within 3 months, because reinfection is common."
 urgent:
   - "Severe pelvic or belly pain, or pain with fever"
@@ -78,21 +78,17 @@ The best test is a **NAAT** on a vaginal swab or urine. Older microscope tests m
 
 The CDC recommends yearly testing for women with HIV, and testing for anyone with symptoms or a partner with trich.
 
-## Treatment
+## Getting treated
 
-Under CDC guidelines:
+Trichomoniasis is **curable**. A clinician prescribes the treatment, which can differ for men, women and during pregnancy.
 
-- **Women:** metronidazole 500 mg twice a day for 7 days.
-- **Men:** metronidazole 2 g as a single dose.
-- **Alternative:** tinidazole 2 g as a single dose.
+After a diagnosis:
 
-Metronidazole is safe during pregnancy.
-
-After treatment:
-
-1. **Avoid sex** until you and your partners finish treatment and symptoms are gone.
-2. **Partners must be treated**, even without symptoms.
-3. **Women should be retested within 3 months.** About 1 in 5 people get trich again within that time.
+1. **Don't self-treat.** Leftover or online antibiotics can be the wrong medicine, and a failed treatment lets the infection keep spreading.
+2. **Follow your clinician's instructions** and finish everything they prescribe, even if you feel better.
+3. **Avoid sex** until you and your partners have finished treatment and your clinician says it's safe.
+4. **Tell recent partners** so they can be tested and treated. See [how to tell a partner](/guides/telling-a-partner/).
+5. **Women should be retested within 3 months.** About 1 in 5 people get trich again within that time.
 
 ## Prevention
 

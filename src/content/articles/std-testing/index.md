@@ -22,9 +22,9 @@ faq:
     a: "Kits that send your sample to a certified lab use the same kind of tests as clinics. Accuracy depends most on collecting the sample correctly and testing after the window period."
 sources:
   - publisher: "Centers for Disease Control and Prevention"
-    title: "Sexually Transmitted Infections Treatment Guidelines, 2021: Screening Recommendations"
+    title: "Sexually Transmitted Infections Treatment Guidelines, 2021 (MMWR Recommendations and Reports)"
     year: 2021
-    url: "https://www.cdc.gov/std/treatment-guidelines/screening-recommendations.htm"
+    url: "https://www.cdc.gov/mmwr/volumes/70/rr/rr7004a1.htm"
   - publisher: "US Preventive Services Task Force"
     title: "Chlamydia and Gonorrhea: Screening"
     year: 2021

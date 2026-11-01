@@ -8,11 +8,14 @@
     "build": "astro build && node scripts/check-site.mjs",
     "preview": "astro preview",
     "check:content": "node scripts/check-site.mjs",
-    "check:launch": "SITE_ENV=production astro build && node scripts/check-site.mjs --strict"
+    "check:launch": "SITE_ENV=production astro build && node scripts/check-site.mjs --strict",
+    "check:links": "node scripts/check-external-links.mjs"
   },
   "dependencies": {
-    "astro": "6.4.8",
-    "@astrojs/sitemap": "3.7.4"
+    "@astrojs/sitemap": "3.7.4",
+    "@fontsource-variable/literata": "5.2.8",
+    "@fontsource-variable/public-sans": "5.2.7",
+    "astro": "6.4.8"
   },
   "engines": {
     "node": "22.x"

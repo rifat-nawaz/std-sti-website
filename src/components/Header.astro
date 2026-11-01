@@ -6,11 +6,11 @@ const core = CONDITIONS.filter((c) => c.group === 'core');
 const more = CONDITIONS.filter((c) => c.group !== 'core');
 ---
 <a class="skip" href="#main">Skip to content</a>
-<div class="privacy-bar">No ad trackers. Our tools run in your browser and never store your answers.</div>
 <header class="site-header">
   <div class="wrap header-row">
     <Logo />
-    <nav class="nav" aria-label="Main">
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
+    <nav class="nav" id="main-nav" aria-label="Main">
       <details class="dd">
         <summary>Conditions</summary>
         <div class="menu">
@@ -34,15 +34,30 @@ const more = CONDITIONS.filter((c) => c.group !== 'core');
       </details>
       <a href="/about/">About &amp; Editorial</a>
     </nav>
-    <a class="btn" href="/std-testing/best-at-home-std-tests/">Find the right test</a>
+    <a class="btn header-cta" href="/std-testing/best-at-home-std-tests/">Find the right test</a>
   </div>
 </header>
 <script>
+  // Phone: show or hide the whole menu with one button.
+  const header = document.querySelector('.site-header')!;
+  const toggle = header.querySelector<HTMLButtonElement>('.menu-toggle')!;
+  toggle.addEventListener('click', () => {
+    const open = header.classList.toggle('nav-open');
+    toggle.setAttribute('aria-expanded', String(open));
+    toggle.textContent = open ? 'Close' : 'Menu';
+  });
   // Only one menu open at a time; close on outside click or Escape.
   const menus = Array.from(document.querySelectorAll<HTMLDetailsElement>('details.dd'));
   menus.forEach((d) => d.addEventListener('toggle', () => {
     if (d.open) menus.forEach((o) => { if (o !== d) o.open = false; });
   }));
+  // Desktop: open on hover. Touch and keyboard still open on tap or Enter.
+  const canHover = window.matchMedia('(hover: hover) and (min-width: 861px)');
+  menus.forEach((d) => {
+    let timer: number | undefined;
+    d.addEventListener('mouseenter', () => { if (!canHover.matches) return; clearTimeout(timer); d.open = true; });
+    d.addEventListener('mouseleave', () => { if (!canHover.matches) return; timer = window.setTimeout(() => (d.open = false), 160); });
+  });
   document.addEventListener('click', (e) => {
     if (!(e.target as Element).closest('details.dd')) menus.forEach((d) => (d.open = false));
   });

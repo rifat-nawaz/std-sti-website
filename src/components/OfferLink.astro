@@ -1,8 +1,9 @@
 ---
 import { OFFERS, PRIMARY_OFFER, type OfferId } from '../config/site';
-interface Props { offer?: OfferId; label?: string; variant?: 'btn' | 'btn-outline' | 'link' }
-const { offer = PRIMARY_OFFER, label, variant = 'btn' } = Astro.props;
+interface Props { offer?: OfferId; label?: string; variant?: 'btn' | 'btn-cta' | 'btn-outline' | 'btn-light' | 'link'; block?: boolean }
+const { offer = PRIMARY_OFFER, label, variant = 'btn-cta', block = false } = Astro.props;
 const o = OFFERS[offer];
-const text = label ?? (o.brand ? `Check ${o.brand} prices` : 'See at-home test options');
+const text = label ?? (o.brand ? `Order a ${o.brand} test` : 'Order an at-home test');
+const cls = variant === 'link' ? undefined : ['btn', variant === 'btn' ? '' : variant, block ? 'btn-block' : ''].filter(Boolean).join(' ');
 ---
-<a href={`/go/${offer}/`} class={variant === 'link' ? undefined : `btn ${variant === 'btn-outline' ? 'btn-outline' : ''}`.trim()} rel="sponsored nofollow noopener" target="_blank">{text}<span class="sr-only"> (partner link, opens in a new tab)</span></a>
+<a href={`/go/${offer}/`} class={cls} rel="sponsored nofollow noopener" target="_blank" data-offer={offer}>{text}<span class="sr-only"> (partner link, opens in a new tab)</span></a>

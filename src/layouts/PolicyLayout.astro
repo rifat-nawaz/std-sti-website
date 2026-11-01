@@ -27,9 +27,9 @@ const schema = [{ '@type': 'WebPage', name: title, url: new URL(path, SITE.url).
         <div class="prose" style="margin-top: 28px;"><slot /></div>
       </article>
       <aside class="side">
-        <nav class="panel policy-nav" aria-label="Policies">
+        <nav class="side-block" aria-label="Policies">
           <span class="h">Policies</span>
-          {POLICY_NAV.map((p) => <a href={p.href} aria-current={p.href === path ? 'page' : undefined}>{p.label}</a>)}
+          <div class="toc">{POLICY_NAV.map((p) => <a href={p.href} aria-current={p.href === path ? 'page' : undefined}>{p.label}</a>)}</div>
         </nav>
       </aside>
     </div>

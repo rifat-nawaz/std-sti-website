@@ -17,7 +17,7 @@ sources:
   - publisher: "Centers for Disease Control and Prevention"
     title: "Sexually Transmitted Infections Treatment Guidelines, 2021"
     year: 2021
-    url: "https://www.cdc.gov/std/treatment-guidelines/default.htm"
+    url: "https://www.cdc.gov/mmwr/volumes/70/rr/rr7004a1.htm"
   - publisher: "World Health Organization"
     title: "Sexually transmitted infections (STIs) fact sheet"
     year: 2025

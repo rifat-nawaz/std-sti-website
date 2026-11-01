@@ -2,7 +2,7 @@
 ref: HIV-PEP
 title: "HIV PEP: Emergency Medicine to Prevent HIV Within 72 Hours"
 seoTitle: "HIV PEP: How to Get It Within 72 Hours of Exposure"
-description: "PEP is a 28-day course of HIV medicine that can prevent infection if started within 72 hours of exposure. Where to get it today, what it costs and what to expect."
+description: "PEP is emergency HIV medicine that can prevent infection if started within 72 hours of exposure. Where to get it today, what it costs and what to expect."
 cluster: Prevention
 pageType: article
 primaryQuery: hiv pep
@@ -67,13 +67,13 @@ PEP may not be needed if your partner has HIV and has had an undetectable viral 
 
 1. **Go now.** An emergency room or urgent care center can start PEP day or night. Sexual health clinics and some pharmacies also provide it.
 2. **Ask for it by name.** Say: "I had a possible HIV exposure and I'd like to start PEP."
-3. **Expect a quick HIV test** and some blood tests. You should get the first dose without waiting for most results.
+3. **Expect a quick HIV test** and some blood tests. You should be able to start PEP without waiting for most results.
 4. **Leave with a plan** for the full 28 days of medicine and follow-up visits.
 
 ## What taking PEP involves
 
-- **28 days** of HIV medicine, usually one or two pills a day.
-- **Take every dose.** Set a phone reminder. Missing doses lowers protection.
+- **A 4-week course** of prescription HIV medicine. Your clinician explains how to take it.
+- **Take it exactly as prescribed** and finish the course. Missed medicine lowers protection.
 - **Follow-up HIV tests** in the weeks and months after, as your clinician advises.
 - **Use condoms** until your follow-up tests confirm you're HIV-negative.
 
@@ -83,7 +83,7 @@ Most insurance plans, including Medicaid, cover PEP. If you're uninsured or the 
 
 ## After PEP: think about PrEP
 
-If you might be exposed again, ask about **PrEP**: daily pills or regular injections that prevent HIV before exposure. Many people move straight from PEP to PrEP without a gap.
+If you might be exposed again, ask about **PrEP**: prescription medicine that prevents HIV before exposure. Many people move straight from PEP to PrEP without a gap.
 
 ## How PEP fits with STD testing
 

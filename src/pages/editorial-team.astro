@@ -1,0 +1,66 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { SITE, editorialByline } from '../config/site';
+const schema = [{
+  '@type': 'ProfilePage',
+  name: editorialByline,
+  url: `${SITE.url}/editorial-team/`,
+  mainEntity: {
+    '@type': 'Organization',
+    name: editorialByline,
+    parentOrganization: { '@id': `${SITE.url}/#org` },
+    description: `The team that researches, writes, fact-checks and updates every page on ${SITE.name}.`,
+    knowsAbout: ['Sexually transmitted infections', 'STD testing', 'HIV prevention', 'Sexual health'],
+  },
+}];
+---
+<Base title={`${editorialByline}: Who Writes Our Pages | ${SITE.name}`} description={`Meet the ${editorialByline}: who writes and fact-checks every page, the sources we use, what we will and won't do, and how to reach us.`} schema={schema}>
+  <div class="wrap">
+    <Breadcrumbs items={[{ name: 'Home', href: '/' }, { name: 'About', href: '/about/' }, { name: 'Editorial Team' }]} />
+    <div class="layout-2" style="margin-top: 8px;">
+      <article class="main">
+        <header class="page-head">
+          <p class="eyebrow">Author</p>
+          <h1>The {editorialByline}</h1>
+          <p class="lede">We write every page on {SITE.name}: plain-language guides that help people in the US understand STDs, choose the right test and know when to see a clinician.</p>
+        </header>
+        <div class="prose" style="margin-top: 32px;">
+          <h2 id="what-we-do">What we do</h2>
+          <ul>
+            <li><strong>Research:</strong> we start every page from primary sources: CDC guidance, USPSTF recommendations, WHO guidance, FDA records and peer-reviewed studies.</li>
+            <li><strong>Write:</strong> one question per page, with the answer first, in short, clear sentences.</li>
+            <li><strong>Fact-check:</strong> a separate pass checks every number and time window against the cited source.</li>
+            <li><strong>Review for safety:</strong> pages about symptoms or exposure tell you when to call 911 or get care the same day.</li>
+            <li><strong>Publish and update:</strong> we re-check each page at least once a year and whenever guidance changes.</li>
+          </ul>
+
+          <h2 id="what-we-dont-do">What we don't do</h2>
+          <ul>
+            <li>We don't diagnose, prescribe or give treatment instructions. Treatment decisions belong with a licensed clinician who knows your situation.</li>
+            <li>We don't describe a page as doctor-checked unless a named, licensed clinician has checked that specific page.</li>
+            <li>We don't claim to have tested products we haven't tested.</li>
+            <li>We don't let partners see or change our pages before publishing.</li>
+          </ul>
+
+          <h2 id="sources">Sources we trust</h2>
+          <p>Centers for Disease Control and Prevention (CDC), US Preventive Services Task Force (USPSTF), World Health Organization (WHO), US Food and Drug Administration (FDA), National Institutes of Health (NIH) and peer-reviewed medical journals. Every page lists its sources at the end.</p>
+
+          <h2 id="contact">Contact the team</h2>
+          <p>Found an error or have a question about a page? <a href="/contact/">Contact us</a>. Read how we work in our <a href="/editorial-policy/">editorial policy</a>.</p>
+        </div>
+      </article>
+      <aside class="side">
+        <div class="side-block">
+          <span class="h">Our standards</span>
+          <div class="toc">
+            <a href="/editorial-policy/">Editorial policy</a>
+            <a href="/editorial-policy/#corrections">Corrections</a>
+            <a href="/how-we-make-money/">How we make money</a>
+            <a href="/medical-disclaimer/">Medical disclaimer</a>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</Base>

@@ -17,6 +17,7 @@ export const GUIDES_MENU = [
 
 export const FOOTER_POLICIES = [
   { href: '/about/', label: 'About us' },
+  { href: '/editorial-team/', label: 'Editorial Team' },
   { href: '/editorial-policy/', label: 'Editorial policy' },
   { href: '/how-we-make-money/', label: 'How we make money' },
   { href: '/medical-disclaimer/', label: 'Medical disclaimer' },

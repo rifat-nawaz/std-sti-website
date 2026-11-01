@@ -1,18 +1,18 @@
 ---
 ref: HUB-009
 title: "Mycoplasma Genitalium (Mgen): When Symptoms Persist After Negative Tests"
-seoTitle: "Mycoplasma Genitalium (Mgen): Symptoms, Testing, Treatment"
-description: "Mycoplasma genitalium is a lesser-known STI behind burning and discharge that don't go away. Who should test, why it's hard to treat and the two-step treatment."
+seoTitle: "Mycoplasma Genitalium (Mgen): Symptoms and Testing"
+description: "Mycoplasma genitalium is a lesser-known STI behind burning and discharge that don't go away. Who should test, and why it's hard to treat."
 cluster: Pillar
 pageType: pillar
 primaryQuery: mycoplasma genitalium
 riskLevel: standard
 affiliate: none
-answer: "<em>Mycoplasma genitalium</em> (Mgen) is a sexually transmitted bacterium that can cause burning, discharge and pelvic pain. It's a common reason symptoms continue after <strong>negative chlamydia and gonorrhea tests</strong>, or after treatment. It needs a specific test and a <strong>two-step antibiotic course</strong>."
+answer: "<em>Mycoplasma genitalium</em> (Mgen) is a sexually transmitted bacterium that can cause burning, discharge and pelvic pain. It's a common reason symptoms continue after <strong>negative chlamydia and gonorrhea tests</strong>, or after treatment. It needs a specific test and treatment chosen by a clinician."
 takeaways:
   - "Mgen often causes no symptoms, and testing people without symptoms isn't recommended."
   - "Test for Mgen if urethritis, cervicitis or PID symptoms continue or come back."
-  - "Mgen is often resistant to azithromycin, so treatment usually starts with doxycycline, followed by a second antibiotic."
+  - "Mgen is often resistant to common antibiotics, so treatment must be chosen by a clinician."
   - "Most standard STD panels and home kits don't include Mgen."
 urgent:
   - "Severe pelvic or belly pain, fever, or pain during sex with fever"
@@ -64,13 +64,14 @@ The CDC recommends testing with a NAAT for:
 
 Testing people without symptoms isn't recommended.
 
-## Treatment
+## Getting treated
 
-Mgen is hard to treat because it's often resistant to azithromycin. Where resistance testing isn't available, the CDC recommends:
+Mgen is curable, but it's often resistant to commonly used antibiotics. Some labs can test which medicines will work. A clinician should always choose the treatment.
 
-1. **Doxycycline** 100 mg twice a day for 7 days, then
-2. **Moxifloxacin** 400 mg once a day for 7 days.
+After a diagnosis:
 
-Where testing shows the strain isn't resistant to macrolides, doxycycline is followed by high-dose azithromycin instead.
+1. **Don't self-treat.** Leftover or online antibiotics can be the wrong medicine, and a failed treatment lets the infection keep spreading.
+2. **Follow your clinician's instructions** and finish everything they prescribe, even if you feel better.
+3. **Avoid sex** until you and your partners have finished treatment and your clinician says it's safe.
+4. **Tell recent partners** so they can be tested and treated. See [how to tell a partner](/guides/telling-a-partner/).
 
-Partners should be tested or treated. Avoid sex until you and your partners finish treatment and symptoms have gone.

@@ -65,14 +65,14 @@ updated: 2026-10-31
 
 These use NAATs, which give a simple **detected** or **not detected** result for each sample.
 
-- **Detected:** the infection is there. All three are curable with antibiotics.
+- **Detected:** the infection is there. All three are curable with treatment from a clinician.
 - **Not detected:** no infection in that sample. A urine test doesn't check the throat or rectum.
 
 ## HIV
 
 - **Non-reactive:** negative. If you tested inside the [window period](/std-testing/window-period/), test again once it has passed.
 - **Reactive:** a *preliminary* positive. A lab must confirm it with a different test before it's a diagnosis.
-- **Confirmed positive:** start care quickly. Treatment today lets people with HIV live long, healthy lives and, once the virus is undetectable, not pass it on through sex.
+- **Confirmed positive:** start care with a clinician quickly. Modern HIV care lets people with HIV live long, healthy lives and, once the virus is undetectable, not pass it on through sex.
 
 ## Syphilis
 
@@ -95,7 +95,7 @@ After treatment, the titer should fall at least fourfold (for example, from 1:32
 
 - **Antibody negative:** no infection, unless the exposure was very recent.
 - **Antibody positive:** you've been infected at some point. An **HCV RNA** test shows whether the virus is still there.
-- **RNA detected:** current infection. Pills taken for 8 to 12 weeks cure most people.
+- **RNA detected:** current infection. Hepatitis C is curable; see a clinician about treatment.
 - **RNA not detected:** the infection has cleared or been cured.
 
 ## Hepatitis B
@@ -108,7 +108,7 @@ After treatment, the titer should fall at least fourfold (for example, from 1:32
 
 ## After a positive result
 
-1. **Get treated.** Most bacterial STDs are cured with a short course of antibiotics.
+1. **See a clinician for treatment.** Most bacterial STDs are curable. Don't self-treat.
 2. **Tell partners** so they can test and get treated. Health departments can tell partners for you without using your name.
 3. **Avoid sex** until you and your partners finish treatment.
 4. **Retest** about 3 months after treatment for chlamydia, gonorrhea and trichomoniasis.

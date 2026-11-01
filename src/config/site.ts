@@ -5,7 +5,7 @@ export const SITE = {
   url: 'https://www.example.com',
   tagline: 'Clear, judgment-free answers about STDs',
   description:
-    'Plain-language guides to STD symptoms, testing and treatment for people in the US, fact-checked against CDC, WHO and USPSTF guidance.',
+    'Plain-language guides to STD symptoms, testing and prevention for people in the US, fact-checked against CDC, WHO and USPSTF guidance.',
   editorialTeam: 'Editorial Team',
   language: 'en-US',
   launchDate: '2027-08-09',

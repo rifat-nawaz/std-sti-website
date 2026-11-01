@@ -1,7 +1,7 @@
 ---
 ref: HSV-001
-title: "Genital Herpes (HSV-1 and HSV-2): Symptoms, Testing and Treatment"
-seoTitle: "Genital Herpes (HSV-1, HSV-2): Symptoms, Testing, Treatment"
+title: "Genital Herpes (HSV-1 and HSV-2): Symptoms, Testing and Outlook"
+seoTitle: "Genital Herpes (HSV-1, HSV-2): Symptoms, Testing, Outlook"
 description: "Genital herpes is common, often mild and manageable. How HSV-1 and HSV-2 differ, what outbreaks look like, which test to get and how medicine lowers spread."
 cluster: Pillar
 pageType: pillar
@@ -9,20 +9,20 @@ primaryQuery: genital herpes
 riskLevel: medium
 affiliate: light
 offer: k1
-answer: "Genital herpes is a common viral infection caused by <strong>HSV-1 or HSV-2</strong>. Many people never notice symptoms. There's no cure, but <strong>antiviral medicine</strong> shortens outbreaks, prevents them and lowers the chance of passing it on."
+answer: "Genital herpes is a common viral infection caused by <strong>HSV-1 or HSV-2</strong>. Many people never notice symptoms. There's no cure, but a clinician can prescribe medicine that <strong>shortens and prevents outbreaks</strong> and lowers the chance of passing it on."
 takeaways:
   - "About 1 in 8 people aged 14 to 49 in the US have HSV-2, and most don't know it."
   - "HSV-1, which causes cold sores, now causes many new genital herpes cases through oral sex."
   - "The best test is a swab of a fresh sore, ideally within 48 hours."
   - "Blood tests aren't recommended for people without symptoms, because false positives are common."
-  - "Daily antiviral medicine reduces outbreaks and roughly halves the chance of passing HSV-2 to a partner."
+  - "There is no cure, but prescription medicine can reduce outbreaks and lower the chance of spreading herpes."
 urgent:
   - "A first outbreak with severe headache, stiff neck or confusion"
   - "Unable to pee because of pain or swelling"
   - "Herpes sores during late pregnancy or a first outbreak while pregnant: call your prenatal provider today"
 faq:
   - q: "Can herpes spread when there are no sores?"
-    a: "Yes. The virus can be shed from the skin without any symptoms. Daily antiviral medicine and condoms lower, but don't remove, this risk."
+    a: "Yes. The virus can be shed from the skin without any symptoms. Condoms and prescription medicine from a clinician lower, but don't remove, this risk."
   - q: "Is herpes dangerous?"
     a: "For most adults, herpes is a skin condition that causes occasional outbreaks. The main serious risk is passing it to a newborn, which is why pregnant people should tell their provider."
   - q: "Do outbreaks get better over time?"
@@ -73,22 +73,21 @@ Most people have mild symptoms or none at all. When symptoms happen:
 
 The CDC doesn't recommend herpes blood tests for people without symptoms. For HSV-2 blood tests, low positive index values (1.1 to 3.0) should be confirmed with a second test.
 
-## Treatment
+## Getting treated
 
-Three antiviral medicines treat herpes: **acyclovir, valacyclovir and famciclovir**.
+There's no cure for herpes, but it can be managed. A clinician can prescribe medicine to shorten outbreaks or to prevent them, and will explain which approach fits you.
 
-- **Episodic treatment:** take medicine at the first sign of an outbreak to shorten it.
-- **Suppressive treatment:** take medicine every day to prevent most outbreaks and lower the chance of passing herpes on.
-
-Salt baths, loose clothing and over-the-counter pain relievers can ease discomfort during an outbreak.
+- **Don't use leftover or someone else's medicine.**
+- **See a clinician during a first outbreak,** ideally within 48 hours of sores appearing, so a swab can confirm the diagnosis.
+- **Get care quickly** if sores are severe, you can't pee or you have a headache and stiff neck.
 
 ## Herpes and pregnancy
 
-The biggest risk to a newborn is when the parent **first gets herpes late in pregnancy**. Tell your prenatal provider if you or your partner have herpes. Your provider may recommend medicine from 36 weeks, and a C-section if sores are present at delivery.
+The biggest risk to a newborn is when the parent **first gets herpes late in pregnancy**. Tell your prenatal provider if you or your partner have herpes. They will plan how to lower the risk to your baby around delivery.
 
 ## Lowering the chance of spreading it
 
 - Avoid sex during outbreaks and when you feel early tingling.
-- Take daily suppressive medicine.
+- Ask a clinician whether daily medicine is right for you.
 - Use condoms every time.
 - Avoid oral sex when you have a cold sore.

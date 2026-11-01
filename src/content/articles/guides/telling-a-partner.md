@@ -64,7 +64,7 @@ updated: 2026-10-31
 > "I need to tell you something about my health. I tested positive for chlamydia. It's common and easy to cure, but you should get tested and treated too, even if you feel fine."
 
 **By text:**
-> "Hey, I just found out I have gonorrhea. You might have it too, even without symptoms. It's treated with one shot. A clinic or health department can test you this week."
+> "Hey, I just found out I have gonorrhea. You might have it too, even without symptoms. It's curable. A clinic or health department can test you this week."
 
 **For a past partner:**
 > "We haven't talked in a while, but I tested positive for an STD and wanted you to know so you can get checked. Let me know if you want info on where to test."

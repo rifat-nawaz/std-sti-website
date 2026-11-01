@@ -46,6 +46,9 @@ for (const file of pages) {
     [/\bTODO\b|\bTBD\b|lorem ipsum|\[x\]/i, 'unfinished text'],
     [/medically reviewed|reviewed by (a |our )?(clinician|doctor|physician)/i, 'review claim without a named reviewer'],
     [/we (have )?tested (these|this|the|every|each) (kit|test)/i, 'hands-on testing claim'],
+    // Site rule: no treatment instructions. No drug names, doses or regimens.
+    [/\b\d+(\.\d+)?\s?(mg|mcg|g|ml|units?)\b(?! of)|\b\d+(\.\d+)?\s?million units\b/i, 'medication dose'],
+    [/\b(doxycycline|azithromycin|ceftriaxone|cefixime|penicillin|benzathine|metronidazole|tinidazole|secnidazole|moxifloxacin|levofloxacin|clindamycin|acyclovir|valacyclovir|famciclovir|tenofovir|entecavir|emtricitabine|bictegravir|dolutegravir|cabotegravir|lenacapavir|biktarvy|truvada|descovy|fluconazole|clotrimazole|miconazole|terconazole|imiquimod|podofilox|sinecatechins|sofosbuvir|glecaprevir|levonorgestrel|ulipristal)\b/i, 'drug name (treatment details are not allowed)'],
   ]) {
     if (re.test(visible)) errors.push(`${rel}: ${why}`);
   }
@@ -54,6 +57,10 @@ for (const file of pages) {
     blockers.push(rel);
   }
 
+  // Same-page anchors must point to an element id on the page.
+  for (const m of html.matchAll(/href="#([^"]+)"/g)) {
+    if (!new RegExp(`id="${m[1].replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}"`).test(html)) errors.push(`${rel}: anchor #${m[1]} has no target`);
+  }
   // Internal links must resolve to a built page.
   for (const m of html.matchAll(/href="(\/[^"#?]*)/g)) {
     const href = m[1];
@@ -72,7 +79,7 @@ const linkMsgs = [...missing].map(([href, from]) => `broken link ${href} (from $
 
 console.log(`\nSite check: ${pages.length} HTML files`);
 if (linkMsgs.length) {
-  console.log(`\n${STRICT ? 'ERROR' : 'Not yet written'}: ${linkMsgs.length} linked pages missing`);
+  console.log(`\nERROR: ${linkMsgs.length} broken internal links`);
   linkMsgs.forEach((m) => console.log('  - ' + m));
 }
 if (blockers.length) {
@@ -85,6 +92,6 @@ if (errors.length) {
   console.log(`\nERRORS (${errors.length}):`);
   errors.forEach((e) => console.log('  - ' + e));
 }
-const fail = errors.length > 0 || (STRICT && (linkMsgs.length > 0 || blockers.length > 0 || previewNoindex.length > 0));
+const fail = errors.length > 0 || linkMsgs.length > 0 || (STRICT && ( blockers.length > 0 || previewNoindex.length > 0));
 console.log(fail ? '\nSite check FAILED\n' : '\nSite check passed\n');
 process.exit(fail ? 1 : 0);

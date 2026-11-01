@@ -21,7 +21,7 @@ const schema = [{ '@type': 'AboutPage', name: `About ${SITE.name}`, url: `${SITE
 
           <h2 id="team">The {SITE.editorialTeam}</h2>
           <p>Every article is researched, written, fact-checked and updated by the {team}. We publish as a team rather than under individual bylines, and the team is accountable for every page as a whole.</p>
-          <p>We are health writers and editors, not your doctor. We do not diagnose, prescribe or give personal medical advice. That is why every page links to its sources and explains when to see a licensed clinician.</p>
+          <p>We are health writers and editors, not your doctor. We do not diagnose, prescribe, give treatment instructions or give personal medical advice. That is why every page links to its sources and explains when to see a licensed clinician.</p>
 
           <h2 id="process">How every page is made</h2>
           <ol>
@@ -31,7 +31,7 @@ const schema = [{ '@type': 'AboutPage', name: `About ${SITE.name}`, url: `${SITE
             <li><strong>Safety check.</strong> Pages about symptoms or exposure get a clear "when to get care now" box with 911 and PEP guidance.</li>
             <li><strong>Updates.</strong> We re-check pages when the CDC, USPSTF or FDA updates its guidance, and at least once a year. The date at the top of each page shows the last check.</li>
           </ol>
-          <p>The full rules are in our <a href="/editorial-policy/">editorial policy</a>.</p>
+          <p>The full rules are in our <a href="/editorial-policy/">editorial policy</a>. Read more about <a href="/editorial-team/">the Editorial Team</a>.</p>
 
           {SITE.advisors.length > 0 && (
             <>
@@ -54,12 +54,15 @@ const schema = [{ '@type': 'AboutPage', name: `About ${SITE.name}`, url: `${SITE
         </div>
       </article>
       <aside class="side">
-        <div class="panel">
+        <div class="side-block">
           <span class="h">Our standards</span>
-          <a href="/editorial-policy/">Editorial policy</a>
-          <a href="/editorial-policy/#corrections">Corrections</a>
-          <a href="/how-we-make-money/">How we make money</a>
-          <a href="/medical-disclaimer/">Medical disclaimer</a>
+          <div class="toc">
+            <a href="/editorial-team/">Editorial Team</a>
+            <a href="/editorial-policy/">Editorial policy</a>
+            <a href="/editorial-policy/#corrections">Corrections</a>
+            <a href="/how-we-make-money/">How we make money</a>
+            <a href="/medical-disclaimer/">Medical disclaimer</a>
+          </div>
         </div>
       </aside>
     </div>

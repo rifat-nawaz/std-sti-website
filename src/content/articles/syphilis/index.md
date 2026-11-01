@@ -1,20 +1,20 @@
 ---
 ref: SYP-001
-title: "Syphilis: Stages, Symptoms, Testing and Treatment"
-seoTitle: "Syphilis: Stages, Symptoms, Testing and Treatment"
-description: "Syphilis moves through stages and is easy to miss early. Learn the signs of each stage, how blood tests work, penicillin treatment and why pregnancy testing matters."
+title: "Syphilis: Stages, Symptoms, Testing and Prevention"
+seoTitle: "Syphilis: Stages, Symptoms, Testing and Prevention"
+description: "Syphilis moves through stages and is easy to miss early. Learn the signs of each stage, how blood tests work, getting care and why pregnancy testing matters."
 cluster: Pillar
 pageType: pillar
 primaryQuery: syphilis
 riskLevel: high
 affiliate: light
 offer: k1
-answer: "Syphilis is a bacterial STD that starts with a <strong>painless sore</strong>, then can cause a rash, and can later damage the brain, eyes and heart if untreated. A blood test finds it, and <strong>penicillin cures it</strong>."
+answer: "Syphilis is a bacterial STD that starts with a <strong>painless sore</strong>, then can cause a rash, and can later damage the brain, eyes and heart if untreated. A blood test finds it, and it is <strong>curable</strong> with treatment from a clinician."
 takeaways:
   - "More than 209,000 cases of syphilis were reported in the US in 2023."
   - "The first sign is often a firm, painless sore that heals on its own, so it's easy to miss."
   - "Syphilis can affect the eyes, ears and brain at any stage. Vision or hearing changes need urgent care."
-  - "Penicillin injections cure syphilis. The number of shots depends on the stage."
+  - "Syphilis is curable at every stage. A clinician decides the treatment based on the stage."
   - "Syphilis in pregnancy can cause stillbirth. Everyone who is pregnant should be tested."
 urgent:
   - "Sudden vision changes, eye pain or redness, or hearing loss or ringing in the ears"
@@ -22,7 +22,7 @@ urgent:
   - "Pregnant with a sore, a rash or a positive syphilis test: contact your prenatal provider today"
 faq:
   - q: "Can syphilis be cured?"
-    a: "Yes. Penicillin cures syphilis at every stage. It can't undo damage that has already happened to organs, which is why early testing matters."
+    a: "Yes. Treatment from a clinician cures syphilis at every stage. It can't undo damage that has already happened to organs, which is why early testing matters."
   - q: "Can you get syphilis more than once?"
     a: "Yes. Being treated doesn't make you immune. The treponemal blood test usually stays positive for life, so clinicians use the RPR or VDRL titer to spot a new infection."
   - q: "Is syphilis spread by kissing?"
@@ -39,7 +39,7 @@ sources:
   - publisher: "US Preventive Services Task Force"
     title: "Syphilis Infection in Nonpregnant Adolescents and Adults: Screening"
     year: 2022
-    url: "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/syphilis-infection-in-nonpregnant-adults-and-adolescents"
+    url: "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/syphilis-infection-nonpregnant-adults-adolescents-screening"
   - publisher: "World Health Organization"
     title: "Syphilis fact sheet"
     year: 2025
@@ -79,19 +79,19 @@ Blood tests can take **up to 12 weeks** after exposure to turn positive. If you 
 
 **Who should test:** everyone who is pregnant, gay and bisexual men at least once a year, people with HIV, and anyone with a new sore or rash or a partner with syphilis.
 
-## Treatment
+## Getting treated
 
-Penicillin is the treatment for every stage:
+Syphilis is **curable** at every stage. A clinician chooses the treatment based on the stage and on whether you're pregnant, and checks that it worked.
 
-- **Primary, secondary and early latent (under 1 year):** one injection of benzathine penicillin G, 2.4 million units.
-- **Late latent or unknown duration:** three injections, one a week for three weeks.
-- **Neurosyphilis, ocular or otic syphilis:** IV penicillin for 10 to 14 days.
+After a diagnosis:
 
-People allergic to penicillin may be given doxycycline, except during pregnancy, when penicillin is the only recommended treatment.
+1. **Don't self-treat.** Leftover or online antibiotics can be the wrong medicine, and a failed treatment lets the infection keep spreading.
+2. **Follow your clinician's instructions** and finish everything they prescribe, even if you feel better.
+3. **Avoid sex** until you and your partners have finished treatment and your clinician says it's safe.
+4. **Tell recent partners** so they can be tested and treated. See [how to tell a partner](/guides/telling-a-partner/).
+5. **Go to follow-up blood tests.** Your clinician will repeat the RPR or VDRL test over the following months to make sure the titer falls.
 
-Some people get fever, chills and aches within a day of the first shot. This **Jarisch-Herxheimer reaction** usually passes within 24 hours.
-
-After treatment, repeat blood tests at 6 and 12 months to make sure the titer falls. Avoid sex until sores have healed and partners are treated.
+Some people feel feverish or achy for a day after starting treatment. Tell your clinician if this happens.
 
 ## Syphilis in pregnancy
 
@@ -101,4 +101,4 @@ Syphilis can pass to the baby and cause miscarriage, stillbirth or lifelong heal
 
 - Use condoms, though they only protect the area they cover.
 - Test regularly if you have new or multiple partners.
-- Ask about **doxy-PEP** if you're a gay or bisexual man or a transgender woman who had a bacterial STD in the last year.
+- Ask a clinician about **doxy-PEP** if you're a gay or bisexual man or a transgender woman who had a bacterial STD in the last year.

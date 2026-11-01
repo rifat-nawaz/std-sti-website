@@ -11,9 +11,9 @@ affiliate: light
 offer: k1
 answer: "<strong>Curable:</strong> chlamydia, gonorrhea, syphilis, trichomoniasis, <em>Mycoplasma genitalium</em> and hepatitis C. <strong>Not curable but treatable:</strong> HIV, herpes, HPV and chronic hepatitis B. Treatment for every one of them protects your health and your partners."
 takeaways:
-  - "Bacterial and parasitic STDs are cured with antibiotics or antiparasitic medicine."
-  - "Hepatitis C is a curable virus: 8 to 12 weeks of pills."
-  - "HIV treatment keeps people healthy and stops sexual spread once the virus is undetectable."
+  - "Bacterial and parasitic STDs are curable with treatment from a clinician."
+  - "Hepatitis C is a curable virus."
+  - "HIV care keeps people healthy and stops sexual spread once the virus is undetectable."
   - "You can catch a curable STD again after a cure."
 faq:
   - q: "Do STDs go away on their own?"
@@ -24,7 +24,7 @@ sources:
   - publisher: "Centers for Disease Control and Prevention"
     title: "Sexually Transmitted Infections Treatment Guidelines, 2021"
     year: 2021
-    url: "https://www.cdc.gov/std/treatment-guidelines/default.htm"
+    url: "https://www.cdc.gov/mmwr/volumes/70/rr/rr7004a1.htm"
   - publisher: "World Health Organization"
     title: "Sexually transmitted infections (STIs) fact sheet"
     year: 2025
@@ -38,18 +38,20 @@ updated: 2026-10-31
 
 ## At a glance
 
-| Infection | Curable? | Usual treatment |
-|---|---|---|
-| [Chlamydia](/chlamydia/) | Yes | Doxycycline for 7 days |
-| [Gonorrhea](/gonorrhea/) | Yes | One ceftriaxone injection |
-| [Syphilis](/syphilis/) | Yes | Penicillin injection(s) |
-| [Trichomoniasis](/trichomoniasis/) | Yes | Metronidazole |
-| [Mycoplasma genitalium](/mycoplasma-genitalium/) | Yes, though resistance makes it harder | Two antibiotics in sequence |
-| [Hepatitis C](/hepatitis-c/) | Yes | Antiviral pills for 8 to 12 weeks |
-| [HIV](/hiv/) | No, but treatable | Daily or long-acting antiretroviral therapy |
-| [Herpes](/herpes/) | No, but treatable | Antiviral medicine for outbreaks or daily |
-| [HPV](/hpv/) | Often clears on its own; no cure for the virus | Treatment for warts and abnormal cells |
-| [Hepatitis B](/hepatitis-b/) | Acute often clears; chronic isn't curable yet | Antiviral pills for chronic infection |
+| Infection | Curable? |
+|---|---|
+| [Chlamydia](/chlamydia/) | Yes |
+| [Gonorrhea](/gonorrhea/) | Yes, though antibiotic resistance is growing |
+| [Syphilis](/syphilis/) | Yes |
+| [Trichomoniasis](/trichomoniasis/) | Yes |
+| [Mycoplasma genitalium](/mycoplasma-genitalium/) | Yes, though resistance makes it harder |
+| [Hepatitis C](/hepatitis-c/) | Yes, in more than 95% of people |
+| [HIV](/hiv/) | No, but manageable with lifelong care |
+| [Herpes](/herpes/) | No, but outbreaks can be managed |
+| [HPV](/hpv/) | Most infections clear on their own; what it causes can be treated |
+| [Hepatitis B](/hepatitis-b/) | Acute infection often clears; chronic infection is managed, not cured |
+
+Treatment is always prescribed by a clinician. Don't use leftover or online medicine.
 
 ## What "cured" means
 
@@ -63,7 +65,7 @@ After a cure:
 
 ## Living with a treatable STD
 
-- **HIV:** with treatment, a near-normal lifespan, and no sexual spread once undetectable.
-- **Herpes:** outbreaks usually become milder; daily medicine cuts outbreaks and spread.
+- **HIV:** with ongoing care, a near-normal lifespan, and no sexual spread once undetectable.
+- **Herpes:** outbreaks usually become milder, and prescription medicine can reduce them.
 - **HPV:** most infections clear within 2 years; screening catches cell changes early.
-- **Hepatitis B:** regular liver checks and, for many, daily pills.
+- **Hepatitis B:** regular liver checks and care from a clinician.

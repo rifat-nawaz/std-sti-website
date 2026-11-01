@@ -30,18 +30,14 @@ sources:
     title: "About HPV"
     year: 2024
     url: "https://www.cdc.gov/hpv/about/index.html"
-  - publisher: "Centers for Disease Control and Prevention"
-    title: "Sexually Transmitted Infections Treatment Guidelines, 2021: Anogenital Warts"
-    year: 2021
-    url: "https://www.cdc.gov/std/treatment-guidelines/anogenital-warts.htm"
   - publisher: "US Preventive Services Task Force"
     title: "Cervical Cancer: Screening"
     year: 2018
     url: "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/cervical-cancer-screening"
   - publisher: "World Health Organization"
-    title: "Human papillomavirus and cancer fact sheet"
-    year: 2024
-    url: "https://www.who.int/news-room/fact-sheets/detail/human-papilloma-virus-and-cancer"
+    title: "Cervical cancer fact sheet"
+    year: 2025
+    url: "https://www.who.int/news-room/fact-sheets/detail/cervical-cancer"
 related:
   - guides/symptom-checker
 published: 2026-10-31
@@ -78,12 +74,12 @@ Some HPV tests now let you collect the sample yourself with a swab, with your pr
 
 **People with a penis:** there's no FDA-approved HPV test. Warts are diagnosed by looking at them. Some clinicians offer anal Pap tests for people at higher risk of anal cancer, such as people with HIV.
 
-## Treatment
+## Getting care
 
-There's no treatment for the virus itself. Treatment targets what it causes:
+There's no medicine for the virus itself, and most infections clear on their own. A clinician can deal with what HPV causes:
 
-- **Warts:** prescription creams you apply at home, or freezing, removal or other treatments at a clinic. Warts can also go away without treatment.
-- **Abnormal cervical cells:** monitored or removed, depending on how advanced they are.
+- **Warts:** a clinician can confirm them and discuss removal. Don't use over-the-counter wart removers on the genitals.
+- **Abnormal cervical cells:** your provider will either monitor them or remove them, depending on the result.
 - **Cancers:** treated by specialists.
 
 ## The HPV vaccine

@@ -10,6 +10,9 @@ import NextStep from '../components/NextStep.astro';
 import Faq from '../components/Faq.astro';
 import Sources from '../components/Sources.astro';
 import Toc from '../components/Toc.astro';
+import CtaTop from '../components/CtaTop.astro';
+import SideCta from '../components/SideCta.astro';
+import AuthorBio from '../components/AuthorBio.astro';
 import SectionIndex from '../components/SectionIndex.astro';
 import WindowPeriodTool from '../components/tools/WindowPeriodTool.astro';
 import SymptomChecker from '../components/tools/SymptomChecker.astro';
@@ -53,7 +56,7 @@ const schema: object[] = [
     datePublished: isoDate(d.published),
     dateModified: isoDate(d.updated),
     lastReviewed: isoDate(d.updated),
-    author: { '@type': 'Organization', name: editorialByline, url: absolute('/about/') },
+    author: { '@type': 'Organization', name: editorialByline, url: absolute('/editorial-team/') },
     publisher: { '@id': `${SITE.url}/#org` },
     isPartOf: { '@id': `${SITE.url}/#website` },
     ...(cond ? { about: { '@type': 'MedicalCondition', name: cond.name } } : {}),
@@ -82,24 +85,26 @@ if (d.faq.length) {
         <header class="page-head">
           {cond && <span class={`badge ${cond.statusTone}`}>{cond.name} · {cond.status}</span>}
           <h1>{d.title}</h1>
-          <Byline updated={d.updated} published={d.published} />
+          <Byline updated={d.updated} />
+          {showOffer && <Disclosure />}
         </header>
-        {showOffer && <div style="margin-top:16px"><Disclosure /></div>}
         {d.answer && <AnswerBox text={d.answer} />}
-        <Takeaways items={d.takeaways} />
         {showUrgent && <UrgentBox items={d.urgent} />}
+        <Takeaways items={d.takeaways} />
+        {showOffer && <CtaTop offer={d.offer} />}
         {d.tool === 'window-period' && <WindowPeriodTool />}
         {d.tool === 'symptom-checker' && <SymptomChecker />}
-        <div class="prose" style="margin-top: 32px;">
+        <div class="prose" style="margin-top: 36px;">
           <slot />
         </div>
         <SectionIndex entries={childEntries} heading={cond ? `Every ${cond.name.toLowerCase()} guide` : `All ${sectionName.toLowerCase()} pages`} />
         <NextStep condition={cond?.name} offer={d.offer} showOffer={showOffer} />
         <Faq items={d.faq} />
+        <AuthorBio />
         <Sources items={d.sources} />
         {relatedEntries.length > 0 && (
-          <section style="margin-top: 40px;" aria-labelledby="rel-h">
-            <h2 id="rel-h" style="font-size: 22px; margin: 0 0 14px;">Read next</h2>
+          <section style="margin-top: 44px;" aria-labelledby="rel-h">
+            <h2 id="rel-h" style="font-size: 24px; margin: 0 0 14px;">Read next</h2>
             <div class="cards">
               {relatedEntries.map((r) => (
                 <a class="card" href={urlFor(r.id)}>
@@ -111,18 +116,18 @@ if (d.faq.length) {
           </section>
         )}
       </article>
-      <aside class="side">
+      <aside class="side" aria-label="Sidebar">
         <Toc headings={headings} />
-        {hubEntries.length > 0 && (
-          <nav class="panel" aria-label={`More about ${sectionName}`}>
+        {hubEntries.length > 1 && (
+          <nav class="side-block" aria-label={`More about ${sectionName}`}>
             <span class="h">{cond ? `${cond.name} guides` : sectionName}</span>
-            {hubEntries.map((h) => <a href={urlFor(h.id)} aria-current={h.id === entry.id ? 'page' : undefined}>{h.data.title.split(/[:?]/)[0]}</a>)}
+            <div class="toc">
+              {hubEntries.map((h) => <a href={urlFor(h.id)} aria-current={h.id === entry.id ? 'page' : undefined}>{h.data.title.split(/[:?]/)[0]}</a>)}
+            </div>
           </nav>
         )}
-        <div class="panel" style="background: var(--warn-bg); border-color: var(--warn-line); color: var(--warn-ink);">
-          <span class="h" style="color: var(--warn-ink);">Not medical advice</span>
-          <span>This page is general information. For a diagnosis or treatment, see a licensed clinician. Emergency: call 911.</span>
-        </div>
+        <div class="side-note"><strong>Not medical advice</strong>This page is general information. For diagnosis or treatment, see a licensed clinician. Emergency: call 911.</div>
+        {showOffer && <div class="sticky"><SideCta offer={d.offer} /></div>}
       </aside>
     </div>
   </div>

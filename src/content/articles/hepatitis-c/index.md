@@ -1,20 +1,20 @@
 ---
 ref: HCV-001
-title: "Hepatitis C: How It Spreads, Testing and the 8-to-12-Week Cure"
+title: "Hepatitis C: How It Spreads, Testing and Why It's Curable"
 seoTitle: "Hepatitis C: How It Spreads, Testing and Cure"
-description: "Hepatitis C is a liver infection that pills cure in 8 to 12 weeks. How it spreads, including through sex, why every adult should test once, and what results mean."
+description: "Hepatitis C is a curable liver infection. How it spreads, including through sex, why every adult should test once, and what your results mean."
 cluster: Pillar
 pageType: pillar
 primaryQuery: hepatitis c
 riskLevel: medium
 affiliate: light
 offer: k1
-answer: "Hepatitis C is a virus that infects the liver, spread mainly through <strong>blood</strong>. Sexual spread is uncommon but possible. Most people have no symptoms for years. A blood test finds it, and <strong>pills taken for 8 to 12 weeks cure more than 95% of people</strong>."
+answer: "Hepatitis C is a virus that infects the liver, spread mainly through <strong>blood</strong>. Sexual spread is uncommon but possible. Most people have no symptoms for years. A blood test finds it, and treatment from a clinician <strong>cures more than 95% of people</strong>."
 takeaways:
   - "The CDC recommends hepatitis C testing for every adult at least once, and in every pregnancy."
   - "Most infections come from shared needles. Sex is a less common route, with higher risk during anal sex and for people with HIV."
   - "A positive antibody test needs an RNA test to confirm a current infection."
-  - "Treatment is a short course of pills with few side effects."
+  - "Hepatitis C is curable. A clinician, including many primary care doctors, can treat it."
   - "There's no vaccine, and you can be reinfected after a cure."
 urgent:
   - "Yellow skin or eyes, dark urine, pale stools or severe belly pain"
@@ -80,11 +80,11 @@ Testing happens in two steps:
 - People who inject drugs, regularly
 - People with HIV, and gay and bisexual men with HIV, at least once a year
 
-## Treatment
+## Getting treated
 
-Hepatitis C is **curable**. Direct-acting antiviral pills, taken for **8 to 12 weeks**, cure more than 95% of people. Side effects are usually mild, such as headache or tiredness.
+Hepatitis C is **curable** in more than 95% of people. Treatment is prescribed and monitored by a clinician, and primary care clinicians can now treat it, not only liver specialists. Medicaid and most insurance plans cover it.
 
-Medicaid and most insurance plans cover treatment. Primary care clinicians can now prescribe it, not only liver specialists.
+After treatment, a blood test confirms the cure. You can be infected again, so keep avoiding shared needles and get tested after any new exposure.
 
 ## Prevention
 

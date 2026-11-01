@@ -1,8 +1,8 @@
 ---
 ref: HBV-001
-title: "Hepatitis B: How It Spreads Through Sex, Testing, Vaccine and Treatment"
-seoTitle: "Hepatitis B: Sexual Spread, Testing, Vaccine and Treatment"
-description: "Hepatitis B is a liver infection that spreads through sex and blood, and a vaccine prevents it. How it spreads, the three-part blood test and chronic treatment."
+title: "Hepatitis B: How It Spreads Through Sex, Testing and the Vaccine"
+seoTitle: "Hepatitis B: Sexual Spread, Testing and the Vaccine"
+description: "Hepatitis B is a liver infection that spreads through sex and blood, and a vaccine prevents it. How it spreads, the three-part blood test and long-term care."
 cluster: Pillar
 pageType: pillar
 primaryQuery: hepatitis b
@@ -14,13 +14,13 @@ takeaways:
   - "Hepatitis B spreads through blood, semen and vaginal fluids, not through kissing or sharing food."
   - "The CDC recommends a one-time hepatitis B blood test for all adults."
   - "The vaccine is recommended for all adults through age 59, and for older adults at risk."
-  - "Chronic hepatitis B can't be cured yet, but daily pills control it and protect the liver."
+  - "Chronic hepatitis B can't be cured yet, but care from a clinician controls it and protects the liver."
 urgent:
   - "Yellow skin or eyes, dark urine or pale stools"
   - "Confusion, extreme sleepiness, vomiting blood or a swollen belly in someone with hepatitis"
 faq:
   - q: "Can hepatitis B be cured?"
-    a: "Most adults who get hepatitis B clear it within 6 months. Chronic infection can't be cured yet, but medicine keeps the virus in check and lowers the risk of liver damage and cancer."
+    a: "Most adults who get hepatitis B clear it within 6 months. Chronic infection can't be cured yet, but medical care keeps the virus in check and lowers the risk of liver damage and cancer."
   - q: "I was vaccinated as a child. Am I protected?"
     a: "Usually yes. Protection from a completed series lasts for decades. A blood test (anti-HBs) can confirm it."
   - q: "Is hepatitis B an STD?"
@@ -31,9 +31,9 @@ sources:
     year: 2023
     url: "https://www.cdc.gov/mmwr/volumes/72/rr/rr7201a1.htm"
   - publisher: "Centers for Disease Control and Prevention"
-    title: "Sexually Transmitted Infections Treatment Guidelines, 2021: Hepatitis B Virus Infection"
-    year: 2021
-    url: "https://www.cdc.gov/std/treatment-guidelines/hbv.htm"
+    title: "Clinical Testing and Diagnosis for Hepatitis B"
+    year: 2024
+    url: "https://www.cdc.gov/hepatitis-b/hcp/diagnosis-testing/index.html"
   - publisher: "World Health Organization"
     title: "Hepatitis B fact sheet"
     year: 2025
@@ -83,12 +83,12 @@ The CDC recommends this test **at least once for every adult**, and in every pre
 
 If you haven't been vaccinated, ask for it at your next STD test.
 
-## Treatment
+## Getting care
 
-- **Acute hepatitis B:** usually rest, fluids and monitoring.
-- **Chronic hepatitis B:** regular liver checks, and for many people, daily antiviral pills such as tenofovir or entecavir.
+- **Acute hepatitis B:** a clinician monitors your liver while your body clears the virus.
+- **Chronic hepatitis B:** regular liver checks, and for many people, prescription medicine. A clinician or liver specialist decides if and when you need it.
 
-People with chronic hepatitis B should avoid alcohol, check with a clinician before taking new medicines or supplements, and get vaccinated against hepatitis A.
+People with chronic hepatitis B should avoid alcohol, check with a clinician before taking any new medicine or supplement, and ask about the hepatitis A vaccine.
 
 ## Protecting partners
 

@@ -1,19 +1,19 @@
 ---
 ref: GON-001
-title: "Gonorrhea: Symptoms, Testing, Treatment and Prevention"
-seoTitle: "Gonorrhea: Symptoms, Testing, Treatment and Prevention"
-description: "Gonorrhea can infect the genitals, throat and rectum, often without symptoms. How it spreads, when to test, the one-shot treatment and why resistance matters."
+title: "Gonorrhea: Symptoms, Testing and Prevention"
+seoTitle: "Gonorrhea: Symptoms, Testing and Prevention"
+description: "Gonorrhea can infect the genitals, throat and rectum, often without symptoms. How it spreads, when to test, getting treated and why resistance matters."
 cluster: Pillar
 pageType: pillar
 primaryQuery: gonorrhea
 riskLevel: medium
 affiliate: light
 offer: k1
-answer: "Gonorrhea is a bacterial STD that can infect the genitals, throat and rectum. It often causes <strong>no symptoms</strong>, especially in women and in the throat. It's found with a urine or swab test and cured with <strong>one antibiotic injection</strong>."
+answer: "Gonorrhea is a bacterial STD that can infect the genitals, throat and rectum. It often causes <strong>no symptoms</strong>, especially in women and in the throat. It's found with a urine or swab test and is <strong>curable</strong> with treatment from a clinician."
 takeaways:
   - "About 600,000 cases were reported in the US in 2023, the second most common reportable STD."
   - "Throat and rectal infections rarely cause symptoms and need their own swabs."
-  - "Standard treatment is a single 500 mg shot of ceftriaxone."
+  - "Gonorrhea is curable, but only a clinician can choose a treatment that still works."
   - "The bacteria are becoming resistant to antibiotics, so follow-up testing matters."
   - "Retest about 3 months after treatment, since reinfection is common."
 urgent:
@@ -22,11 +22,9 @@ urgent:
   - "Fever with painful, swollen joints or a skin rash of small bumps or blisters (a sign the infection has spread)"
 faq:
   - q: "Can gonorrhea go away without treatment?"
-    a: "Don't count on it. Untreated gonorrhea can spread to the uterus, tubes, testicles, joints and blood. Treatment is a single shot."
+    a: "Don't count on it. Untreated gonorrhea can spread to the uterus, tubes, testicles, joints and blood. A clinician can treat it quickly."
   - q: "Can you get gonorrhea from kissing?"
     a: "Gonorrhea spreads mainly through oral, vaginal and anal sex. Research suggests deep kissing might pass throat gonorrhea in some cases, but this isn't fully proven."
-  - q: "Why do I need a shot instead of pills?"
-    a: "Gonorrhea has developed resistance to many antibiotics that come as pills. An injection of ceftriaxone is the treatment that still works reliably."
 sources:
   - publisher: "Centers for Disease Control and Prevention"
     title: "Sexually Transmitted Infections Treatment Guidelines, 2021: Gonococcal Infections Among Adolescents and Adults"
@@ -89,28 +87,27 @@ Test about **2 weeks after a possible exposure**. See the [window period calcula
 
 **Who should test:** sexually active women 24 and under every year, older women at higher risk, and gay and bisexual men at least once a year at every site used for sex (every 3 to 6 months if at higher risk).
 
-## Treatment
+## Getting treated
 
-Under current CDC guidelines, gonorrhea is treated with:
+Gonorrhea is **curable**, but it has become resistant to many antibiotics, so the choice of medicine matters. Only a clinician should decide your treatment.
 
-- **Ceftriaxone 500 mg as a single injection** (1 g for people weighing 150 kg or more)
-- Plus **doxycycline for 7 days** if chlamydia hasn't been ruled out
+After a diagnosis:
 
-After treatment:
+1. **Don't self-treat.** Leftover or online antibiotics can be the wrong medicine, and a failed treatment lets the infection keep spreading.
+2. **Follow your clinician's instructions** and finish everything they prescribe, even if you feel better.
+3. **Avoid sex** until you and your partners have finished treatment and your clinician says it's safe.
+4. **Tell recent partners** so they can be tested and treated. See [how to tell a partner](/guides/telling-a-partner/).
+5. **Throat infection?** Your clinician may ask you to come back for a test to confirm it's gone.
+6. **Get retested about 3 months later**, even if partners were treated.
 
-1. **Avoid sex for 7 days** after treatment, and until partners are treated.
-2. **Tell partners from the last 60 days** so they can be tested and treated.
-3. **Throat infection?** Get a test of cure 7 to 14 days after treatment.
-4. **Retest about 3 months later**, even if partners were treated.
-
-If symptoms continue after treatment, go back to your clinician. They may test for antibiotic resistance.
+If symptoms continue after treatment, go back to your clinician.
 
 ## Antibiotic resistance
 
-Gonorrhea has become resistant to almost every antibiotic used against it. Ceftriaxone is the last reliable option recommended in the US. Health agencies track resistance closely, and completing follow-up testing helps catch treatment failures early.
+Gonorrhea has become resistant to almost every type of antibiotic used against it, and very few reliable options remain. That's why self-treating is risky, and why follow-up testing matters: it catches treatment failures early.
 
 ## Prevention
 
 - Use condoms for vaginal and anal sex, and condoms or dental dams for oral sex.
 - Test regularly and before new relationships.
-- If you're a gay or bisexual man or a transgender woman who had a bacterial STD in the past year, ask about **doxy-PEP**. It works less well for gonorrhea than for chlamydia and syphilis, but still lowers risk.
+- If you're a gay or bisexual man or a transgender woman who had a bacterial STD in the past year, ask a clinician about **doxy-PEP**, an antibiotic taken after sex. It works less well against gonorrhea than against chlamydia and syphilis.

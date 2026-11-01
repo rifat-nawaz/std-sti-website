@@ -1,15 +1,15 @@
 ---
 ref: HIV-001
-title: "HIV and AIDS: Symptoms, Testing, Treatment and Prevention"
-seoTitle: "HIV and AIDS: Symptoms, Testing, Treatment and Prevention"
-description: "HIV is a manageable condition with daily treatment, and PrEP and PEP prevent it. Early symptoms, test types and window periods, treatment, and what U=U means."
+title: "HIV and AIDS: Symptoms, Testing and Prevention"
+seoTitle: "HIV and AIDS: Symptoms, Testing and Prevention"
+description: "HIV is a manageable condition with ongoing care, and PrEP and PEP prevent it. Early symptoms, test types, window periods, and what U=U means."
 cluster: Pillar
 pageType: pillar
 primaryQuery: hiv
 riskLevel: high
 affiliate: light
 offer: k1
-answer: "HIV is a virus that weakens the immune system. There's no cure, but <strong>daily treatment keeps people healthy</strong> and, once the virus is undetectable, stops it spreading through sex. <strong>PrEP</strong> prevents HIV before exposure, and <strong>PEP</strong> within 72 hours after."
+answer: "HIV is a virus that weakens the immune system. There's no cure, but <strong>ongoing care keeps people healthy</strong> and, once the virus is undetectable, stops it spreading through sex. <strong>PrEP</strong> prevents HIV before exposure, and <strong>PEP</strong> within 72 hours after."
 takeaways:
   - "About 1.2 million people in the US have HIV, and about 1 in 8 don't know it."
   - "Early HIV can feel like the flu 2 to 4 weeks after infection, or cause no symptoms."
@@ -81,22 +81,22 @@ Source: CDC. A **reactive** result on any screening test needs a confirmatory la
 
 **Who should test:** everyone aged 15 to 65 at least once, everyone who is pregnant, and anyone at higher risk at least once a year. Gay and bisexual men may benefit from testing every 3 to 6 months.
 
-## Treatment
+## Living with HIV
 
-HIV is treated with **antiretroviral therapy (ART)**: daily pills or, for some people, injections every one or two months.
+HIV can't be cured, but it can be controlled. A clinician prescribes and monitors HIV care.
 
-- Treatment should start as soon as possible after diagnosis, often the same day.
-- Most people reach an **undetectable viral load** within 6 months.
-- With treatment, people with HIV can expect a near-normal lifespan.
+- Care should start as soon as possible after diagnosis, often the same day.
+- Most people in care reach an **undetectable viral load** within about 6 months.
+- With ongoing care, people with HIV can expect a near-normal lifespan.
 
 ## Undetectable = Untransmittable (U=U)
 
-People with HIV who take treatment and keep an undetectable viral load **do not pass HIV to partners through sex**. This is backed by large studies and endorsed by the CDC.
+People with HIV who stay in care and keep an undetectable viral load **do not pass HIV to partners through sex**. This is backed by large studies and endorsed by the CDC.
 
 ## Prevention
 
-- **PrEP:** daily pills or long-acting injections that prevent HIV before exposure. Reduces the risk from sex by about 99% when taken as prescribed.
-- **PEP:** a 28-day course started within 72 hours after a possible exposure. [How to get PEP](/hiv/pep/).
+- **PrEP:** prescription medicine that prevents HIV before exposure. It reduces the risk from sex by about 99% when used as prescribed. Ask a clinician if it fits you.
+- **PEP:** emergency medicine started within 72 hours after a possible exposure. [How to get PEP](/hiv/pep/).
 - **Condoms** every time.
-- **Testing and treatment** for partners: U=U means treatment is prevention.
+- **Testing and care** for partners: U=U means staying in care is prevention.
 - **Never share** needles, syringes or other drug equipment.

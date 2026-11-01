@@ -23,7 +23,7 @@ faq:
   - q: "Can I test the next day?"
     a: "A test the next day can't detect an infection from that encounter. It can only show infections you already had. Test at 2 weeks instead, or right away if you have symptoms."
   - q: "Should I take emergency contraception too?"
-    a: "If pregnancy is possible, yes. Levonorgestrel pills work best within 72 hours and are sold over the counter. An IUD or ulipristal can be used up to 5 days after sex."
+    a: "If pregnancy is possible, ask a pharmacist or clinician about emergency contraception as soon as possible. It works best the sooner it's used."
 sources:
   - publisher: "Centers for Disease Control and Prevention"
     title: "Getting Tested for HIV"
@@ -36,7 +36,7 @@ sources:
   - publisher: "Centers for Disease Control and Prevention"
     title: "Sexually Transmitted Infections Treatment Guidelines, 2021"
     year: 2021
-    url: "https://www.cdc.gov/std/treatment-guidelines/default.htm"
+    url: "https://www.cdc.gov/mmwr/volumes/70/rr/rr7004a1.htm"
 related:
   - std-testing/window-period
   - hiv/pep
