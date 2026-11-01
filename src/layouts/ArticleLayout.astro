@@ -2,8 +2,7 @@
 import Base from './Base.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import Byline from '../components/Byline.astro';
-import AnswerBox from '../components/AnswerBox.astro';
-import Takeaways from '../components/Takeaways.astro';
+import Summary from '../components/Summary.astro';
 import Disclosure from '../components/Disclosure.astro';
 import NextStep from '../components/NextStep.astro';
 import Faq from '../components/Faq.astro';
@@ -95,8 +94,7 @@ if (d.faq.length) {
           <Byline updated={d.updated} />
           {showDisclosure && <Disclosure />}
         </header>
-        {d.answer && <AnswerBox text={d.answer} />}
-        <Takeaways items={d.takeaways} />
+        <Summary answer={d.answer} items={d.takeaways} />
         {showOffer && !careFirst && <CtaTop offer={d.offer} />}
         {d.tool === 'window-period' && <WindowPeriodTool />}
         {d.tool === 'symptom-checker' && <SymptomChecker />}

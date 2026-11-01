@@ -1,4 +1,5 @@
 ---
+// Compact guide directory on hub pages: one tile per topic; a tile opens to show its guides.
 import { urlFor, type Article } from '../lib/paths';
 interface Props { entries: Article[]; heading: string }
 const { entries, heading } = Astro.props;
@@ -10,15 +11,25 @@ for (const e of entries) {
 }
 ---
 {entries.length > 0 && (
-  <section style="margin-top: 48px;" aria-labelledby="all-h">
-    <h2 id="all-h" style="font-size: 28px; margin: 0 0 8px;">{heading}</h2>
-    {[...groups].map(([cluster, list]) => (
-      <div style="margin-top: 24px;">
-        <h3 style="font-size: 18px; margin: 0 0 10px;">{cluster}</h3>
-        <ul style="margin: 0; padding-left: 20px; line-height: 1.7; font-size: 17px;">
-          {list.map((e) => <li><a href={urlFor(e.id)}>{e.data.title}</a></li>)}
-        </ul>
-      </div>
-    ))}
+  <section class="guides" aria-labelledby="all-h">
+    <div class="guides-head">
+      <h2 id="all-h">{heading}</h2>
+      <span class="guides-count">{`${entries.length} guides · ${groups.size} topics`}</span>
+    </div>
+    <p class="guides-hint">Pick a topic to see its guides.</p>
+    <div class="guides-grid">
+      {[...groups].map(([cluster, list]) => (
+        <details class="gtile">
+          <summary>
+            <span class="gname">{cluster}</span>
+            <span class="gnum">{`${list.length} ${list.length === 1 ? 'guide' : 'guides'}`}</span>
+            <span class="gchev" aria-hidden="true"></span>
+          </summary>
+          <ul>
+            {list.map((e) => <li><a href={urlFor(e.id)}>{e.data.title}</a></li>)}
+          </ul>
+        </details>
+      ))}
+    </div>
   </section>
 )}

@@ -100,13 +100,43 @@ h1, h2, h3, .serif { font-family: var(--serif); font-weight: 600; letter-spacing
 .byline a:hover { color: var(--brand); text-decoration: underline; }
 .byline a.plain { font-weight: 400; color: var(--muted); text-decoration: underline; }
 .disclosure { font-size: 13.5px; color: var(--muted); margin: 14px 0 0; line-height: 1.5; }
-.answer { background: var(--brand-tint); border-radius: 14px; padding: 20px 24px; margin-top: 24px; }
-.answer .label { font-size: 12.5px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--brand); }
-.answer p { font-size: 18.5px; line-height: 1.65; margin: 6px 0 0; }
-.takeaways { margin-top: 26px; padding-left: 20px; border-left: 3px solid var(--brand); }
-.takeaways h2 { font-size: 20px; margin: 0 0 8px; }
-.takeaways ul { margin: 0; padding-left: 18px; line-height: 1.6; font-size: 17px; }
-.takeaways li + li { margin-top: 6px; }
+/* Summary box: quick answer + key takeaways */
+.summary { background: var(--brand-tint); border-radius: 14px; padding: 22px 24px; margin-top: 24px; }
+.summary .label { display: block; font-family: inherit; font-size: 12.5px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--brand); margin: 0; }
+.sum-answer p { font-size: 18.5px; line-height: 1.65; margin: 6px 0 0; }
+.sum-answer + .sum-points { margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--line-2); }
+.sum-points ul { margin: 8px 0 0; padding-left: 20px; line-height: 1.6; font-size: 17px; }
+.sum-points li + li { margin-top: 6px; }
+.sum-points li::marker { color: var(--brand); }
+
+/* Guide directory on hub pages */
+.guides { margin-top: 48px; padding: 24px; border: 1px solid var(--line); border-radius: 16px; background: var(--tint-2); }
+.guides-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 16px; }
+.guides-head h2 { font-size: 26px; margin: 0; }
+.guides-count { font-size: 14.5px; color: var(--muted); font-weight: 600; }
+.guides-hint { margin: 6px 0 16px; font-size: 15.5px; color: var(--muted); }
+.guides-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 10px; }
+.gtile { background: #fff; border: 1px solid var(--line); border-radius: 12px; transition: border-color .15s, box-shadow .15s; }
+.gtile:hover { border-color: var(--line-2); box-shadow: 0 2px 10px rgba(10,63,67,.06); }
+.gtile[open] { grid-column: 1 / -1; border-color: var(--brand); }
+.gtile summary { list-style: none; cursor: pointer; display: grid; grid-template-columns: 1fr auto; grid-template-rows: auto auto; column-gap: 10px; padding: 14px 16px; border-radius: 12px; }
+.gtile summary::-webkit-details-marker { display: none; }
+.gtile summary:focus-visible { outline: 3px solid var(--brand); outline-offset: 2px; }
+.gname { font-weight: 700; font-size: 16.5px; color: var(--brand-dark); }
+.gnum { grid-row: 2; font-size: 14px; color: var(--muted); }
+.gchev { grid-row: 1 / span 2; grid-column: 2; align-self: center; width: 10px; height: 10px; border-right: 2px solid var(--brand); border-bottom: 2px solid var(--brand); transform: rotate(45deg); margin-top: -4px; transition: transform .15s; }
+.gtile[open] .gchev { transform: rotate(-135deg); margin-top: 4px; }
+.gtile ul { list-style: none; margin: 0; padding: 4px 16px 16px; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 2px 20px; }
+.gtile li a { display: block; padding: 7px 0; font-size: 16px; line-height: 1.4; border-bottom: 1px solid var(--line); text-decoration: none; }
+.gtile li a:hover { text-decoration: underline; }
+@media (max-width: 600px) {
+  .guides { padding: 18px 14px; }
+  .guides-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .gtile summary { padding: 12px; column-gap: 6px; }
+  .gname { font-size: 15px; }
+  .gnum { font-size: 13px; }
+  .gtile ul { grid-template-columns: 1fr; padding: 0 12px 12px; }
+}
 .urgent { background: var(--warn-bg); border: 1px solid var(--warn-line); border-radius: 14px; padding: 18px 22px; color: var(--warn-ink); margin-top: 28px; font-size: 16.5px; }
 .urgent strong { display: block; font-size: 17px; margin-bottom: 6px; }
 .urgent ul { margin: 0; padding-left: 20px; line-height: 1.6; }

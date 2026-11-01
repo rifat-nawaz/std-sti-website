@@ -1,0 +1,21 @@
+---
+// One box at the top of every article: the quick answer, then the key takeaways.
+interface Props { answer?: string; items?: string[] }
+const { answer, items = [] } = Astro.props;
+---
+{(answer || items.length > 0) && (
+  <section class="summary" aria-label="Summary">
+    {answer && (
+      <div class="sum-answer">
+        <span class="label">Quick answer</span>
+        <p set:html={answer} />
+      </div>
+    )}
+    {items.length > 0 && (
+      <div class="sum-points">
+        <h2 class="label" id="kt">Key takeaways</h2>
+        <ul>{items.map((t) => <li set:html={t} />)}</ul>
+      </div>
+    )}
+  </section>
+)}
