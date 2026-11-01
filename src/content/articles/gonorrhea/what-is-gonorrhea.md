@@ -42,6 +42,8 @@ updated: 2026-11-01
 
 Gonorrhea bacteria attach to the moist lining of the urethra, cervix, rectum, throat or eyes, multiply and cause inflammation. In men this often causes noticeable discharge; in women and at other sites it's often silent.
 
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+
 ## Body sites
 
 | Site | Common symptoms |

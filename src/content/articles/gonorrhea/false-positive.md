@@ -44,6 +44,8 @@ updated: 2026-11-01
 | Recent antibiotics | Possible false negative |
 | Test soon after treatment | Positive from dead bacteria |
 
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+
 ## Home positive, clinic negative
 
 Ask when and where each sample was taken. A clinician may retest or treat if there's a known exposure.

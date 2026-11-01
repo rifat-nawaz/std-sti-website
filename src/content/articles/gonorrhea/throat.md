@@ -51,6 +51,8 @@ Usually none. Sometimes a sore throat, redness or swollen glands, which look lik
 | Rapid strep test | No |
 | Throat swab NAAT | Yes |
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## After treatment
 
 Return for a test of cure 7 to 14 days later. See [retesting after gonorrhea](/gonorrhea/test-of-cure/).

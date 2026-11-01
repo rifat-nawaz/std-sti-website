@@ -58,6 +58,8 @@ updated: 2026-11-01
 | A positive test proves cheating | Chlamydia can go unnoticed for months or years |
 | You only need to test if you have symptoms | Screening is recommended without symptoms for many people |
 
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+
 ## The bottom line
 
 If you're sexually active, especially under 25 or with a new partner, regular testing is the only reliable way to know. See [how to test for chlamydia](/chlamydia/testing/).

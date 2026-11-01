@@ -44,6 +44,8 @@ updated: 2026-11-01
 | Rapid antigen strip test sold online | Lower | Can miss infections; faint lines are confusing |
 | Lab NAAT (home kit or clinic) | High | Results in a few days |
 
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+
 ## If you use a strip test
 
 A negative result doesn't rule out chlamydia. Confirm any result with a lab NAAT, especially if you have symptoms or a partner tested positive.

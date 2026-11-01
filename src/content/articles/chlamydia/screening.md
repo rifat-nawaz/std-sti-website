@@ -46,6 +46,8 @@ updated: 2026-11-01
 | People with HIV | At least yearly |
 | Anyone treated for chlamydia | Retest about 3 months later |
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## What about men?
 
 The USPSTF found too little evidence to recommend routine screening of all men. Men with symptoms, a partner with chlamydia, or new partners should still test.

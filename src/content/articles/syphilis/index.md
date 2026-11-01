@@ -79,6 +79,8 @@ Blood tests can take **up to 12 weeks** after exposure to turn positive. If you 
 
 **Who should test:** everyone who is pregnant, gay and bisexual men at least once a year, people with HIV, and anyone with a new sore or rash or a partner with syphilis.
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## Getting treated
 
 Syphilis is **curable** at every stage. A clinician chooses the treatment based on the stage and on whether you're pregnant, and checks that it worked.

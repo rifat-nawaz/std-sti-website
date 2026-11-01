@@ -45,3 +45,5 @@ updated: 2026-11-01
 | Gay and bisexual men | At least yearly, all sites; every 3 to 6 months if at higher risk |
 | People with HIV | At least yearly |
 | Anyone treated for gonorrhea | Retest at about 3 months |
+
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.

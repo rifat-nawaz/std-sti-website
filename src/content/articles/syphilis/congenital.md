@@ -48,6 +48,8 @@ updated: 2026-11-01
 
 Yes, if the parent was infected after the test. That's why many are retested later in pregnancy.
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## Prevention
 
 [Testing in pregnancy](/syphilis/pregnancy/), treatment for parents and partners, and retesting if at risk.

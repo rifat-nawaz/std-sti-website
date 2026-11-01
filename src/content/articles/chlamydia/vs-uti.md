@@ -53,6 +53,8 @@ updated: 2026-11-01
 
 A urinalysis or urine culture looks for bacteria that cause bladder infections. Chlamydia needs a specific **NAAT** test. If you're sexually active, ask: "Can you also test for chlamydia and gonorrhea?"
 
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+
 ## When to suspect an STD
 
 - Symptoms after a new partner

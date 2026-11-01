@@ -41,6 +41,8 @@ updated: 2026-11-01
 | Test within 3 weeks of treatment | Positive from dead bacteria | Retest after 3 weeks if needed |
 | Lab or labeling error | Either | Rare; retest if it doesn't fit |
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## Testing while taking antibiotics
 
 Antibiotics for another condition might lower the chance of detecting chlamydia. Tell the clinician what you're taking.

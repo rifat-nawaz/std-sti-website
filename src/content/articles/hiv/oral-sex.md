@@ -38,6 +38,8 @@ updated: 2026-11-01
 - Bleeding gums or recent dental work
 - A partner with a high viral load
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## What about pre-cum and swallowing?
 
 Pre-cum can carry HIV, but oral exposure remains low risk. Swallowing doesn't add risk beyond mouth contact.

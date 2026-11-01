@@ -42,6 +42,8 @@ updated: 2026-11-01
 3. Get tested for syphilis and HIV.
 4. Accept treatment if offered.
 
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+
 ## Notification windows
 
 | Partner's stage | Partners notified from |

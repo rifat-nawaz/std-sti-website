@@ -41,6 +41,8 @@ updated: 2026-11-01
 | Late latent | More than 1 year | None | Unlikely |
 | Tertiary | 10 to 30 years | Heart, brain, nerve, bone damage | No, but harmful |
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## Can it skip stages?
 
 Stages can overlap, and many people never notice the sore or the rash. Infection of the brain, eyes or ears can happen at **any** stage.

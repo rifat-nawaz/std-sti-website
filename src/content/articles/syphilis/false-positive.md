@@ -42,6 +42,8 @@ updated: 2026-11-01
 | Recent vaccination or illness | RPR / VDRL (temporary) |
 | Lyme disease and some other infections | Some treponemal tests |
 
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+
 ## How it's confirmed
 
 If one test is reactive, the lab runs the other type. If they disagree, a third treponemal test (like TP-PA) may settle it.

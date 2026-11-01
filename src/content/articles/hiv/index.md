@@ -81,6 +81,8 @@ Source: CDC. A **reactive** result on any screening test needs a confirmatory la
 
 **Who should test:** everyone aged 15 to 65 at least once, everyone who is pregnant, and anyone at higher risk at least once a year. Gay and bisexual men may benefit from testing every 3 to 6 months.
 
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+
 ## Living with HIV
 
 HIV can't be cured, but it can be controlled. A clinician prescribes and monitors HIV care.

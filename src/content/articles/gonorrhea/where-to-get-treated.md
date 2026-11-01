@@ -50,6 +50,8 @@ updated: 2026-11-01
 
 Find clinics near you with the CDC's [GetTested](https://gettested.cdc.gov/) locator.
 
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+
 ## What to bring
 
 - Your positive test result, if you have one

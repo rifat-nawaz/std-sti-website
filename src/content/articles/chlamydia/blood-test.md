@@ -39,6 +39,8 @@ updated: 2026-11-01
 | Used for diagnosis | No | Yes |
 | Sample | Blood | Urine or swab |
 
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+
 ## Positive IgG, negative NAAT
 
 This usually means you had chlamydia in the past, treated or cleared. It doesn't mean you have it now.

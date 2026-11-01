@@ -40,6 +40,8 @@ updated: 2026-11-01
 | Equivocal / Indeterminate | Unclear | Retest |
 | Invalid / QNS | Sample couldn't be tested | Collect a new sample |
 
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+
 ## After a positive result
 
 1. [Get treated](/chlamydia/treatment/)

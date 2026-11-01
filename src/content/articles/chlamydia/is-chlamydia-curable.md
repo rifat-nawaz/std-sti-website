@@ -57,3 +57,6 @@ No. It doesn't stay in your body after a cure. If you test positive again later,
 ## Next steps
 
 See [getting treated for chlamydia](/chlamydia/treatment/) and [retesting after chlamydia](/chlamydia/retesting/).
+
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+

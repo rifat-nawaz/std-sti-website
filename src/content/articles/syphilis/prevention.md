@@ -44,3 +44,6 @@ updated: 2026-11-01
 | Regular testing | Finds silent infections |
 | Testing in pregnancy | Prevents congenital syphilis |
 | Partner treatment | Prevents reinfection |
+
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+

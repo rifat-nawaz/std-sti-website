@@ -42,6 +42,8 @@ updated: 2026-11-01
 
 Source: CDC.
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## Which should I choose?
 
 Most people: a lab antigen/antibody test. Recent high-risk exposure with symptoms: ask about RNA testing. Privacy: a home self-test, then confirm any result.

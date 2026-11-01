@@ -45,6 +45,8 @@ updated: 2026-11-01
 | Congenital syphilis | 3,882 cases (279 stillbirths and infant deaths) |
 | Primary and secondary | Down about 10% |
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## Why cases surged
 
 Experts point to reduced access to testing and prevention, gaps in prenatal care, substance use, and disruptions during the COVID-19 pandemic.

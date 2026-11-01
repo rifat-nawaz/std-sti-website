@@ -48,6 +48,8 @@ updated: 2026-11-01
 | Birth | Possible if the parent has chlamydia |
 | Infected fluid in the eye | Possible |
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## How it doesn't spread
 
 - Toilet seats, towels or bedding

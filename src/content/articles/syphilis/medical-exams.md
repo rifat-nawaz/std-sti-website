@@ -37,6 +37,8 @@ updated: 2026-11-01
 - Treatment dates and clinic details
 - All RPR or VDRL titer results
 
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+
 ## US immigration exams
 
 Panel physicians test many adult applicants. If you test positive, you'll be evaluated and treated if needed; a properly treated infection is generally not a barrier.

@@ -38,6 +38,8 @@ updated: 2026-11-01
 | Treponemal (EIA, TP-PA, rapid tests) | Usually positive for life |
 | RPR / VDRL | Falls; may become non-reactive or stay low |
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## Spotting reinfection
 
 A new rise of fourfold or more (for example 1:2 to 1:8) suggests a new infection. See [can you get syphilis again?](/syphilis/getting-it-again/)

@@ -38,6 +38,8 @@ updated: 2026-11-01
 - Searching online for reassurance
 - Worry that disrupts sleep or work
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## What helps
 
 | Step | Why |

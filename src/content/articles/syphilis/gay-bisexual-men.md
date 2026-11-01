@@ -43,3 +43,6 @@ updated: 2026-11-01
 | Multiple or anonymous partners | Every 3 to 6 months |
 | On PrEP | At PrEP visits |
 | Living with HIV | At least yearly, often more |
+
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+

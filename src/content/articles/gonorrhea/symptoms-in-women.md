@@ -58,3 +58,6 @@ updated: 2026-11-01
 ## What to do
 
 Ask for a gonorrhea and chlamydia test, and trichomoniasis too. See [chlamydia and PID](/chlamydia/pid/).
+
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+

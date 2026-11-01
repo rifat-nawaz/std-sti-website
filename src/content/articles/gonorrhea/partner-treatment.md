@@ -43,6 +43,8 @@ updated: 2026-11-01
 | Expedited partner therapy | Partners who can't get to a clinic quickly |
 | Health department notification | When telling a partner yourself is hard or unsafe |
 
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+
 ## Which partners to tell
 
 Everyone you had vaginal, anal or oral sex with in the last 60 days.

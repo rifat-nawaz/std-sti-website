@@ -46,3 +46,4 @@ updated: 2026-11-01
 ## What to do
 
 Avoid sex and follow the plan your clinician gave you for outbreaks.
+

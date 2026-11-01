@@ -37,6 +37,8 @@ updated: 2026-11-01
 - Sex before you and your partner finished treatment and waited
 - A new partner with chlamydia
 
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+
 ## How to avoid getting it again
 
 1. Make sure every partner is treated.

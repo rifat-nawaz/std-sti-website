@@ -38,6 +38,8 @@ updated: 2026-11-01
 | The drip | Gonorrhea discharge from the penis |
 | Gleet | Old term for ongoing discharge |
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## Where "the clap" might come from
 
 - **Old French "clapier"**, a word linked to brothels

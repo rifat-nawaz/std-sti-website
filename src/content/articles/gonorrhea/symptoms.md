@@ -45,6 +45,8 @@ updated: 2026-11-01
 | Throat | Usually none; sometimes sore throat |
 | Eye | Red, swollen eye with pus (urgent) |
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## Urgent signs
 
 - Fever with painful, swollen joints or skin spots

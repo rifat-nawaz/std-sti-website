@@ -39,6 +39,8 @@ updated: 2026-11-01
 
 Researchers have found gonorrhea in saliva and suggested that tongue kissing could explain some throat infections in people who don't report oral sex. Other studies haven't confirmed it, so the evidence is uncertain.
 
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+
 ## Practical takeaway
 
 - Don't use saliva as lubricant.

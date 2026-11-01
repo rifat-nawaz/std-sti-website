@@ -51,6 +51,8 @@ See [chlamydia and PID](/chlamydia/pid/).
 - Pain on one side with a missed period or positive pregnancy test
 - Fainting or dizziness
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## What to expect from a clinician
 
 A pelvic exam, STD tests, a pregnancy test and sometimes an ultrasound. Treatment for PID usually starts without waiting for test results.

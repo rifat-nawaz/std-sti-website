@@ -60,3 +60,6 @@ BV, yeast infections, trichomoniasis and urinary infections cause similar sympto
 ## What to do
 
 Get a vaginal swab test, which you can often collect yourself. It's more accurate than urine for women.
+
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+

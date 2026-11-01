@@ -46,3 +46,6 @@ updated: 2026-11-01
 3. Avoid sex until both of you have finished treatment.
 
 See [do both partners need treatment?](/chlamydia/partner-treatment/)
+
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+

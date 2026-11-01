@@ -43,3 +43,5 @@ updated: 2026-11-01
 - Unexplained weight loss, fevers or night sweats
 
 See [HIV and women](/hiv/women/).
+
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.

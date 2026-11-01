@@ -44,6 +44,8 @@ updated: 2026-10-31
 | Rash on palms or soles | Secondary syphilis | Many skin conditions |
 | Flu-like illness weeks after sex | Early HIV, syphilis | Common viral infections |
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## Why symptoms alone aren't enough
 
 The same symptom can come from several infections, and you can have more than one at once. Most chlamydia, many gonorrhea and most HPV infections cause no symptoms at all.

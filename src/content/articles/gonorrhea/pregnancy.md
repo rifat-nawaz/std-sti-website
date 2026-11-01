@@ -43,6 +43,8 @@ updated: 2026-11-01
 | Third trimester | If still at risk |
 | After treatment | Retest as your provider advises |
 
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+
 ## Protecting your baby
 
 Testing and treating before delivery prevents most newborn infections. See [gonorrhea in newborns](/gonorrhea/newborns/).

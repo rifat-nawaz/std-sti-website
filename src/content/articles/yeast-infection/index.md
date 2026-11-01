@@ -71,6 +71,8 @@ Yeast infections are treatable. A pharmacist or clinician can advise you, and a 
 - You have four or more infections in a year
 - You have a new partner and could have an STD
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## Prevention
 
 - Wear breathable underwear and change out of wet clothes promptly.

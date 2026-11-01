@@ -55,6 +55,8 @@ updated: 2026-10-31
 
 Want exact dates? Enter the day of the exposure in our [window period calculator](/std-testing/window-period/).
 
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+
 ## Why you can't test straight away
 
 Every test needs the infection to reach a detectable level. Before that, results come back negative even if you're infected. This gap is the **window period**.

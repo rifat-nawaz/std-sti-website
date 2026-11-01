@@ -44,6 +44,8 @@ updated: 2026-11-01
 - Take your baby to be seen promptly if you notice these signs.
 - Seek urgent care for breathing problems.
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## Prevention
 
 [Testing during pregnancy](/chlamydia/pregnancy/) and treating parents and partners before birth.

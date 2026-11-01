@@ -43,3 +43,5 @@ updated: 2026-11-01
 - Patchy hair loss, including beard or eyebrows
 
 See [syphilis in gay and bisexual men](/syphilis/gay-bisexual-men/).
+
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.

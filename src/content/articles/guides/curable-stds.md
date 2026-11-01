@@ -53,6 +53,8 @@ updated: 2026-10-31
 
 Treatment is always prescribed by a clinician. Don't use leftover or online medicine.
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## What "cured" means
 
 A cure means the infection is gone. It doesn't undo damage that already happened, such as scarring from pelvic inflammatory disease. That's why early testing matters.

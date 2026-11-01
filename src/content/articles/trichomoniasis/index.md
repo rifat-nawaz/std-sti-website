@@ -78,6 +78,8 @@ The best test is a **NAAT** on a vaginal swab or urine. Older microscope tests m
 
 The CDC recommends yearly testing for women with HIV, and testing for anyone with symptoms or a partner with trich.
 
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+
 ## Getting treated
 
 Trichomoniasis is **curable**. A clinician prescribes the treatment, which can differ for men, women and during pregnancy.

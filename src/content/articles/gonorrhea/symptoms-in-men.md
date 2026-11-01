@@ -52,3 +52,6 @@ updated: 2026-11-01
 ## What to do
 
 Get a urine NAAT, plus throat and rectal swabs if relevant. See [how to test for gonorrhea](/gonorrhea/testing/).
+
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+

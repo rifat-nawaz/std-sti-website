@@ -36,6 +36,8 @@ updated: 2026-11-01
 - A new sore or rash
 - A fourfold rise in RPR or VDRL titer compared with your last result
 
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+
 ## Lowering your risk
 
 See [how to prevent syphilis](/syphilis/prevention/).

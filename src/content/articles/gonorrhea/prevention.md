@@ -46,3 +46,6 @@ updated: 2026-11-01
 | Limit shared toys or cover them | Prevent passing fluids |
 
 See [who should be screened](/gonorrhea/screening/).
+
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+

@@ -53,6 +53,8 @@ updated: 2026-11-01
 | Trichomoniasis | Itching or irritation, often mild in men |
 | Resistant gonorrhea | Symptoms persist with no new sexual contact |
 
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+
 ## What your clinician may do
 
 - Take a **culture** from the infected site so the lab can test which antibiotics work

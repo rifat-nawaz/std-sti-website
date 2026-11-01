@@ -39,6 +39,8 @@ updated: 2026-11-01
 - Feeling of grit in the eye
 - Symptoms that last weeks
 
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+
 ## How it gets into the eye
 
 Infected semen or vaginal fluid reaching the eye, usually by touching the eye with unwashed hands after sex.

@@ -37,6 +37,8 @@ updated: 2026-11-01
 - It hides inside immune cells.
 - The body rarely clears HIV naturally, so there's no natural model to copy.
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## Protection available now
 
 [PrEP](/hiv/prep/) · [PEP](/hiv/pep/) · [U=U](/hiv/undetectable/)

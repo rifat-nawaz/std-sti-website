@@ -49,6 +49,8 @@ updated: 2026-11-01
 | Share of cases aged 15 to 24 | 55.8% |
 | Change from 2022 | Less than 1% |
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## Who is most affected
 
 - **Young people:** more than half of cases are in people aged 15 to 24, which is why the USPSTF recommends yearly screening for sexually active women 24 and under.

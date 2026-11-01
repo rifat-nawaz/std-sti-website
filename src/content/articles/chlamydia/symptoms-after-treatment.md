@@ -56,6 +56,8 @@ updated: 2026-11-01
 | Urinary tract infection | Frequent, urgent peeing |
 | Slow healing | Mild irritation that keeps getting better |
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## What your clinician may do
 
 - Ask about partners and whether treatment was finished

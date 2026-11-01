@@ -50,3 +50,6 @@ updated: 2026-11-01
 ## When to test
 
 If a partner tests positive after any sexual contact, get tested about 2 weeks later, or right away if you have symptoms. See [when to test](/std-testing/when-to-test/).
+
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+

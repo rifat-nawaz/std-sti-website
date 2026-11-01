@@ -49,6 +49,8 @@ updated: 2026-11-01
 | Pregnant | About 4 weeks after treatment, then again within 3 months |
 | Symptoms that won't clear | Talk to your clinician now |
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## Test of cure vs retest
 
 - **Test of cure:** checks that treatment worked. Usually only needed during pregnancy or when symptoms continue.

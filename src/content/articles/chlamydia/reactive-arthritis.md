@@ -47,6 +47,8 @@ updated: 2026-11-01
 - See a clinician; you may be referred to a rheumatologist.
 - Get urgent care for eye pain or vision changes.
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## Recovery
 
 Most people improve within 3 to 12 months. A few have flares or long-term joint problems.

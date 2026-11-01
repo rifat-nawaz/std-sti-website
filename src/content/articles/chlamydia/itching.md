@@ -55,3 +55,6 @@ updated: 2026-11-01
 - Avoid scented products and tight clothing.
 - Get tested if itching comes with discharge, burning or sores, or after a new partner.
 - Don't use yeast products repeatedly without a diagnosis.
+
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+

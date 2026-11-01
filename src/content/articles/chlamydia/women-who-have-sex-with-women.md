@@ -45,6 +45,8 @@ updated: 2026-11-01
 
 Follow standard screening: yearly if you're 24 or under, and yearly at any age with new or multiple partners. A self-collected vaginal swab is the best test.
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## Safer sex tips
 
 - Use a new condom on shared toys, or wash them between partners.

@@ -41,3 +41,6 @@ updated: 2026-11-01
 ## What to do
 
 Test at about 2 weeks. If your partner has gonorrhea, get seen right away; you'll likely be treated without waiting. See [exposed to gonorrhea?](/gonorrhea/exposed/)
+
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+

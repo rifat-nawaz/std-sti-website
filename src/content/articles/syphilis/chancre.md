@@ -49,3 +49,6 @@ updated: 2026-11-01
 ## What to do
 
 Get it checked while it's present. See [syphilis vs herpes](/syphilis/vs-herpes/).
+
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+

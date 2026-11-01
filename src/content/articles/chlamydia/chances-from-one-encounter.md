@@ -51,3 +51,6 @@ Studies of per-act risk are limited, and estimates vary widely. What's clear: ma
 
 - **Test about 2 weeks** after the encounter. See [how soon after sex to test](/std-testing/when-to-test/).
 - If the partner has tested positive, see a clinician. You may be treated without waiting.
+
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+

@@ -46,6 +46,8 @@ updated: 2026-11-01
 | Treatment | Via telehealth if included | Often same visit |
 | Exam for symptoms | No | Yes |
 
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+
 ## Choose a clinic if
 
 - You have pain, fever, sores or heavy discharge

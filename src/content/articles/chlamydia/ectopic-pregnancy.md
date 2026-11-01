@@ -47,3 +47,6 @@ Tell your clinician as soon as you know you're pregnant. They may arrange an ear
 ## Prevention
 
 Test regularly and treat chlamydia early. See [who should get screened](/chlamydia/screening/).
+
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+

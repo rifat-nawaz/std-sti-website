@@ -48,3 +48,6 @@ Inflammation from chlamydia can sometimes lead to an abnormal or unclear Pap res
 - Keep up with [cervical screening](/hpv/).
 - Get the [HPV vaccine](/hpv/vaccine/) if you're eligible.
 - Test for chlamydia regularly if you're at risk.
+
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+

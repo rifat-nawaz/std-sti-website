@@ -42,6 +42,8 @@ updated: 2026-11-01
 - Breaks or slips
 - Reusing condoms or using oil-based lube
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## If a condom broke
 
 1. Consider emergency contraception if pregnancy is possible.

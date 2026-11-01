@@ -48,3 +48,6 @@ updated: 2026-11-01
 ## Best time to test
 
 About **2 weeks** after a possible exposure, whatever the day of your cycle. See [when to test for chlamydia](/chlamydia/when-to-test/).
+
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+

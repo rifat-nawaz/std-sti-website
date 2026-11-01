@@ -39,6 +39,8 @@ updated: 2026-11-01
 
 Large studies of couples found no sexual HIV transmission from partners who were undetectable. See [U=U](/hiv/undetectable/).
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## Partner on PrEP
 
 PrEP protects the person taking it. If they use it as prescribed and test regularly, the chance they have HIV is very low.

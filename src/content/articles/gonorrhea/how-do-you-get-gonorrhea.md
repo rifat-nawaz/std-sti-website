@@ -50,3 +50,6 @@ Toilet seats, towels, swimming pools, hugging, shared dishes.
 ## Prevention
 
 See [how to prevent gonorrhea](/gonorrhea/prevention/).
+
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+

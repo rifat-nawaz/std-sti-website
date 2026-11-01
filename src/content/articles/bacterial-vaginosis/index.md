@@ -83,3 +83,6 @@ Up to half of people get BV again within a year. If it keeps returning, see a cl
 - Don't douche.
 - Use condoms.
 - Limit scented soaps and products around the vagina.
+
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+

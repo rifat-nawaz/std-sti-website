@@ -44,6 +44,8 @@ updated: 2026-11-01
 | Latent | No symptoms, but the infection remains |
 | Tertiary | Damage to organs, years later, in some untreated people |
 
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+
 ## Why "the great imitator"?
 
 Its sores, rashes and nerve symptoms can look like dozens of other conditions, so it's easy to miss without a blood test.

@@ -39,6 +39,8 @@ updated: 2026-11-01
 
 You'll be tested before starting and regularly while using it, usually every few months.
 
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+
 ## After PEP
 
 Your clinician will schedule follow-up tests in the weeks and months afterward.

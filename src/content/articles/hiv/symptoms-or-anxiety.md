@@ -44,3 +44,6 @@ updated: 2026-11-01
 ## Symptoms but negative tests?
 
 If your test was after the [window period](/hiv/window-period/), your symptoms have another cause. See a clinician about them, and see [HIV anxiety](/hiv/anxiety/).
+
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+

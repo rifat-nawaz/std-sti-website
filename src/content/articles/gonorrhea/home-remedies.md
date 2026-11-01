@@ -46,6 +46,8 @@ updated: 2026-11-01
 | Leftover antibiotics | Often the wrong type or amount |
 | Antibiotics bought online or for animals | Unregulated; may be fake or contaminated |
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## Why it matters
 
 Gonorrhea is one of the bacteria the World Health Organization lists as a growing resistance threat. Every failed or partial treatment gives resistant bacteria a chance to spread.

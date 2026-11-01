@@ -42,6 +42,8 @@ updated: 2026-11-01
 - New partner with gonorrhea
 - Rarely, treatment failure
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## How to prevent it
 
 Treat all partners at the same time, wait 7 days, use condoms, and retest at 3 months. See [does my partner need treatment?](/gonorrhea/partner-treatment/)

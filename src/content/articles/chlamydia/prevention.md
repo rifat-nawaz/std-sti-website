@@ -46,6 +46,8 @@ updated: 2026-11-01
 | Treat partners after a diagnosis | Prevents ping-pong reinfection |
 | Cover or wash shared sex toys | Prevents passing fluids |
 
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+
 ## Who should test regularly
 
 See [who should get screened for chlamydia](/chlamydia/screening/).

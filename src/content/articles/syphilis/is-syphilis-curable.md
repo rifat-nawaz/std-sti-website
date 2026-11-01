@@ -35,6 +35,8 @@ updated: 2026-11-01
 
 The bacteria are killed and the infection can't progress. The RPR or VDRL titer should fall over the following 1 to 2 years. See [follow-up blood tests](/syphilis/follow-up-rpr/).
 
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+
 ## What may not reverse
 
 - Vision or hearing loss from ocular or otic syphilis

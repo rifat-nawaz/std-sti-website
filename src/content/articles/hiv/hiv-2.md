@@ -40,6 +40,8 @@ updated: 2026-11-01
 | Detected by lab antigen/antibody test | Yes | Yes (antibodies) |
 | Viral load test | Standard | Special test needed |
 
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+
 ## Window period
 
 Similar timing to HIV-1 antibody detection. Ask your clinician which follow-up tests you need.

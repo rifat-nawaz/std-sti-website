@@ -63,3 +63,6 @@ Chlamydia can cause **cervicitis**: inflammation that makes the cervix fragile, 
 - Heavy bleeding
 - Bleeding with severe pelvic pain or fever
 - Bleeding with a positive pregnancy test
+
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+

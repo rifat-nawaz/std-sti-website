@@ -69,6 +69,8 @@ Partners need to be tested and are often treated even before results. How far ba
 
 Repeat RPR or VDRL tests check that the titer falls. Read [follow-up blood tests after syphilis](/syphilis/follow-up-rpr/).
 
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+
 ## Avoid while healing
 
 - Sex, until sores and rashes are fully healed and partners are treated

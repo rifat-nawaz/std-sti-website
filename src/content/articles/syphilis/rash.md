@@ -47,3 +47,5 @@ updated: 2026-11-01
 | Wart-like growths | In warm, moist areas (condyloma lata) |
 
 See [is it syphilis or something else?](/syphilis/look-alikes/)
+
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.

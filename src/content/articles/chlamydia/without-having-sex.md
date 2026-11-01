@@ -43,6 +43,8 @@ updated: 2026-11-01
 - Swimming pools and hot tubs
 - Sharing drinks or food
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## Non-penetrative contact: some risk
 
 - Genital-to-genital rubbing

@@ -47,3 +47,6 @@ updated: 2026-11-01
 ## Testing
 
 Ask for a **throat swab**, about 2 weeks after exposure. See [throat gonorrhea](/gonorrhea/throat/).
+
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+

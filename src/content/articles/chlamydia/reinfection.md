@@ -45,6 +45,8 @@ updated: 2026-11-01
 4. **Treatment not completed** as prescribed.
 5. **Rarely**, an infection that persists despite treatment.
 
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+
 ## Was it a real positive?
 
 If you tested within about **3 weeks of treatment**, the test may have detected genetic material from dead bacteria. Your clinician will decide whether to retest or treat again.

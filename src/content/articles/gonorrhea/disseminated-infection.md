@@ -44,6 +44,8 @@ updated: 2026-11-01
 
 **Go to an emergency room** if you have these, especially after a recent sexual exposure.
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## What to expect
 
 Hospital tests from the blood, joint fluid and genital, throat and rectal sites, and care planned by specialists.

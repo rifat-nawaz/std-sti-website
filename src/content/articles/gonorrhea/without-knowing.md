@@ -39,6 +39,8 @@ updated: 2026-11-01
 | People with throat infections | Usually silent |
 | People with rectal infections | Often silent |
 
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+
 ## Can it be dormant?
 
 Gonorrhea doesn't go dormant like a virus, but it can persist silently. A positive test always means current infection.

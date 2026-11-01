@@ -40,6 +40,8 @@ updated: 2026-11-01
 | Home kit, mailed to lab | 2 to 5 days after the lab receives it |
 | Home molecular test | About 30 minutes |
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## Why results can take longer
 
 - Shipping delays or weekends

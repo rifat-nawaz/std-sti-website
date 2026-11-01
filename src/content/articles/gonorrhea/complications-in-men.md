@@ -44,6 +44,8 @@ updated: 2026-11-01
 | Prostatitis | Pelvic pain, painful ejaculation (link uncertain) |
 | Disseminated infection | Fever, joint pain, skin spots |
 
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+
 ## After cure
 
 Ongoing testicle or pelvic pain should be checked by a clinician or urologist.

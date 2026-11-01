@@ -46,3 +46,5 @@ updated: 2026-11-01
 | Follow-up | Repeat RPR or VDRL at 6 and 12 months (and 24 for latent) |
 
 See [getting treated for syphilis](/syphilis/treatment/).
+
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.

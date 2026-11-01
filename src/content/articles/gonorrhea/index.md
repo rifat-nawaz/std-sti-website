@@ -87,6 +87,8 @@ Test about **2 weeks after a possible exposure**. See the [window period calcula
 
 **Who should test:** sexually active women 24 and under every year, older women at higher risk, and gay and bisexual men at least once a year at every site used for sex (every 3 to 6 months if at higher risk).
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## Getting treated
 
 Gonorrhea is **curable**, but it has become resistant to many antibiotics, so the choice of medicine matters. Only a clinician should decide your treatment.

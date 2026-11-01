@@ -41,3 +41,5 @@ updated: 2026-11-01
 | Before it appears | Nothing | Tingling, itching |
 | Comes back | No (new infection only) | Yes, outbreaks recur |
 | Test | Blood test; swab of the sore | PCR swab of the sore |
+
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.

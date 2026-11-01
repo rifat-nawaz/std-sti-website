@@ -44,3 +44,6 @@ Toilet seats, doorknobs, swimming pools, hot tubs, shared bathrooms, clothes, cu
 ## Positive test with no sexual contact?
 
 A first screening test can be falsely positive. A confirmatory test will clarify. See [syphilis false positive](/syphilis/false-positive/).
+
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+

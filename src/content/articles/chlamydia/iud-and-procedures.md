@@ -39,6 +39,8 @@ updated: 2026-11-01
 | Abortion | Commonly done beforehand |
 | Hysteroscopy, IVF, egg retrieval | Often part of pre-procedure checks |
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## Positive with an IUD
 
 Most people can keep the IUD while being treated. Your clinician will check for signs of PID and follow up.

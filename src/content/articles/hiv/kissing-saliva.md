@@ -35,6 +35,8 @@ updated: 2026-11-01
 
 Kissing, sharing cups or utensils, spitting, coughing, hugging, sharing a toothbrush (though not recommended for other reasons).
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## Negligible risk
 
 | Activity | Why |

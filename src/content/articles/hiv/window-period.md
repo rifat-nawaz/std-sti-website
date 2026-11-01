@@ -40,6 +40,8 @@ updated: 2026-11-01
 | Rapid antigen/antibody | 18 days | 90 days |
 | Antibody / oral self-test | 23 days | 90 days |
 
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+
 ## Common questions
 
 - **28 days, lab test:** detects most infections; confirm at 45 days.

@@ -40,6 +40,8 @@ updated: 2026-11-01
 | Reactive | Non-reactive | Past treated infection, or very early infection |
 | Non-reactive | Reactive | Likely false-positive RPR |
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## Titers explained
 
 | Titer | Meaning |

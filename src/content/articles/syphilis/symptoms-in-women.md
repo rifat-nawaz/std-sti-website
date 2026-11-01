@@ -44,3 +44,5 @@ updated: 2026-11-01
 - Patchy hair loss
 
 See [syphilis during pregnancy](/syphilis/pregnancy/).
+
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.

@@ -43,3 +43,6 @@ updated: 2026-11-01
 - Any of these after a possible exposure
 
 See [free HIV testing](/hiv/free-testing/).
+
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+

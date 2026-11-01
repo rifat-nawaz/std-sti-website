@@ -45,6 +45,8 @@ updated: 2026-11-01
 | Ingrown hair | Tender bump with a hair, around hair follicles |
 | Friction sore | After rough sex, heals quickly |
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## Rash look-alikes
 
 | Condition | Clues |

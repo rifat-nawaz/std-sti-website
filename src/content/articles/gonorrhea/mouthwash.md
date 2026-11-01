@@ -42,6 +42,8 @@ updated: 2026-11-01
 | Lab studies | Mouthwash reduced bacteria briefly |
 | Large randomized trial | No meaningful reduction in throat infections |
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## What helps instead
 
 - Condoms for oral sex

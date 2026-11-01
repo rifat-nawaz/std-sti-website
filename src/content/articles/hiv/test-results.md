@@ -44,3 +44,5 @@ updated: 2026-11-01
 | Confirmed positive | HIV diagnosed | Start care; see [just diagnosed](/hiv/just-diagnosed/) |
 | Indeterminate / Inconclusive | Unclear | Repeat or RNA test |
 | Viral load "not detected" | Undetectable | Keep up with care |
+
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.

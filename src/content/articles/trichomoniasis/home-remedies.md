@@ -44,6 +44,8 @@ updated: 2026-11-01
 | Yeast infection creams | Treat a different infection |
 | Vaginal products sold online as trich cures | Unproven; risk of burns |
 
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+
 ## Get treated instead
 
 Health departments, Planned Parenthood and telehealth services can treat trich, often quickly and at low cost. See [getting treated for trichomoniasis](/trichomoniasis/treatment/).

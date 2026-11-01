@@ -58,3 +58,6 @@ Yes. Chlamydia can move into the uterus and fallopian tubes without obvious symp
 | Pregnant people | At the first prenatal visit if at risk |
 
 See [who should get screened](/chlamydia/screening/).
+
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+

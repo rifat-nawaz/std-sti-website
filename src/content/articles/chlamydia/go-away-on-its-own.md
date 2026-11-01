@@ -44,3 +44,6 @@ updated: 2026-11-01
 ## What to do instead
 
 See a clinician for treatment. Health departments often treat for free. See [getting treated for chlamydia](/chlamydia/treatment/).
+
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+

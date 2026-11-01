@@ -42,6 +42,8 @@ updated: 2026-11-01
 | Incubation period | Time until symptoms may appear | About 1 to 3 weeks, if at all |
 | Window period | Time until a test can detect it | About 1 to 2 weeks |
 
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+
 ## Symptoms after 2 days?
 
 Symptoms that start a day or two after sex are more likely from another cause or an earlier infection. Get tested if you're worried, then retest at 2 weeks.

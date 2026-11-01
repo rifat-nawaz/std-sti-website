@@ -42,6 +42,8 @@ updated: 2026-11-01
 | People with a uterus | PID scars or blocks the tubes |
 | People with testicles | Epididymitis can rarely affect sperm |
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## If you're trying to conceive
 
 See a clinician after 12 months of trying (6 months if 35 or older). See [chlamydia and infertility](/chlamydia/infertility/) for fertility checks.

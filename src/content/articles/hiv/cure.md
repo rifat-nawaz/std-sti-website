@@ -40,6 +40,8 @@ updated: 2026-11-01
 | Gene and immune therapies | Early research |
 | Vaccines | No approved vaccine; see [HIV vaccine](/hiv/vaccine/) |
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## Spotting scams
 
 Herbal, homeopathic or "detox" cures don't work. Report them to the FDA and keep up with your care.

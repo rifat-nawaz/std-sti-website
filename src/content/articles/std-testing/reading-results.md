@@ -61,6 +61,8 @@ updated: 2026-10-31
 | Indeterminate, equivocal | Result unclear | Repeat the test, usually in 2 to 4 weeks |
 | Invalid, QNS | Sample couldn't be tested (QNS = quantity not sufficient) | Collect a new sample |
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## Chlamydia, gonorrhea and trichomoniasis
 
 These use NAATs, which give a simple **detected** or **not detected** result for each sample.

@@ -53,3 +53,6 @@ updated: 2026-11-01
 | HIV-negative and at ongoing risk | Ask about [PrEP](/hiv/prep/) |
 | Exposure in the last 72 hours | Ask about [PEP](/hiv/pep/) |
 | Living with HIV | Test for syphilis at least yearly |
+
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+

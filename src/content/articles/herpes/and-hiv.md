@@ -42,3 +42,4 @@ updated: 2026-11-01
 | New herpes diagnosis | Test for HIV |
 | HIV-negative, ongoing risk | Ask about [PrEP](/hiv/prep/) |
 | Recent HIV exposure | [PEP](/hiv/pep/) within 72 hours |
+

@@ -43,6 +43,8 @@ updated: 2026-11-01
 3. Treatment not taken as prescribed
 4. Rarely, a strain that doesn't respond to usual treatment
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## Breaking the cycle
 
 - Treat **all partners at the same time**.

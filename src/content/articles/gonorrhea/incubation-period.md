@@ -43,6 +43,8 @@ updated: 2026-11-01
 | Up to 14 | Later symptoms possible |
 | About 14 | Reliable test |
 
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+
 ## When is it contagious?
 
 From soon after infection, with or without symptoms, until treatment is finished and 7 days have passed.

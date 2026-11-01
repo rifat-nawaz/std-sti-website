@@ -72,3 +72,6 @@ Several STDs can affect a pregnancy or pass to the baby. The CDC recommends test
 4. **Avoid sex** until you've been tested and treated if needed.
 
 Use the [symptom checker](/guides/symptom-checker/) to see which tests to ask for.
+
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+

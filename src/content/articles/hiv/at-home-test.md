@@ -35,6 +35,8 @@ updated: 2026-11-01
 
 We compare features you can check: test type, FDA status, lab certification, window period, support and privacy. We haven't lab-tested products ourselves.
 
+You can also order a [home test kit](/go/k2/), collect your sample yourself and mail it to a certified lab.
+
 ## Options
 
 | Option | Result | Conclusive after |

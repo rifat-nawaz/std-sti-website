@@ -61,3 +61,6 @@ Both can cause serious complications if untreated. Gonorrhea's growing resistanc
 ## What to do
 
 Test for both after a new partner or symptoms. Throat and rectal swabs are needed after oral or anal sex.
+
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+

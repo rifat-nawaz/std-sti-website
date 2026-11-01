@@ -43,6 +43,8 @@ updated: 2026-11-01
 3. **Tell your clinician if you're pregnant** or breastfeeding. Treatment is safe in pregnancy and important for the baby.
 4. **Finish all the treatment**, even if symptoms clear quickly.
 
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+
 ## Partners
 
 All current partners need treatment, even if their tests are negative or they have no symptoms. Trich often causes no symptoms in men and can pass back and forth.

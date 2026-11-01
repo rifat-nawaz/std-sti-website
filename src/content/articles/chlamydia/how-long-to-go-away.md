@@ -61,6 +61,8 @@ For most people, finishing treatment as prescribed is enough. A **test of cure**
 
 NAAT tests detect bacterial genetic material. For about **3 weeks after treatment**, they can still find material from dead bacteria. A positive result in that window doesn't necessarily mean treatment failed.
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## When to go back
 
 - Symptoms haven't improved a week after finishing treatment

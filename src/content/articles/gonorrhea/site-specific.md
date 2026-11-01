@@ -43,6 +43,8 @@ updated: 2026-11-01
 | Throat | Throat swab |
 | Rectum | Rectal swab |
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## Can it spread between sites?
 
 Yes, through sex or touching, for example from the genitals to the rectum. That's why clinicians test every site you've used for sex.

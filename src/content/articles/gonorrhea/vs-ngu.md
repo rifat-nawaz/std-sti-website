@@ -47,3 +47,6 @@ updated: 2026-11-01
 A NAAT for gonorrhea and chlamydia, plus *Mycoplasma genitalium* testing if symptoms continue or come back.
 
 See [NGU](/mycoplasma-genitalium/ngu/) and [Mycoplasma genitalium](/mycoplasma-genitalium/).
+
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+

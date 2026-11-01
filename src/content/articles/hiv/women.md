@@ -39,6 +39,8 @@ updated: 2026-11-01
 
 At least once for everyone 15 to 65, every pregnancy, and regularly with new or multiple partners.
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## Prevention
 
 PrEP, condoms, and knowing a partner's status and viral load. See [PrEP](/hiv/prep/).

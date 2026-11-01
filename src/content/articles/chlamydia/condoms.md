@@ -41,6 +41,8 @@ updated: 2026-11-01
 - It was used for some acts but not others, such as oral sex
 - It was **reused** or damaged by oil-based lubricant
 
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+
 ## The condom broke: what now?
 
 1. Consider **emergency contraception** if pregnancy is possible. Ask a pharmacist.

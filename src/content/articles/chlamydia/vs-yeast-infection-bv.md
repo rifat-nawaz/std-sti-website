@@ -49,6 +49,8 @@ updated: 2026-11-01
 
 Studies show many people misjudge which one they have. A clinic or lab test can check for all three, plus trichomoniasis, from swabs.
 
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+
 ## Can you have all three?
 
 Yes. BV raises the risk of getting STDs, and antibiotics for one infection can trigger yeast.

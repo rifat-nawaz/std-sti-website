@@ -48,6 +48,8 @@ updated: 2026-11-01
 | Urinary infection | Frequent, urgent peeing |
 | Irritation | New soaps, products or friction |
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## What to ask the clinician
 
 "My chlamydia test was negative, but I still have symptoms. Can you test me for gonorrhea, trichomoniasis and *Mycoplasma genitalium*, and check for BV, yeast and a urine infection?"

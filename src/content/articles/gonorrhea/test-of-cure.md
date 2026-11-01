@@ -45,6 +45,8 @@ updated: 2026-11-01
 | Everyone treated | Retest for reinfection | About 3 months after treatment |
 | Symptoms continue | See a clinician | Now |
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## Why the 3-month retest matters
 
 Many people get gonorrhea again within months, often from a partner who wasn't treated or a new partner. Repeat infections raise the risk of complications like pelvic inflammatory disease.

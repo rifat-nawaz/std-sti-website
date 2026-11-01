@@ -46,3 +46,6 @@ updated: 2026-11-01
 | Testing events | Pride events, National HIV Testing Day |
 
 Find sites at [GetTested](https://gettested.cdc.gov/).
+
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+

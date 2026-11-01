@@ -43,6 +43,8 @@ updated: 2026-11-01
 | Multiple or anonymous partners | Every 3 to 6 months |
 | On PrEP | At PrEP visits |
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## Why resistance matters
 
 Throat infections are harder to cure and can develop resistance, so follow-up testing is important. See [super gonorrhea](/gonorrhea/super-gonorrhea/).

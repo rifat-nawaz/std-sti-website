@@ -35,6 +35,8 @@ updated: 2026-11-01
 
 We compare publicly available features: test type, FDA status, lab certification, follow-up support and privacy. We haven't lab-tested products ourselves.
 
+If you'd rather test privately, a [lab-processed home kit](/go/k2/) uses the same type of lab test as a clinic.
+
 ## Options
 
 | Type | Result time | Shows active infection? |

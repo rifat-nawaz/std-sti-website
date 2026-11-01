@@ -35,6 +35,8 @@ updated: 2026-11-01
 
 Chlamydia hides inside cells and natural infection doesn't create strong lasting immunity, so a vaccine has to do better than the body does on its own.
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## Where research stands
 
 Researchers have run early-phase human trials testing safety and immune responses. Larger trials would be needed to show protection, which takes years.

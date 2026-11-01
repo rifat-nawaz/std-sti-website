@@ -39,6 +39,8 @@ updated: 2026-11-01
 
 Each time gonorrhea meets an antibiotic that doesn't fully kill it, resistant bacteria can survive and spread. Throat infections are a particular concern because other bacteria there can share resistance genes.
 
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+
 ## Is gonorrhea becoming untreatable?
 
 Not in the US today. Recommended treatment still works for nearly all cases, but options are limited, so new treatments are being developed.

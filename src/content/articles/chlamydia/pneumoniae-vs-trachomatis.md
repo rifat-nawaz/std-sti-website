@@ -39,6 +39,8 @@ updated: 2026-11-01
 | Affects | Genitals, rectum, throat, eyes | Lungs, airways, sinuses |
 | Symptoms | Often none; discharge, burning | Cough, sore throat, fever |
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## Can chlamydia cause lung problems?
 
 *Chlamydia trachomatis* can cause pneumonia in **newborns** infected at birth. In adults, lung infections are linked to *Chlamydia pneumoniae*, the respiratory species.

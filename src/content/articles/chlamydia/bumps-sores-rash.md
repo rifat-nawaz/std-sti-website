@@ -53,3 +53,6 @@ Lymphogranuloma venereum, a less common type of chlamydia, can start with a smal
 
 - See a clinician, ideally while the sore is fresh, so it can be swabbed.
 - Ask for a full panel: herpes swab, syphilis blood test, chlamydia and gonorrhea.
+
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+

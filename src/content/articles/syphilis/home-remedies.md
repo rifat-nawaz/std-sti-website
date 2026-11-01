@@ -41,6 +41,8 @@ updated: 2026-11-01
 
 The first syphilis sore heals in 3 to 6 weeks **without any treatment**. The rash of secondary syphilis also fades on its own. The infection then becomes latent: silent but still active.
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## Why self-treatment fails
 
 - The treatment plan depends on the **stage**, which needs a clinician and blood tests.

@@ -45,3 +45,5 @@ updated: 2026-11-01
 | Outlook with care | Near-normal lifespan | Immune system can still recover |
 
 See [late-stage HIV and AIDS symptoms](/hiv/aids-symptoms/).
+
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.

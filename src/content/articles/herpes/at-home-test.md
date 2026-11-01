@@ -35,6 +35,8 @@ updated: 2026-11-01
 
 We compare features you can check: test type, lab certification, reporting of index values, clinician support and privacy. We haven't lab-tested products ourselves.
 
+Prefer to test at home? A [lab-processed home test](/go/k2/) lets you collect a sample in private and get results online.
+
 ## What a home test can't do
 
 - Confirm a current sore is herpes

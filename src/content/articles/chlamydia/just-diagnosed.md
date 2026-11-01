@@ -42,6 +42,8 @@ updated: 2026-11-01
 | This week | Test for gonorrhea, HIV and syphilis if not done |
 | In 3 months | Retest for chlamydia |
 
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+
 ## What you don't need to do
 
 - Wash or throw away sheets, towels or clothes

@@ -45,6 +45,8 @@ updated: 2026-11-01
 
 Source: CDC HIV Risk and Prevention Estimates.
 
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+
 ## What lowers risk
 
 | Method | Effect |

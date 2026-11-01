@@ -39,6 +39,8 @@ updated: 2026-11-01
 - Unusual discharge or bleeding
 - Burning when peeing
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## Go to an emergency room if you have
 
 - Severe belly pain

@@ -87,6 +87,8 @@ Partners from the **last 60 days** should be tested and treated, or your most re
 
 Retest **about 3 months after treatment**. If you're pregnant, you'll also have a test about 4 weeks after treatment. Read [when and why to retest](/chlamydia/retesting/).
 
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+
 ## When to go back sooner
 
 - Symptoms that don't improve after you finish treatment

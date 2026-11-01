@@ -43,6 +43,8 @@ updated: 2026-11-01
 - Test at about 2 weeks after the last exposure for a reliable result.
 - You may be treated before results; that's standard practice.
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## Is it too early for treatment?
 
 No. Clinicians treat exposed partners promptly because waiting risks complications and spread.

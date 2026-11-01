@@ -44,6 +44,8 @@ updated: 2026-11-01
 | At delivery | Many, especially if at risk |
 | Any time | With a sore, rash or partner diagnosis |
 
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+
 ## Why timing matters
 
 Treatment works best when completed well before delivery. Your prenatal provider will plan care and follow-up.

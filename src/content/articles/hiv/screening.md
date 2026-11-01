@@ -45,3 +45,5 @@ updated: 2026-11-01
 | Gay and bisexual men at higher risk | Every 3 to 6 months |
 | People who inject drugs | At least yearly |
 | Anyone diagnosed with another STD | Now |
+
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.

@@ -39,6 +39,8 @@ updated: 2026-11-01
 | Receiving oral sex from someone with a mouth sore | Genitals |
 | Deep kissing with a mouth sore present | Mouth |
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## Oral symptoms
 
 See [oral syphilis](/syphilis/oral/).

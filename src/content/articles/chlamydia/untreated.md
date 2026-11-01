@@ -44,6 +44,8 @@ updated: 2026-11-01
 | Anyone | Reactive arthritis, higher HIV risk, eye infection |
 | Newborns | Eye infection and pneumonia if born to an infected parent |
 
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+
 ## Timeline
 
 There's no fixed timeline. Chlamydia can spread to the upper reproductive tract within weeks, or stay in the cervix for months. That uncertainty is why every infection should be treated promptly.

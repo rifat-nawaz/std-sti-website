@@ -39,6 +39,8 @@ updated: 2026-11-01
 | Lab antigen/antibody | Antigen and antibodies | 45 days |
 | Antibody | Antibodies | 90 days |
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## When it's worth it
 
 - Flu-like symptoms after a recent high-risk exposure

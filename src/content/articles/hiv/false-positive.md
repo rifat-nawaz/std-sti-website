@@ -38,6 +38,8 @@ updated: 2026-11-01
 - Recent vaccinations or infections
 - Testing errors
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## How it's confirmed
 
 A lab antibody differentiation test and, if needed, an RNA test. If both are negative, the first result was a false positive.

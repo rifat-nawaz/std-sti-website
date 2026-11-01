@@ -35,6 +35,8 @@ updated: 2026-11-01
 
 The bacteria are gone and you can't pass gonorrhea on once you've waited the recommended time. Treatment can't undo tubal scarring or other damage that already happened.
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## How long does it last untreated?
 
 Untreated gonorrhea can persist for weeks to months. Some throat infections clear on their own, but you can't rely on that.

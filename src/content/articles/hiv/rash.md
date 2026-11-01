@@ -38,6 +38,8 @@ updated: 2026-11-01
 - Not usually painful
 - Often with fever, sore throat or swollen glands
 
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+
 ## Other causes
 
 Allergic reactions, viral rashes, [syphilis rash](/syphilis/rash/), skin conditions.

@@ -38,6 +38,8 @@ updated: 2026-11-01
 | Primary | Painless sore on lip, tongue, gum or tonsil |
 | Secondary | Gray-white mucous patches, sore throat, swollen neck glands |
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## Canker sore or syphilis?
 
 Canker sores are usually small and painful; a syphilis sore is often firm and painless. See [is it syphilis or something else?](/syphilis/look-alikes/)

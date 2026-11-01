@@ -40,6 +40,8 @@ updated: 2026-11-01
 | Spread to baby | Yes | Yes |
 | Care | Shorter course | Longer course |
 
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+
 ## How doctors tell them apart
 
 A negative test within the past year, a known exposure, or symptoms within the past year point to early latent. Without that, it's treated as late or unknown duration.

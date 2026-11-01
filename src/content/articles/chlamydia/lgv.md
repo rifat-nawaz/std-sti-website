@@ -48,3 +48,6 @@ updated: 2026-11-01
 ## Testing
 
 A rectal or genital chlamydia NAAT detects the infection. Tell your clinician about rectal symptoms; they may treat for LGV even if specific LGV testing isn't available.
+
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+

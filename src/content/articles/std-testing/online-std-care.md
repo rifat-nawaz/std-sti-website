@@ -48,6 +48,8 @@ updated: 2026-11-01
 | PrEP prescriptions and follow-up | Pregnancy concerns |
 | Answering questions | Emergencies |
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## How a visit works
 
 1. Fill in a health questionnaire.

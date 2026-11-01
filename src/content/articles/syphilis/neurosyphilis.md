@@ -46,6 +46,8 @@ updated: 2026-11-01
 
 **Go to an emergency room** if you have these, especially with a past or current syphilis diagnosis.
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## Diagnosis
 
 Blood tests plus a lumbar puncture to test spinal fluid, and sometimes brain imaging.

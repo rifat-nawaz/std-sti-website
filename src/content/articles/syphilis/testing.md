@@ -48,6 +48,8 @@ updated: 2026-11-01
 | Sore testing | PCR or darkfield | Bacteria in an open sore |
 | Rapid finger-prick | FDA-authorized home and clinic tests | Treponemal antibodies; positives need lab confirmation |
 
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+
 ## Two testing orders
 
 Labs either start with RPR and confirm with a treponemal test, or start with a treponemal test and confirm with RPR ("reverse sequence"). Either way, two tests are used.

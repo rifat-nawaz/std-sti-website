@@ -37,6 +37,8 @@ updated: 2026-11-01
 - Swimming pools, hot tubs, shared baths
 - Hugging or casual kissing
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## Some risk
 
 - Genital-to-genital contact without penetration

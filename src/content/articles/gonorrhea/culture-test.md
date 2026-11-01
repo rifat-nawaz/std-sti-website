@@ -42,6 +42,8 @@ updated: 2026-11-01
 - Infection likely acquired where resistance is common
 - Some throat infections
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## What it involves
 
 A swab from the infected site is sent to a lab that grows the bacteria and tests antibiotics against it.

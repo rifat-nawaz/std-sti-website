@@ -41,6 +41,8 @@ updated: 2026-11-01
 | Period blood or your own discharge after cure | No risk |
 | Sheets, towels, underwear | No risk |
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## The real reinfection risk
 
 Sex with a partner who hasn't been treated. See [can you get chlamydia again?](/chlamydia/getting-it-again/)

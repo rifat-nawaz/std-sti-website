@@ -39,6 +39,8 @@ updated: 2026-11-01
 
 Syphilis spreads through skin contact with a sore or rash. A condom only protects the skin it covers.
 
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+
 ## Layer your protection
 
 - Condoms and dental dams every time

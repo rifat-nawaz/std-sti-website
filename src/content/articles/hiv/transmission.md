@@ -35,6 +35,8 @@ updated: 2026-11-01
 
 Blood, semen, pre-cum, rectal fluid, vaginal fluid, breast milk.
 
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+
 ## Main routes
 
 | Route | Risk |

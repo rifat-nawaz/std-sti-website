@@ -46,6 +46,8 @@ updated: 2026-11-01
 
 That process causes inflammation. Sometimes you feel it as burning or discharge. Often you don't feel anything.
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## Which body parts it infects
 
 | Body site | How it gets there |

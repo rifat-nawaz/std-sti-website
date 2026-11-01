@@ -44,3 +44,6 @@ updated: 2026-11-01
 - Throat and rectal swabs, if relevant
 
 See [gonorrhea vs NGU](/gonorrhea/vs-ngu/) and [Mycoplasma genitalium](/mycoplasma-genitalium/).
+
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+

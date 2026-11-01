@@ -35,6 +35,8 @@ updated: 2026-11-01
 
 Inflammation from PID can scar or block the fallopian tubes, stopping the egg and sperm from meeting, or trapping a fertilized egg in the tube (ectopic pregnancy).
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## Can I still get pregnant?
 
 Most likely, yes, especially if the infection was treated promptly. If you've been trying for 12 months (or 6 months if you're 35 or older), see a clinician.

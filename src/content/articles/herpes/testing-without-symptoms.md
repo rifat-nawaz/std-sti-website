@@ -39,3 +39,4 @@ updated: 2026-11-01
 | Pregnant or planning pregnancy | Plan to protect the baby |
 | Recurring symptoms without a diagnosis | Clarify the cause |
 | HIV or high risk | Clinician may advise testing |
+

@@ -44,6 +44,8 @@ updated: 2026-11-01
 
 **Go to an emergency room** if you notice these, especially after a recent sexual exposure.
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## How it gets into the eye
 
 Touching the eye with fingers carrying infected fluid, or fluid splashing into the eye during sex.

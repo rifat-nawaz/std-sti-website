@@ -41,3 +41,5 @@ updated: 2026-11-01
 | Weeks to months after the sore | Secondary rash |
 
 See the [window period calculator](/std-testing/window-period/).
+
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.

@@ -50,3 +50,6 @@ updated: 2026-11-01
 A urinalysis or culture won't detect gonorrhea. Ask: "Can you also test my urine for gonorrhea and chlamydia?"
 
 See [how to test for gonorrhea](/gonorrhea/testing/).
+
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+

@@ -39,6 +39,8 @@ updated: 2026-11-01
 
 A viral load test can't measure HIV in the blood, or finds fewer than 200 copies per milliliter.
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## What U=U covers
 
 | Situation | Covered by U=U? |

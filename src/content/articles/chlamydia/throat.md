@@ -45,6 +45,8 @@ Usually none. Some people notice a sore or scratchy throat, which is also common
 
 Avoid eating, drinking or using mouthwash for about an hour before a throat swab, or follow your kit's instructions.
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## Why throat testing isn't routine
 
 Current CDC guidance focuses chlamydia screening on genital and rectal sites, because throat chlamydia is less common. If you've had oral sex with a partner who has chlamydia, or you have symptoms, ask for a throat swab.

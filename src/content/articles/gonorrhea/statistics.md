@@ -44,6 +44,8 @@ updated: 2026-11-01
 | Change from 2022 | Down 7.2% |
 | Rank among reportable STDs | 2nd |
 
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+
 ## Who is most affected
 
 - **Young adults**, especially ages 20 to 29

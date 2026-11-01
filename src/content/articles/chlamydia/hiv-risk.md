@@ -47,3 +47,6 @@ Inflammation brings immune cells that HIV targets to the genital area, and sores
 | HIV-negative and at ongoing risk | Ask about [PrEP](/hiv/prep/) |
 | Exposure in the last 72 hours | Ask about [PEP](/hiv/pep/) now |
 | Partner has HIV | Ask if they're undetectable (U=U) |
+
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+

@@ -44,6 +44,8 @@ updated: 2026-11-01
 | Living with HIV | At least yearly, more often if at risk |
 | On PrEP | At PrEP visits |
 
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+
 ## Which sites
 
 - **Urine:** for urethral infection

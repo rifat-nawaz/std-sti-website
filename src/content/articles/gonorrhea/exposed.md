@@ -42,3 +42,5 @@ updated: 2026-11-01
 3. Get tested at every site and treated.
 
 Find a clinic: [where to get seen for gonorrhea fast](/gonorrhea/where-to-get-treated/).
+
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.

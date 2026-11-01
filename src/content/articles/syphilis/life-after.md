@@ -35,6 +35,8 @@ updated: 2026-11-01
 
 Use condoms with new partners and talk about testing. Sharing a past, treated infection is your choice.
 
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+
 ## Pregnancy
 
 Tell your prenatal provider about past syphilis; your test history helps them interpret new results.

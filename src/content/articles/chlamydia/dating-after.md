@@ -35,6 +35,8 @@ updated: 2026-11-01
 
 Try: "Before we have sex, I'd like us both to get tested. When were you last checked?"
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## When to share your history
 
 You don't have to, but some people choose to share it as part of a broader talk about sexual health. Do what feels right.

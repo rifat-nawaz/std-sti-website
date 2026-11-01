@@ -41,3 +41,6 @@ updated: 2026-11-01
 | 12 | Conclusive for most people |
 
 See the [window period calculator](/std-testing/window-period/).
+
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+

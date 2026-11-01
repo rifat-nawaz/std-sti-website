@@ -38,6 +38,8 @@ updated: 2026-11-01
 
 Without treatment, some infections clear on their own within months; others last much longer. There's no way to know which will happen to you, which is why treatment is always recommended.
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## Can you tell how long you've had it?
 
 No. A NAAT shows only whether chlamydia is there now. Blood antibody tests can suggest past exposure but aren't used to date an infection.

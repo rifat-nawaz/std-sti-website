@@ -75,6 +75,8 @@ Hepatitis B is tested with a blood test. The CDC recommends a **triple panel** f
 
 The CDC recommends this test **at least once for every adult**, and in every pregnancy. See [how to read hepatitis B results](/std-testing/reading-results/).
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## The vaccine
 
 - Recommended for **all adults 19 to 59**, and adults 60 and older with risk factors or who want it.

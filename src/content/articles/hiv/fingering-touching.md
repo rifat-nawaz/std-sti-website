@@ -35,6 +35,8 @@ updated: 2026-11-01
 
 HIV can't pass through intact skin, and small cuts close quickly and rarely meet enough infected fluid.
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## Other STDs to know about
 
 Herpes, HPV and syphilis can spread through skin contact during these activities.

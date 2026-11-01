@@ -41,6 +41,8 @@ updated: 2026-11-01
 2. **Consider emergency contraception** if pregnancy is possible.
 3. **Test** for HIV, chlamydia, gonorrhea and syphilis at the right times. See [when to test](/std-testing/when-to-test/).
 
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+
 ## Getting the most from condoms
 
 Use water- or silicone-based lube, check the expiry date, and put the condom on before any contact.

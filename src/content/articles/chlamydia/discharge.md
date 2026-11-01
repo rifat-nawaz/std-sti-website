@@ -62,3 +62,6 @@ updated: 2026-11-01
 ## What to do
 
 Get tested for chlamydia, gonorrhea and trichomoniasis, plus BV and yeast if you have a vagina. See [chlamydia vs yeast infection vs BV](/chlamydia/vs-yeast-infection-bv/).
+
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+

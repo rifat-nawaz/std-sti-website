@@ -80,6 +80,8 @@ Testing happens in two steps:
 - People who inject drugs, regularly
 - People with HIV, and gay and bisexual men with HIV, at least once a year
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## Getting treated
 
 Hepatitis C is **curable** in more than 95% of people. Treatment is prescribed and monitored by a clinician, and primary care clinicians can now treat it, not only liver specialists. Medicaid and most insurance plans cover it.

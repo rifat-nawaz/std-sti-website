@@ -40,6 +40,8 @@ updated: 2026-11-01
 | Reactive arthritis | Joint pain, eye redness, weeks after infection |
 | Urethral stricture | Rare; weak stream after repeated inflammation |
 
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+
 ## Fertility, prostate and erections
 
 - **Fertility:** epididymitis can occasionally affect sperm, but evidence of lasting infertility from chlamydia alone is limited.

@@ -37,6 +37,8 @@ updated: 2026-11-01
 - Wash and dry your hands.
 - Check the expiry date and the collection days your kit allows for mailing.
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## First-catch urine
 
 1. Don't pee for at least 1 hour before.

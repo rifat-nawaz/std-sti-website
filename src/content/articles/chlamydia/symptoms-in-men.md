@@ -52,6 +52,8 @@ updated: 2026-11-01
 | Testicle pain | Ache or swelling, usually on one side |
 | Rectal symptoms | Pain, discharge or bleeding, after receptive anal sex |
 
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+
 ## How men check
 
 You can't check for chlamydia yourself. A **first-catch urine** test is the usual sample; throat and rectal swabs are needed after oral or anal sex. See [chlamydia testing for men](/chlamydia/testing-for-men/).

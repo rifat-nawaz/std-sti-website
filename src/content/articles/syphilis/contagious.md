@@ -42,3 +42,5 @@ updated: 2026-11-01
 | After treatment | No, once healed | Prevented by timely treatment |
 
 See [how long to wait before sex after treatment](/syphilis/sex-after-treatment/).
+
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.

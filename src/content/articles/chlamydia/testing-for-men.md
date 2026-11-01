@@ -39,6 +39,8 @@ updated: 2026-11-01
 | Rectal swab | After receptive anal sex | Brief discomfort |
 | Throat swab | After oral sex, if advised | Brief gag |
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## At a clinic
 
 You'll be asked about symptoms and the kinds of sex you've had, given a urine cup, and offered swabs as needed. Many clinics let you collect swabs privately.

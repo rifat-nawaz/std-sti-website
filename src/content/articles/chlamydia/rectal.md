@@ -39,6 +39,8 @@ updated: 2026-11-01
 - Feeling of needing to go when you don't
 - Often, nothing at all
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## Who needs a rectal swab
 
 - Anyone who has receptive anal sex

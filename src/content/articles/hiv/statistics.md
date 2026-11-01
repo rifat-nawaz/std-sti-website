@@ -45,6 +45,8 @@ updated: 2026-11-01
 | Estimated new infections (2022) | 31,800 |
 | Change in new infections, 2018 to 2022 | Down 12% |
 
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+
 ## Why some groups are more affected
 
 Differences reflect access to testing, prevention and care, stigma and social factors, not individual behavior alone.

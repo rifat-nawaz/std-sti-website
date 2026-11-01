@@ -50,3 +50,5 @@ updated: 2026-11-01
 | Thick white, clumpy | Yeast |
 
 See [chlamydia vs gonorrhea](/chlamydia/vs-gonorrhea/).
+
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.

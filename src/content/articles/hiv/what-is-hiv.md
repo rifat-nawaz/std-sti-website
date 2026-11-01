@@ -39,6 +39,8 @@ updated: 2026-11-01
 
 HIV enters CD4 cells, uses them to make copies of itself, and destroys them. Over years, falling CD4 counts leave the body open to infections it would normally fight off.
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## Stages without care
 
 | Stage | What happens |

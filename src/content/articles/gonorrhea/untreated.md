@@ -45,6 +45,8 @@ updated: 2026-11-01
 | Eye damage | Anyone with eye infection |
 | Higher HIV risk | Anyone |
 
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.
+
 ## Read more
 
 [Infertility](/gonorrhea/infertility/) · [Disseminated infection](/gonorrhea/disseminated-infection/) · [Complications in men](/gonorrhea/complications-in-men/)

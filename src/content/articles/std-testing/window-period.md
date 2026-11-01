@@ -79,6 +79,8 @@ Don't wait out the window if you have symptoms such as discharge, burning when y
 
 If your partner has tested positive, get treated even before your own results come back. Clinicians often treat partners right away.
 
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+
 ## What a negative result inside the window means
 
 A negative result inside the window period is good news, but not final. It means no infection was found *yet*. Repeat the test once the reliable date has passed.

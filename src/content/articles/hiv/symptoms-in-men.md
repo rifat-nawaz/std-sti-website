@@ -44,3 +44,5 @@ updated: 2026-11-01
 | Advanced | Weight loss, night sweats, diarrhea, thrush, shingles, pneumonia |
 
 See [who should get tested](/hiv/screening/).
+
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.

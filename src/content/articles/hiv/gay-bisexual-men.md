@@ -46,3 +46,6 @@ updated: 2026-11-01
 | Regular testing | Finds infections early |
 
 See [HIV risk by activity](/hiv/risk-per-act/).
+
+If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
+

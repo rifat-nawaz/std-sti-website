@@ -43,3 +43,5 @@ updated: 2026-11-01
 - Rare test error
 
 See [does my partner need treatment?](/gonorrhea/partner-treatment/)
+
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.

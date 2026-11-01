@@ -48,3 +48,6 @@ If you have symptoms, test right away, whatever the date.
 See a clinician now. You may be treated before testing, or tested and treated the same day.
 
 Check your dates with the [window period calculator](/std-testing/window-period/).
+
+You can also order a [home test kit](/go/k1/), collect your sample yourself and mail it to a certified lab.
+

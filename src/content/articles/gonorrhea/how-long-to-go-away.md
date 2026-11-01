@@ -41,3 +41,5 @@ updated: 2026-11-01
 | 3 months | Retest for reinfection |
 
 Symptoms continuing? See [still have symptoms after gonorrhea treatment?](/gonorrhea/symptoms-after-treatment/)
+
+Prefer to test at home? A [lab-processed home test](/go/k1/) lets you collect a sample in private and get results online.

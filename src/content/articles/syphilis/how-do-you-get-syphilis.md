@@ -41,6 +41,8 @@ updated: 2026-11-01
 | Touching a sore with broken skin | Possible |
 | Sharing needles | Rare |
 
+For privacy and convenience, an [at-home test kit](/go/k1/) processed by a certified lab is another option.
+
 ## Not a risk
 
 Toilet seats, doorknobs, pools, hot tubs, clothes, shared dishes.
