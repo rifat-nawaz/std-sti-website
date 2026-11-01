@@ -13,7 +13,7 @@ answer: "Test for <strong>chlamydia, gonorrhea and trich about 2 weeks</strong> 
 takeaways:
   - "Days 0 to 3: consider PEP for HIV and emergency contraception if needed."
   - "Week 2: test for chlamydia, gonorrhea and trichomoniasis."
-  - "Week 6: test for HIV (a lab test is conclusive at 45 days) and syphilis."
+  - "Week 6: test for HIV (a lab test is reliable at 45 days) and syphilis."
   - "Week 12: final HIV and syphilis test if earlier ones were negative."
   - "Symptoms at any point: test right away."
 urgent:

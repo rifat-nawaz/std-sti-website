@@ -1,15 +1,15 @@
 ---
 ref: HIV-024
-title: "HIV Window Period by Test Type: When Your Result Is Conclusive"
-seoTitle: "HIV Window Period by Test Type: When Results Are Conclusive"
-description: "HIV window periods by test type: lab antigen/antibody conclusive at 45 days, rapid and self-tests at 90 days, RNA tests at 33 days. Is 28 or 42 days enough?"
+title: "HIV Window Period by Test Type: When Your Result Is Reliable"
+seoTitle: "HIV Window Period by Test Type: When Results Are Reliable"
+description: "HIV window periods by test type: lab antigen/antibody reliable at 45 days, rapid and self-tests at 90 days, RNA tests at 33 days. Is 28 or 42 days enough?"
 cluster: "Testing"
 pageType: article
 primaryQuery: "hiv window period"
 riskLevel: standard
 affiliate: light
 offer: k1
-answer: "A <strong>lab antigen/antibody test</strong> is conclusive <strong>45 days</strong> after exposure. <strong>Rapid finger-prick</strong> and <strong>antibody or oral self-tests</strong> are conclusive at <strong>90 days</strong>. <strong>RNA (NAT)</strong> tests are conclusive at <strong>33 days</strong>. A negative before these points is reassuring but should be repeated."
+answer: "A <strong>lab antigen/antibody test</strong> is reliable <strong>45 days</strong> after exposure. <strong>Rapid finger-prick</strong> and <strong>antibody or oral self-tests</strong> are reliable at <strong>90 days</strong>. <strong>RNA (NAT)</strong> tests are reliable at <strong>33 days</strong>. A negative before these points is reassuring but should be repeated."
 takeaways:
   - "Most people test positive well before these limits."
   - "PEP or PrEP can delay results; follow your clinician's schedule."
@@ -31,14 +31,16 @@ published: 2026-11-01
 updated: 2026-11-01
 ---
 
-## When is my test conclusive?
+## When is my test reliable?
 
-| Test | Earliest | Conclusive |
+| Test | Earliest | Reliable |
 |---|---|---|
 | NAT / RNA | 10 days | 33 days |
 | Lab antigen/antibody | 18 days | 45 days |
 | Rapid antigen/antibody | 18 days | 90 days |
 | Antibody / oral self-test | 23 days | 90 days |
+
+These are typical timings for most people. They assume no new exposure since and that you weren't taking PEP or PrEP; if you were, a clinician will set your testing schedule.
 
 If you'd rather test privately, a [lab-processed home kit](/go/k1/) uses the same type of lab test as a clinic.
 

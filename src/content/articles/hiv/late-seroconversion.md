@@ -11,7 +11,7 @@ affiliate: light
 offer: k1
 answer: "Late seroconversion is <strong>very rare</strong>. Almost everyone with HIV tests positive within the CDC window periods: <strong>45 days</strong> for a lab antigen/antibody test and <strong>90 days</strong> for rapid and antibody tests. Longer follow-up is only advised in special situations, such as <strong>after PEP</strong>."
 takeaways:
-  - "A negative test after the window period is conclusive for most people."
+  - "A negative test after the window period is reliable for most people."
   - "6-month and 1-year tests aren't routinely needed."
   - "PEP or PrEP can delay results; follow your clinician's schedule."
   - "Repeated testing beyond the window often reflects anxiety."

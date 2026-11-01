@@ -8,6 +8,7 @@ import { WINDOW_PERIODS, NOT_IN_CALCULATOR } from '../../data/windowPeriods';
   <input id="wp-date" type="date" required />
   <div class="result" aria-live="polite" data-out></div>
   <noscript><p class="note">The calculator needs JavaScript. The chart below gives the same timings in days.</p></noscript>
+  <p class="note">Timings are typical, not a guarantee. They assume no new exposure since that date and no PEP or PrEP; if either applies, ask a clinician when to test. Symptoms always need a clinician, whatever the date.</p>
   <p class="note">Not shown: {NOT_IN_CALCULATOR.map((n, i) => <>{i > 0 && '; '}<a href={n.link}>{n.name}</a> ({n.reason.split('.')[0].toLowerCase()})</>)}.</p>
   <script type="application/json" data-rows set:html={JSON.stringify(WINDOW_PERIODS)} />
 </section>
@@ -36,7 +37,7 @@ import { WINDOW_PERIODS, NOT_IN_CALCULATOR } from '../../data/windowPeriods';
         const early = new Date(exp); early.setDate(early.getDate() + r.earliest);
         const rel = new Date(exp); rel.setDate(rel.getDate() + r.reliable);
         const status = days >= r.reliable
-          ? '<span class="ok">A test now gives a reliable result.</span>'
+          ? '<span class="ok">A test now is reliable for most people.</span>'
           : days >= r.earliest
             ? `<span class="wait">You can test now, but a negative result should be repeated on or after ${fmt(rel)}.</span>`
             : `<span class="wait">Too early. Earliest useful test: ${fmt(early)}.</span>`;

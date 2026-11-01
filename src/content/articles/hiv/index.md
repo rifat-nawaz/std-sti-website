@@ -13,7 +13,7 @@ answer: "HIV is a virus that weakens the immune system. There's no cure, but <st
 takeaways:
   - "About 1.2 million people in the US have HIV, and about 1 in 8 don't know it."
   - "Early HIV can feel like the flu 2 to 4 weeks after infection, or cause no symptoms."
-  - "A lab antigen/antibody test is conclusive 45 days after exposure; most rapid and self-tests at 90 days."
+  - "A lab antigen/antibody test is reliable 45 days after exposure; most rapid and self-tests at 90 days."
   - "Undetectable = Untransmittable (U=U): people with an undetectable viral load don't pass HIV through sex."
   - "Exposure in the last 72 hours? Get PEP now."
 urgent:
@@ -70,12 +70,14 @@ Symptoms can't confirm or rule out HIV. Only a test can.
 
 ## Testing
 
-| Test | Sample | Conclusive after |
+| Test | Sample | Reliable after |
 |---|---|---|
 | Nucleic acid test (NAT) | Lab blood draw | 33 days |
 | Antigen/antibody test | Lab blood draw | 45 days |
 | Antigen/antibody rapid test | Finger prick | 90 days |
 | Antibody test, including oral self-tests | Finger prick or mouth swab | 90 days |
+
+These are typical timings for most people. They assume no new exposure since and that you weren't taking PEP or PrEP; if you were, a clinician will set your testing schedule.
 
 Source: CDC. A **reactive** result on any screening test needs a confirmatory lab test. See [how to read results](/std-testing/reading-results/).
 

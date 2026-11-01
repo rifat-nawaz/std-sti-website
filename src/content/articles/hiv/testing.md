@@ -9,9 +9,9 @@ primaryQuery: "hiv test"
 riskLevel: standard
 affiliate: light
 offer: k1
-answer: "There are three main HIV test types: <strong>antigen/antibody tests</strong> (4th-generation, lab or rapid), <strong>antibody tests</strong> (including oral self-tests), and <strong>nucleic acid tests (NAT or RNA)</strong>. A <strong>lab antigen/antibody test</strong> is the standard; it's conclusive <strong>45 days</strong> after exposure."
+answer: "There are three main HIV test types: <strong>antigen/antibody tests</strong> (4th-generation, lab or rapid), <strong>antibody tests</strong> (including oral self-tests), and <strong>nucleic acid tests (NAT or RNA)</strong>. A <strong>lab antigen/antibody test</strong> is the standard; it's reliable <strong>45 days</strong> after exposure."
 takeaways:
-  - "Rapid and self-tests are convenient but take longer to become conclusive."
+  - "Rapid and self-tests are convenient but take longer to become reliable."
   - "RNA tests find HIV earliest but are mostly used in special situations."
   - "Every reactive test needs a lab confirmation."
   - "Most insurance covers HIV screening."
@@ -33,12 +33,14 @@ updated: 2026-11-01
 
 ## Test types
 
-| Test | Sample | Conclusive after |
+| Test | Sample | Reliable after |
 |---|---|---|
 | Lab antigen/antibody (4th gen) | Blood draw | 45 days |
 | Rapid antigen/antibody | Finger prick | 90 days |
 | Antibody (including oral self-test) | Mouth swab or finger prick | 90 days |
 | NAT / RNA | Blood draw | 33 days |
+
+These are typical timings for most people. They assume no new exposure since and that you weren't taking PEP or PrEP; if you were, a clinician will set your testing schedule.
 
 Source: CDC.
 

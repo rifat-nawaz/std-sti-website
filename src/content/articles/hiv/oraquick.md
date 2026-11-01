@@ -2,14 +2,14 @@
 ref: HIV-026
 title: "OraQuick Home HIV Test: Accuracy, Window Period and How to Read It"
 seoTitle: "Oral HIV Self-Test: Accuracy, Window Period, How to Read It"
-description: "The FDA-approved oral HIV self-test: how it works, why it's conclusive only 90 days after exposure, how to read faint lines and why positives need confirmation."
+description: "The FDA-approved oral HIV self-test: how it works, why it's reliable only 90 days after exposure, how to read faint lines and why positives need confirmation."
 cluster: "Testing"
 pageType: article
 primaryQuery: "oraquick"
 riskLevel: standard
 affiliate: roundup
 offer: k2
-answer: "The FDA-approved oral HIV self-test detects <strong>HIV antibodies</strong> in mouth fluid, with results in about <strong>20 minutes</strong>. It's conclusive <strong>90 days</strong> after exposure. FDA data showed it can miss about <strong>1 in 12</strong> infections, so a <strong>reactive result needs a lab test</strong> and an early negative should be repeated."
+answer: "The FDA-approved oral HIV self-test detects <strong>HIV antibodies</strong> in mouth fluid, with results in about <strong>20 minutes</strong>. It's reliable <strong>90 days</strong> after exposure. FDA data showed it can miss about <strong>1 in 12</strong> infections, so a <strong>reactive result needs a lab test</strong> and an early negative should be repeated."
 takeaways:
   - "Any line at the test (T) spot, even faint, counts as reactive."
   - "No control (C) line means the test didn't work."

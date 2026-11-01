@@ -39,7 +39,7 @@ updated: 2026-11-01
 
 | Infection | Sample | Result time | Notes |
 |---|---|---|---|
-| HIV | Mouth swab | About 20 minutes | Conclusive at 90 days |
+| HIV | Mouth swab | About 20 minutes | Reliable at 90 days |
 | Syphilis | Finger prick | About 15 minutes | Stays positive after past infection |
 | Chlamydia, gonorrhea, trich | Vaginal swab | About 30 minutes | People with a vagina |
 

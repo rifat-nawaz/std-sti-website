@@ -12,7 +12,7 @@ offer: k1
 answer: "If early HIV symptoms happen, they usually start <strong>2 to 4 weeks</strong> after exposure. Symptoms within <strong>2 or 3 days</strong> are very unlikely to be HIV. Many people have <strong>no symptoms at all</strong>, so test at the right time regardless."
 takeaways:
   - "Anxiety can cause real physical symptoms."
-  - "A lab test is conclusive at 45 days; most rapid tests at 90 days."
+  - "A lab test is reliable at 45 days; most rapid tests at 90 days."
   - "No symptoms doesn't rule out HIV."
   - "Exposure within 72 hours: get PEP."
 sources:

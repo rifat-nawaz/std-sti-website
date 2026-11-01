@@ -58,7 +58,7 @@ We compare kits on things you can check yourself: what they test for, which samp
 |---|---|---|---|
 | Mail-in lab panel | Chlamydia, gonorrhea, trich (urine or swab); HIV and syphilis (finger-prick blood) | Private, routine testing | Check that throat and rectal swabs are included if you need them |
 | Order online, visit a lab | Same as a clinic panel, with a full blood draw | Accurate blood tests without a doctor visit | You still visit a lab in person |
-| Rapid HIV self-test | HIV antibodies from a mouth swab or finger prick | A quick HIV check | Conclusive only 90 days after exposure |
+| Rapid HIV self-test | HIV antibodies from a mouth swab or finger prick | A quick HIV check | Reliable only 90 days after exposure |
 | Rapid syphilis self-test | Syphilis antibodies from a finger prick | A quick syphilis check | Positive needs a lab test; stays positive after past infection |
 | At-home molecular test | Chlamydia, gonorrhea and trich from a vaginal swab, results at home | Fast results with symptoms or after exposure | Currently for people with a vagina only |
 
@@ -70,7 +70,7 @@ We compare kits on things you can check yourself: what they test for, which samp
 
 **Never tested for hepatitis:** add hepatitis C (every adult once) and hepatitis B if you aren't vaccinated.
 
-**Worried about HIV specifically:** a lab antigen/antibody blood test is conclusive at 45 days, sooner than most rapid self-tests.
+**Worried about HIV specifically:** a lab antigen/antibody blood test is reliable at 45 days, sooner than most rapid self-tests.
 
 **Symptoms right now:** a clinic is usually faster to treat you. If you test at home, choose a kit with a clinician consult.
 

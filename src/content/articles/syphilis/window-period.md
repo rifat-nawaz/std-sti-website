@@ -2,7 +2,7 @@
 ref: SYP-022
 title: "How Soon Can You Test for Syphilis? Window Period Explained"
 seoTitle: "How Soon Can You Test for Syphilis? Window Period"
-description: "Syphilis blood tests can take up to 12 weeks after exposure to turn positive. Whether 6 or 8 weeks is conclusive, and when to retest."
+description: "Syphilis blood tests can take up to 12 weeks after exposure to turn positive. Whether 6 or 8 weeks is reliable, and when to retest."
 cluster: "Testing"
 pageType: article
 primaryQuery: "syphilis window period"
@@ -31,14 +31,14 @@ published: 2026-11-01
 updated: 2026-11-01
 ---
 
-## Is my test conclusive?
+## Is my test reliable?
 
 | Weeks after exposure | Result |
 |---|---|
 | Under 3 | Too early |
 | 6 | Often reliable; repeat at 12 if negative |
 | 8 | More reliable; repeat at 12 if concerned |
-| 12 | Conclusive for most people |
+| 12 | Reliable for most people |
 
 See the [window period calculator](/std-testing/window-period/).
 

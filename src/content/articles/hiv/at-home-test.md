@@ -9,7 +9,7 @@ primaryQuery: "at home hiv test"
 riskLevel: standard
 affiliate: roundup
 offer: k2
-answer: "There are two main home options: an <strong>FDA-approved oral self-test</strong> that gives results in about <strong>20 minutes</strong>, and <strong>finger-prick mail-in kits</strong> tested in a lab, often with a 4th-generation antigen/antibody test. Oral self-tests are conclusive at <strong>90 days</strong>; any reactive result needs <strong>lab confirmation</strong>."
+answer: "There are two main home options: an <strong>FDA-approved oral self-test</strong> that gives results in about <strong>20 minutes</strong>, and <strong>finger-prick mail-in kits</strong> tested in a lab, often with a 4th-generation antigen/antibody test. Oral self-tests are reliable at <strong>90 days</strong>; any reactive result needs <strong>lab confirmation</strong>."
 takeaways:
   - "The oral self-test can miss some infections, especially early ones."
   - "Mail-in lab kits with antigen/antibody tests find infection sooner."
@@ -39,10 +39,12 @@ You can also order a [home test kit](/go/k2/), collect your sample yourself and 
 
 ## Options
 
-| Option | Result | Conclusive after |
+| Option | Result | Reliable after |
 |---|---|---|
 | Oral self-test | About 20 minutes at home | 90 days |
 | Finger-prick mail-in kit (antigen/antibody) | A few days | Check the kit; up to 90 days for finger-prick samples |
+
+These are typical timings for most people. They assume no new exposure since and that you weren't taking PEP or PrEP; if you were, a clinician will set your testing schedule.
 
 ## Free options
 

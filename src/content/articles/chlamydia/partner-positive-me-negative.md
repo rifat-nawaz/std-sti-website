@@ -11,7 +11,7 @@ affiliate: light
 offer: k1
 answer: "It's possible. Chlamydia <strong>isn't passed on every time</strong>, your test may have been <strong>too early or at the wrong body site</strong>, or the infection may have come from someone else. Guidelines still recommend <strong>treating partners</strong> exposed in the last 60 days, even with a negative test."
 takeaways:
-  - "A negative test within 2 weeks of the last exposure isn't conclusive."
+  - "A negative test within 2 weeks of the last exposure isn't reliable."
   - "Each body site is tested separately."
   - "Treating both partners prevents ping-pong reinfection."
   - "Talk to a clinician about the timeline."

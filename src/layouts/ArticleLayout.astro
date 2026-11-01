@@ -45,6 +45,10 @@ const showOffer = d.affiliate !== 'none';
 const NO_OFFER_REFS = new Set(['HIV-057', 'HIV-058', 'HIV-066', 'HIV-067', 'HIV-069', 'HUB-036', 'HUB-039', 'CHL-087']);
 const showSideCta = !NO_OFFER_REFS.has(d.ref);
 const showDisclosure = showOffer || showSideCta;
+// Care-first pages: high-risk topics and pages read after a diagnosis. No kit box at the
+// top and no kit card at the bottom, so care guidance comes first. The sidebar banner stays.
+const CARE_FIRST_CLUSTERS = new Set(['Treatment', 'Next steps & wellbeing', 'Living with HIV', 'Living with herpes']);
+const careFirst = d.riskLevel === 'high' || CARE_FIRST_CLUSTERS.has(d.cluster);
 
 const plainAnswer = d.answer?.replace(/<[^>]+>/g, '');
 const schema: object[] = [
@@ -93,14 +97,14 @@ if (d.faq.length) {
         </header>
         {d.answer && <AnswerBox text={d.answer} />}
         <Takeaways items={d.takeaways} />
-        {showOffer && <CtaTop offer={d.offer} />}
+        {showOffer && !careFirst && <CtaTop offer={d.offer} />}
         {d.tool === 'window-period' && <WindowPeriodTool />}
         {d.tool === 'symptom-checker' && <SymptomChecker />}
         <div class="prose" style="margin-top: 36px;">
           <slot />
         </div>
         <SectionIndex entries={childEntries} heading={cond ? `Every ${cond.name.toLowerCase()} guide` : `All ${sectionName.toLowerCase()} pages`} />
-        <NextStep condition={cond?.name} offer={d.offer} showOffer={showOffer} />
+        <NextStep condition={cond?.name} offer={d.offer} showOffer={showOffer} careFirst={careFirst} />
         <Faq items={d.faq} />
         <AuthorBio />
         <Sources items={d.sources} />

@@ -1,6 +1,6 @@
 // Window periods used by the calculator and the chart page.
 // "earliest" = days after exposure when some infections can first be detected.
-// "reliable" = days after which a negative result is considered conclusive for most people.
+// "reliable" = days after which a negative result is considered reliable for most people.
 // Sources: CDC HIV testing guidance (window periods for NAT, lab Ag/Ab, rapid Ag/Ab, antibody tests);
 // CDC STI Treatment Guidelines 2021; CDC viral hepatitis clinical overviews.
 export type WindowRow = {

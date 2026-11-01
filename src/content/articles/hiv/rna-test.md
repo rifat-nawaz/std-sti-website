@@ -2,7 +2,7 @@
 ref: HIV-033
 title: "HIV RNA (NAT) Test: How Early It Works and When It's Worth It"
 seoTitle: "HIV RNA (NAT) Test: How Early It Works and When to Use It"
-description: "HIV RNA (NAT) tests detect the virus itself and are conclusive 33 days after exposure. When an RNA test is worth it and how it differs from viral load tests."
+description: "HIV RNA (NAT) tests detect the virus itself and are reliable 33 days after exposure. When an RNA test is worth it and how it differs from viral load tests."
 cluster: "Testing"
 pageType: article
 primaryQuery: "hiv rna test"
@@ -33,7 +33,7 @@ updated: 2026-11-01
 
 ## RNA vs other tests
 
-| Test | Detects | Conclusive |
+| Test | Detects | Reliable |
 |---|---|---|
 | RNA / NAT | Virus | 33 days |
 | Lab antigen/antibody | Antigen and antibodies | 45 days |

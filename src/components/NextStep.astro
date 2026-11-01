@@ -3,14 +3,21 @@
 // a free option, so the page stays useful without buying anything.
 import OfferLink from './OfferLink.astro';
 import type { OfferId } from '../config/site';
-interface Props { condition?: string; offer?: OfferId; showOffer: boolean }
-const { condition, offer, showOffer } = Astro.props;
+interface Props { condition?: string; offer?: OfferId; showOffer: boolean; careFirst?: boolean }
+const { condition, offer, showOffer, careFirst = false } = Astro.props;
 const what = !condition ? 'STDs' : /^[A-Z]{2}/.test(condition) ? condition : condition.charAt(0).toLowerCase() + condition.slice(1);
 ---
 <section class="next" aria-labelledby="next-h">
   <h2 id="next-h">Your next step</h2>
   <div class="cards">
-    {showOffer && (
+    {careFirst && (
+      <a class="card" href="/std-testing/clinic-visit/">
+        <span class="t">See a clinician</span>
+        <span class="d">A clinic or urgent care can examine you, confirm results and handle care. Here is what a visit involves.</span>
+        <span class="go">What happens at a clinic visit →</span>
+      </a>
+    )}
+    {showOffer && !careFirst && (
       <div class="card solid">
         <span class="t">Test at home</span>
         <span class="d">Order a lab-processed kit online, collect a sample in private and get results in a few days.</span>

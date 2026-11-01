@@ -31,7 +31,7 @@ published: 2026-11-01
 updated: 2026-11-01
 ---
 
-## Is my test conclusive?
+## Is my test reliable?
 
 | Weeks after exposure | Result |
 |---|---|

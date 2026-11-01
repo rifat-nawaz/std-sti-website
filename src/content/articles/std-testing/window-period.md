@@ -10,7 +10,7 @@ primaryQuery: std window period chart
 riskLevel: medium
 affiliate: light
 offer: k1
-answer: "Chlamydia and gonorrhea tests are reliable from about <strong>2 weeks</strong> after sex. Syphilis and most HIV tests can take up to <strong>3 months</strong> to be conclusive, and a lab HIV antigen/antibody test is conclusive at 45 days. Enter your date below to see your timings."
+answer: "Chlamydia and gonorrhea tests are reliable from about <strong>2 weeks</strong> after sex. Syphilis and most HIV tests can take up to <strong>3 months</strong> to be reliable, and a lab HIV antigen/antibody test is reliable at 45 days. Enter your date below to see your timings."
 takeaways:
   - "The window period is the time between exposure and when a test can find an infection."
   - "Testing too early can give a false negative. A negative test in the window should be repeated."
@@ -63,6 +63,8 @@ updated: 2026-10-31
 | Herpes | IgG blood test | 3 weeks | 16 weeks |
 | Hepatitis B | Surface antigen blood test | 1 week | 9 weeks |
 | Hepatitis C | Antibody blood test | 4 weeks | 12 weeks |
+
+These are typical timings for most people. They assume no new exposure since and that you weren't taking PEP or PrEP; if you were, a clinician will set your testing schedule.
 
 HIV figures come from the CDC. Other timings reflect typical guidance and can vary from person to person.
 

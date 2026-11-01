@@ -11,7 +11,7 @@ affiliate: none
 answer: "Worry while you wait for results, or after a diagnosis, is <strong>very common</strong>. Focus on <strong>facts</strong>: most STDs are <strong>curable or manageable</strong>, and a test after the window period gives a <strong>clear answer</strong>. If anxiety takes over, a <strong>counselor</strong> can help; if you feel unsafe, <strong>call or text 988</strong>."
 takeaways:
   - "Anxiety can cause real physical symptoms."
-  - "Repeated testing after a conclusive negative rarely brings lasting relief."
+  - "Repeated testing after a reliable negative rarely brings lasting relief."
   - "Talking to someone you trust helps."
   - "Sexual health clinics can answer questions without judgment."
 sources:

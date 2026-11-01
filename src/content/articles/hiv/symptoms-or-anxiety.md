@@ -13,7 +13,7 @@ answer: "Early HIV symptoms, like <strong>fever, sore throat, tiredness and swol
 takeaways:
   - "Symptoms within a few days of exposure are unlikely to be HIV."
   - "A COVID or flu test can explain flu-like symptoms."
-  - "A conclusive negative HIV test means you don't have HIV."
+  - "A reliable negative HIV test means you don't have HIV."
   - "If worry persists, talk to a clinician or counselor."
 sources:
   - publisher: "HIV.gov (US Department of Health and Human Services)"
