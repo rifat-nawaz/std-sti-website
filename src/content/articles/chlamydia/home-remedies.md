@@ -28,7 +28,7 @@ sources:
   - publisher: "US Food and Drug Administration"
     title: "BeSafeRx: Your Source for Online Pharmacy Information"
     year: 2025
-    url: "https://www.fda.gov/drugs/quick-tips-buying-medicines-over-internet/besaferx-your-source-online-pharmacy-information"
+    url: "https://www.fda.gov/drugs/buying-using-medicine-safely/besaferx-your-source-online-pharmacy-information"
 related:
   - chlamydia/treatment
   - std-testing/free-testing
