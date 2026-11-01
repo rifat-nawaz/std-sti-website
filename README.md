@@ -22,9 +22,8 @@ policy date and affiliate offers. Every page reads from this file.
 
 ## Calls to action
 
-Pages with `affiliate: light` or `roundup` get a test button near the top, one in the
-middle of the article (added automatically before the third H2), one in "Your next step"
-and a sticky box in the sidebar. Pages with `affiliate: none` get none of these.
+Pages with `affiliate: light` or `roundup` get a test button near the top and one in "Your next step".
+Every article (except emergency, assault and crisis pages) shows the sticky "Get tested from home" box in the sidebar.
 
 ## Add an article
 
