@@ -1,0 +1,110 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { SITE } from '../config/site';
+import { CONDITIONS } from '../data/conditions';
+import { urlFor, sectionOf, SECTION_NAMES, type Article } from '../lib/paths';
+
+const all = (await getCollection('articles')).filter((e) => !e.data.draft);
+const minutes = (e: Article) => Math.max(2, Math.round((e.body ?? '').split(/\s+/).length / 230));
+
+const sections = [
+  ...CONDITIONS.map((c) => ({ key: c.slug, name: c.name, intro: c.summary, badge: c.status, tone: c.statusTone })),
+  { key: 'std-testing', name: SECTION_NAMES['std-testing'], intro: 'When to test, which test, at-home kits, costs and reading results.', badge: 'Testing', tone: 'manageable' },
+  { key: 'guides', name: SECTION_NAMES['guides'], intro: 'Symptoms, partners, prevention and support.', badge: 'Guides', tone: 'notsti' },
+].map((s) => {
+  const list = all.filter((e) => sectionOf(e.id) === s.key).sort((a, b) => a.data.ref.localeCompare(b.data.ref, 'en', { numeric: true }));
+  return { ...s, main: list.find((e) => /(^|\/)index$/.test(e.id)), items: list.filter((e) => !/(^|\/)index$/.test(e.id)) };
+}).filter((s) => s.main || s.items.length);
+
+const featured = ['std-testing/window-period', 'guides/symptom-checker', 'std-testing/when-to-test', 'guides/stds-without-symptoms', 'hiv/pep', 'std-testing/reading-results']
+  .map((id) => all.find((e) => e.id === id)).filter((e): e is Article => !!e);
+
+const schema = [{
+  '@type': 'CollectionPage',
+  name: 'Knowledge Care',
+  url: `${SITE.url}/knowledge-care/`,
+  description: `Every ${SITE.name} guide to STD symptoms, testing and prevention, organized by topic.`,
+  hasPart: sections.map((s) => ({ '@type': 'CollectionPage', name: s.name, url: `${SITE.url}/${s.key}/` })),
+}];
+---
+<Base title={`Knowledge Care: Every STD Guide in One Place | ${SITE.name}`} description={`Browse all ${all.length} ${SITE.name} guides to STD symptoms, testing, prevention and next steps, organized by condition and topic, with a quick search.`} schema={schema}>
+  <section class="hero section tint" style="padding: 48px 0 40px;">
+    <div class="wrap">
+      <Breadcrumbs items={[{ name: 'Home', href: '/' }, { name: 'Knowledge Care' }]} />
+      <p class="eyebrow" style="margin-top: 18px;">Knowledge Care</p>
+      <h1>Every guide, in one place</h1>
+      <p class="lede">{all.length} plain-language articles on STD symptoms, testing, prevention and what to do next. Each one is fact-checked against CDC, WHO and USPSTF guidance.</p>
+      <form class="kc-search" role="search" onsubmit="return false">
+        <label for="kc-q" class="sr-only">Search the guides</label>
+        <input id="kc-q" type="search" placeholder="Search guides, e.g. window period, discharge, partner" autocomplete="off" />
+      </form>
+      <p class="kc-count" aria-live="polite" data-count></p>
+      <nav class="kc-chips" aria-label="Jump to a topic">
+        {sections.map((s) => <a href={`#${s.key}`}>{s.name}</a>)}
+      </nav>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <section class="section" style="padding-bottom: 8px;" data-featured>
+      <h2 class="big">Start here</h2>
+      <div class="cards" style="margin-top: 18px;">
+        {featured.map((e) => (
+          <a class="card" href={urlFor(e.id)}>
+            <span class="t">{e.data.title}</span>
+            <span class="d">{e.data.description}</span>
+            <span class="go">{minutes(e)} min read →</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    {sections.map((s) => (
+      <section class="kc-section" id={s.key} data-section>
+        <header class="kc-head">
+          <div>
+            <span class={`badge ${s.tone}`}>{s.badge}</span>
+            <h2>{s.name}</h2>
+            <p>{s.intro}</p>
+          </div>
+          {s.main && <a class="btn btn-outline" href={urlFor(s.main.id)}>{s.name} overview</a>}
+        </header>
+        <ul class="kc-list">
+          {[...(s.main ? [s.main] : []), ...s.items].map((e) => (
+            <li data-text={`${e.data.title} ${e.data.primaryQuery} ${e.data.description}`.toLowerCase()}>
+              <a href={urlFor(e.id)}>{e.data.title}</a>
+              <span>{e.data.cluster} · {minutes(e)} min</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+    <p class="kc-empty" hidden data-empty>No guides match that search. Try a simpler word, or browse <a href="/conditions/">all conditions</a>.</p>
+  </div>
+</Base>
+<script>
+  const q = document.querySelector<HTMLInputElement>('#kc-q')!;
+  const count = document.querySelector<HTMLElement>('[data-count]')!;
+  const empty = document.querySelector<HTMLElement>('[data-empty]')!;
+  const featured = document.querySelector<HTMLElement>('[data-featured]')!;
+  const sections = Array.from(document.querySelectorAll<HTMLElement>('[data-section]'));
+  q.addEventListener('input', () => {
+    const terms = q.value.toLowerCase().trim().split(/\s+/).filter(Boolean);
+    let shown = 0;
+    for (const s of sections) {
+      let inSection = 0;
+      s.querySelectorAll<HTMLElement>('li').forEach((li) => {
+        const ok = terms.every((t) => li.dataset.text!.includes(t));
+        li.hidden = !ok;
+        if (ok) inSection++;
+      });
+      s.hidden = inSection === 0;
+      shown += inSection;
+    }
+    featured.hidden = terms.length > 0;
+    count.textContent = terms.length ? `${shown} guide${shown === 1 ? '' : 's'} found` : '';
+    empty.hidden = !(terms.length && shown === 0);
+  });
+</script>

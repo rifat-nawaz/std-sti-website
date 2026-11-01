@@ -32,9 +32,10 @@ const more = CONDITIONS.filter((c) => c.group !== 'core');
           {GUIDES_MENU.map((m) => <a href={m.href}>{m.label}{m.desc && <span class="menu-desc">{m.desc}</span>}</a>)}
         </div>
       </details>
+      <a href="/knowledge-care/">Knowledge Care</a>
       <a href="/about/">About &amp; Editorial</a>
     </nav>
-    <a class="btn header-cta" href="/std-testing/best-at-home-std-tests/">Find the right test</a>
+    <a class="btn header-cta" href="/std-testing/best-at-home-std-tests/">Get tested</a>
   </div>
 </header>
 <script>
@@ -52,7 +53,7 @@ const more = CONDITIONS.filter((c) => c.group !== 'core');
     if (d.open) menus.forEach((o) => { if (o !== d) o.open = false; });
   }));
   // Desktop: open on hover. Touch and keyboard still open on tap or Enter.
-  const canHover = window.matchMedia('(hover: hover) and (min-width: 861px)');
+  const canHover = window.matchMedia('(hover: hover) and (min-width: 1101px)');
   menus.forEach((d) => {
     let timer: number | undefined;
     d.addEventListener('mouseenter', () => { if (!canHover.matches) return; clearTimeout(timer); d.open = true; });

@@ -4,7 +4,6 @@ import Breadcrumbs from '../components/Breadcrumbs.astro';
 import Byline from '../components/Byline.astro';
 import AnswerBox from '../components/AnswerBox.astro';
 import Takeaways from '../components/Takeaways.astro';
-import UrgentBox from '../components/UrgentBox.astro';
 import Disclosure from '../components/Disclosure.astro';
 import NextStep from '../components/NextStep.astro';
 import Faq from '../components/Faq.astro';
@@ -41,7 +40,11 @@ if (!isSectionIndex) crumbs.push({ name: sectionName, href: `/${section}/` });
 crumbs.push({ name: d.title.split(/[:?]/)[0].trim() });
 
 const showOffer = d.affiliate !== 'none';
-const showUrgent = d.riskLevel === 'high' || d.urgent.length > 0;
+// The sidebar "Get tested from home" box shows on every article except pages about
+// emergencies, assault or crisis, where a sales message would be inappropriate.
+const NO_OFFER_REFS = new Set(['HIV-057', 'HIV-058', 'HUB-036', 'HUB-039']);
+const showSideCta = !NO_OFFER_REFS.has(d.ref);
+const showDisclosure = showOffer || showSideCta;
 
 const plainAnswer = d.answer?.replace(/<[^>]+>/g, '');
 const schema: object[] = [
@@ -86,10 +89,9 @@ if (d.faq.length) {
           {cond && <span class={`badge ${cond.statusTone}`}>{cond.name} · {cond.status}</span>}
           <h1>{d.title}</h1>
           <Byline updated={d.updated} />
-          {showOffer && <Disclosure />}
+          {showDisclosure && <Disclosure />}
         </header>
         {d.answer && <AnswerBox text={d.answer} />}
-        {showUrgent && <UrgentBox items={d.urgent} />}
         <Takeaways items={d.takeaways} />
         {showOffer && <CtaTop offer={d.offer} />}
         {d.tool === 'window-period' && <WindowPeriodTool />}
@@ -127,7 +129,7 @@ if (d.faq.length) {
           </nav>
         )}
         <div class="side-note"><strong>Not medical advice</strong>This page is general information. For diagnosis or treatment, see a licensed clinician. Emergency: call 911.</div>
-        {showOffer && <div class="sticky"><SideCta offer={d.offer} /></div>}
+        {showSideCta && <div class="sticky"><SideCta offer={d.offer} /></div>}
       </aside>
     </div>
   </div>

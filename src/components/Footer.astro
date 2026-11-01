@@ -15,6 +15,7 @@ const year = new Date().getUTCFullYear();
       <span class="h">Conditions</span>
       {CONDITIONS.filter((c) => c.group === 'core').map((c) => <a href={`/${c.slug}/`}>{c.menuName}</a>)}
       <a href="/conditions/">All conditions</a>
+      <a href="/knowledge-care/">Knowledge Care</a>
     </nav>
     <nav aria-label="Testing">
       <span class="h">Testing</span>
