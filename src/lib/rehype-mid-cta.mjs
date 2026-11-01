@@ -11,7 +11,7 @@ export default function rehypeMidCta() {
     const target = h2s.length >= 4 ? h2s[2] : h2s[1];
     const html =
       '<aside class="cta-mid" aria-label="Test at home">' +
-      '<p><strong>Not sure? A test is the only way to know.</strong>Order a lab-processed kit online and collect your sample at home.<br><span class="cta-note">Partner link: we may earn a commission.</span></p>' +
+      '<p><strong>Not sure? A test is the only way to know.</strong><span class="cta-body">Order a lab-processed kit online and collect your sample at home.</span><span class="cta-note">Partner link: we may earn a commission.</span></p>' +
       `<a class="btn btn-cta" href="/go/${offer}/" rel="sponsored nofollow noopener" target="_blank" data-offer="${offer}">Order an at-home test<span class="sr-only"> (partner link, opens in a new tab)</span></a>` +
       '</aside>';
     const i = tree.children.indexOf(target);

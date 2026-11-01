@@ -74,8 +74,12 @@ const schema = [{
         <ul class="kc-list">
           {[...(s.main ? [s.main] : []), ...s.items].map((e) => (
             <li data-text={`${e.data.title} ${e.data.primaryQuery} ${e.data.description}`.toLowerCase()}>
-              <a href={urlFor(e.id)}>{e.data.title}</a>
-              <span>{e.data.cluster} · {minutes(e)} min</span>
+              <a class="kc-card" href={urlFor(e.id)}>
+                <span class="kc-cluster">{e.data.cluster}</span>
+                <span class="kc-title">{e.data.title}</span>
+                <span class="kc-excerpt">{e.data.description}</span>
+                <span class="kc-meta"><span>{minutes(e)} min read</span><b>Read →</b></span>
+              </a>
             </li>
           ))}
         </ul>
