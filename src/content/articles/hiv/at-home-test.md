@@ -40,7 +40,7 @@ We compare features you can check: test type, FDA status, lab certification, win
 | Option | Result | Conclusive after |
 |---|---|---|
 | Oral self-test | About 20 minutes at home | 90 days |
-| Finger-prick mail-in kit (antigen/antibody) | A few days | 45 days in most labs' guidance |
+| Finger-prick mail-in kit (antigen/antibody) | A few days | Check the kit; up to 90 days for finger-prick samples |
 
 ## Free options
 
