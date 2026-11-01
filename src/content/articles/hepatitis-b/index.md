@@ -78,7 +78,7 @@ The CDC recommends this test **at least once for every adult**, and in every pre
 ## The vaccine
 
 - Recommended for **all adults 19 to 59**, and adults 60 and older with risk factors or who want it.
-- Given as **2 or 3 shots**, depending on the brand.
+- Your clinician or pharmacist will tell you how many doses you need.
 - All babies get it starting at birth.
 
 If you haven't been vaccinated, ask for it at your next STD test.

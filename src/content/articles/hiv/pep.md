@@ -1,5 +1,5 @@
 ---
-ref: HIV-PEP
+ref: HIV-057
 title: "HIV PEP: Emergency Medicine to Prevent HIV Within 72 Hours"
 seoTitle: "HIV PEP: How to Get It Within 72 Hours of Exposure"
 description: "PEP is emergency HIV medicine that can prevent infection if started within 72 hours of exposure. Where to get it today, what it costs and what to expect."

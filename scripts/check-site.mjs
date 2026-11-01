@@ -48,7 +48,7 @@ for (const file of pages) {
     [/we (have )?tested (these|this|the|every|each) (kit|test)/i, 'hands-on testing claim'],
     // Site rule: no treatment instructions. No drug names, doses or regimens.
     [/\b\d+(\.\d+)?\s?(mg|mcg|g|ml|units?)\b(?! of)|\b\d+(\.\d+)?\s?million units\b/i, 'medication dose'],
-    [/\b(doxycycline|azithromycin|ceftriaxone|cefixime|penicillin|benzathine|metronidazole|tinidazole|secnidazole|moxifloxacin|levofloxacin|clindamycin|acyclovir|valacyclovir|famciclovir|tenofovir|entecavir|emtricitabine|bictegravir|dolutegravir|cabotegravir|lenacapavir|biktarvy|truvada|descovy|fluconazole|clotrimazole|miconazole|terconazole|imiquimod|podofilox|sinecatechins|sofosbuvir|glecaprevir|levonorgestrel|ulipristal)\b/i, 'drug name (treatment details are not allowed)'],
+    [/\b(doxy-?pep|doxycycline|azithromycin|ceftriaxone|cefixime|penicillin|benzathine|metronidazole|tinidazole|secnidazole|moxifloxacin|levofloxacin|clindamycin|acyclovir|valacyclovir|famciclovir|tenofovir|entecavir|emtricitabine|bictegravir|dolutegravir|cabotegravir|lenacapavir|biktarvy|truvada|descovy|fluconazole|clotrimazole|miconazole|terconazole|imiquimod|podofilox|sinecatechins|sofosbuvir|glecaprevir|levonorgestrel|ulipristal)\b/i, 'drug name (treatment details are not allowed)'],
   ]) {
     if (re.test(visible)) errors.push(`${rel}: ${why}`);
   }

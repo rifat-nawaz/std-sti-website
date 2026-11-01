@@ -101,4 +101,4 @@ Syphilis can pass to the baby and cause miscarriage, stillbirth or lifelong heal
 
 - Use condoms, though they only protect the area they cover.
 - Test regularly if you have new or multiple partners.
-- Ask a clinician about **doxy-PEP** if you're a gay or bisexual man or a transgender woman who had a bacterial STD in the last year.
+- If you're a gay or bisexual man or a transgender woman who had a bacterial STD in the last year, ask a clinician what prevention options fit you, including options taken after sex.

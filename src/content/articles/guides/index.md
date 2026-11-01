@@ -2,7 +2,7 @@
 ref: GDE-HUB
 title: "STD Guides: Symptoms, Partners, Prevention and Support"
 seoTitle: "STD Guides: Symptoms, Partners, Prevention and Support"
-description: "Practical guides for every stage: checking symptoms, telling a partner, safer sex, doxy-PEP, testing after assault and coping with STD anxiety."
+description: "Practical guides for every stage: checking symptoms, telling a partner, safer sex, testing after assault and coping with STD anxiety."
 cluster: Guides
 pageType: hub
 primaryQuery: std guides
@@ -12,7 +12,7 @@ answer: "Not sure where to start? The <a href=\"/guides/symptom-checker/\">sympt
 takeaways:
   - "Many STDs share the same symptoms, and many cause none."
   - "Telling a partner can be done anonymously through a health department or online service."
-  - "Condoms, regular testing, vaccines, PrEP and doxy-PEP each prevent different infections."
+  - "Condoms, regular testing, vaccines and PrEP each prevent different infections."
 sources:
   - publisher: "Centers for Disease Control and Prevention"
     title: "Sexually Transmitted Infections Treatment Guidelines, 2021"

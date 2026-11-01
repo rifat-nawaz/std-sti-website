@@ -110,4 +110,4 @@ Gonorrhea has become resistant to almost every type of antibiotic used against i
 
 - Use condoms for vaginal and anal sex, and condoms or dental dams for oral sex.
 - Test regularly and before new relationships.
-- If you're a gay or bisexual man or a transgender woman who had a bacterial STD in the past year, ask a clinician about **doxy-PEP**, an antibiotic taken after sex. It works less well against gonorrhea than against chlamydia and syphilis.
+- If you're a gay or bisexual man or a transgender woman who had a bacterial STD in the past year, ask a clinician what prevention options fit you, including options taken after sex.

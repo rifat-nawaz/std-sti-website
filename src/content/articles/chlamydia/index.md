@@ -129,5 +129,5 @@ Many states let clinicians provide treatment for your partner too, without a sep
 - Use condoms or dental dams every time you have sex.
 - Get tested regularly, and ask new partners to test too.
 - Make sure partners are treated before you have sex again.
-- If you're a man who has sex with men or a transgender woman and had a bacterial STD in the last year, ask a clinician whether **doxy-PEP**, an antibiotic taken after sex, is right for you.
+- If you're a man who has sex with men or a transgender woman and had a bacterial STD in the last year, ask a clinician what prevention options fit you, including options taken after sex.
 

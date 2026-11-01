@@ -89,7 +89,7 @@ The vaccine protects against the HPV types that cause most HPV cancers and genit
 - **Recommended at 11 or 12**, and can start at 9.
 - **Everyone through age 26** who wasn't fully vaccinated.
 - **Ages 27 to 45:** talk with a clinician.
-- **Two doses** if started before 15, **three doses** if started at 15 or older.
+- **How many doses** depends on your age when you start. A clinician or pharmacist will tell you.
 
 Vaccinated people with a cervix still need screening, because the vaccine doesn't cover every high-risk type.
 
