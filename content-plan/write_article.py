@@ -35,6 +35,7 @@ S = {
  'cdc-hcv-screen': ('Centers for Disease Control and Prevention', 'CDC Recommendations for Hepatitis C Screening Among Adults — United States, 2020', 2020, 'https://www.cdc.gov/mmwr/volumes/69/rr/rr6902a1.htm'),
  'cdc-hbv-test': ('Centers for Disease Control and Prevention', 'Clinical Testing and Diagnosis for Hepatitis B', 2024, 'https://www.cdc.gov/hepatitis-b/hcp/diagnosis-testing/index.html'),
  'cdc-hbv-screen': ('Centers for Disease Control and Prevention', 'Screening and Testing for Hepatitis B Virus Infection: CDC Recommendations, United States, 2023', 2023, 'https://www.cdc.gov/mmwr/volumes/72/rr/rr7201a1.htm'),
+ 'cdc-hbv-surv': ('Centers for Disease Control and Prevention', 'Hepatitis B Surveillance Guidance', 2024, 'https://www.cdc.gov/hepatitis/php/surveillance-guidance/hepatitis-b.html'),
  'cdc-hbv-vax': ('Centers for Disease Control and Prevention', 'Universal Hepatitis B Vaccination in Adults Aged 19–59 Years: Updated Recommendations of the ACIP, 2022', 2022, 'https://www.cdc.gov/mmwr/volumes/71/wr/mm7113a1.htm'),
  'cdc-hiv-test': ('Centers for Disease Control and Prevention', 'Getting Tested for HIV', 2024, 'https://www.cdc.gov/hiv/testing/index.html'),
  'cdc-pep': ('Centers for Disease Control and Prevention', 'Antiretroviral Postexposure Prophylaxis After Sexual, Injection Drug Use, or Other Nonoccupational Exposure to HIV: CDC Recommendations, United States, 2025', 2025, 'https://www.cdc.gov/mmwr/volumes/74/rr/rr7401a1.htm'),
