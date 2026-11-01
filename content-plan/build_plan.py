@@ -159,6 +159,12 @@ WRITTEN = {  # filled from src/content/articles
  'VVC-001':'yeast-infection/index',
 }
 
+# Refresh WRITTEN from the actual article files (ref -> path)
+import glob as _g, re as _re
+for _f in _g.glob('src/content/articles/**/*.md', recursive=True):
+    _m = _re.search(r'^ref:\s*"?([A-Z0-9-]+)"?', open(_f).read(), _re.M)
+    if _m: WRITTEN[_m.group(1)] = _f.split('src/content/articles/')[1][:-3]
+
 out = []
 for d in data:
     i = d['ID']; t = d['Article title (H1)']; q = d['Primary target query']
@@ -214,7 +220,7 @@ NEW = [  # (ID, condition, cluster, type, priority, title, query, path-if-writte
 ]
 for (i, c, cl, ty, p, t, q, path) in NEW:
     out.append({'ID': i, 'Condition': c, 'Cluster': cl, 'Page type': ty, 'Priority': p, 'Action': 'new', 'Final title (H1)': t,
-                'Primary query': q, 'Original title': '', 'Note': 'Added after original plan', 'Questions to cover': '', 'Lead sources': '', 'Written': 'yes' if path else '', 'Path': path})
+                'Primary query': q, 'Original title': '', 'Note': 'Added after original plan', 'Questions to cover': '', 'Lead sources': '', 'Written': 'yes' if (path or i in WRITTEN) else '', 'Path': path or WRITTEN.get(i, '')})
 
 with open('content-plan/content-plan.csv', 'w', newline='') as f:
     w = csv.DictWriter(f, fieldnames=list(out[0].keys()))
