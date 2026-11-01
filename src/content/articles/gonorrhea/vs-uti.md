@@ -14,7 +14,7 @@ takeaways:
   - "Ask for a gonorrhea and chlamydia NAAT if you're sexually active."
   - "Burning that doesn't improve after UTI treatment may be an STD."
   - "You can have both at once."
-  - "Men under 35 with urinary burning are more likely to have an STD than a UTI."
+  - "UTIs are uncommon in young men, so burning in a sexually active young man is often an STD."
 sources:
   - publisher: "Centers for Disease Control and Prevention"
     title: "Sexually Transmitted Infections Treatment Guidelines, 2021: Gonococcal Infections Among Adolescents and Adults"
