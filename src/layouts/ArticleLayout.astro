@@ -42,7 +42,7 @@ crumbs.push({ name: d.title.split(/[:?]/)[0].trim() });
 const showOffer = d.affiliate !== 'none';
 // The sidebar "Get tested from home" box shows on every article except pages about
 // emergencies, assault or crisis, where a sales message would be inappropriate.
-const NO_OFFER_REFS = new Set(['HIV-057', 'HIV-058', 'HUB-036', 'HUB-039']);
+const NO_OFFER_REFS = new Set(['HIV-057', 'HIV-058', 'HIV-066', 'HIV-067', 'HIV-069', 'HUB-036', 'HUB-039', 'CHL-087']);
 const showSideCta = !NO_OFFER_REFS.has(d.ref);
 const showDisclosure = showOffer || showSideCta;
 
