@@ -101,6 +101,10 @@ def art(id, slug, desc, answer, takeaways, src, body, faq=(), related=(), risk='
     folder = folder or FOLDER.get(p['Condition']) or ('std-testing' if p['Cluster'] in ('Testing & kits',) else 'guides')
     path = f'{folder}/{slug}'
     errs = []
+    if len(desc) > 170:
+        i = desc[:170].rfind('. ')
+        cut = desc[:i + 1] if i > 0 else ''
+        if len(cut) >= 70: print(f'  note: trimmed description for {id} ({len(desc)} -> {len(cut)})'); desc = cut
     if len(title) > 110: errs.append(f'title {len(title)}')
     if len(seo) > 70: errs.append(f'seoTitle {len(seo)} "{seo}"')
     if not 70 <= len(desc) <= 170: errs.append(f'description {len(desc)}')
