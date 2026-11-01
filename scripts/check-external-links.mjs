@@ -29,6 +29,11 @@ const viaArchive = [];
 // Sites like cdc.gov block automated checkers. For those, ask the Internet Archive
 // whether the page returned 200 in the last two years.
 async function archiveOk(u) {
+  // Try the URL as written, then with or without "www.".
+  const alt = u.includes('://www.') ? u.replace('://www.', '://') : u.replace('://', '://www.');
+  return (await archiveOne(u)) ?? (await archiveOne(alt));
+}
+async function archiveOne(u) {
   try {
     const api = `https://archive.org/wayback/available?url=${encodeURIComponent(u)}`;
     const j = await (await fetch(api, { signal: AbortSignal.timeout(20000) })).json();
@@ -47,6 +52,8 @@ async function check(u) {
       const res = await fetch(u, { redirect: 'follow', headers: HEADERS, signal: AbortSignal.timeout(20000) });
       if (res.status < 400) return;
       last = String(res.status);
+      // Bot protection that redirects to an "apology" or challenge page counts as blocked, not missing.
+      if (/apology|abuse|captcha|challenge|blocked/i.test(res.url) && res.url !== u) { last = '403'; break; }
       if (res.status === 403 || res.status === 429) break;
     } catch (e) {
       last = e.name === 'TimeoutError' ? 'timeout' : e.message;
